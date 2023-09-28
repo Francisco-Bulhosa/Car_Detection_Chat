@@ -70,16 +70,6 @@ def insert_into_database(data):
 
 
 
-
-
-
-
-
-
-
-
-
-
 #region # Detail Scraper
 
 def scrape_details(details_url):
@@ -95,18 +85,51 @@ def scrape_details(details_url):
             # Initialize a dictionary to store scraped data
             scraped_data = {}
 
-            # Scrape make
-            make_element = details_soup.find("div", class_="detail-info-description-txt")
-            if make_element:
-                description_text = make_element.get_text(strip=True)
-                scraped_data["make"] = description_text
 
 
-            # Scrape make
-            make_element = details_soup.find("div", class_="detail-info-description-txt")
-            if make_element:
-                description_text = make_element.get_text(strip=True)
+        
+            heading = details_soup.find('h1', {'data-cmp': 'heading', 'class': 'text-bold'})
+            if heading:
+                text_content = heading.get_text(strip=True)
+                words = text_content.split()
+                if len(words) > 2:
+                    Year = words[1]
+                    Make = words[2]
+                    Model = ' '.join(words[3:])
+                    return make, model, year
+            return None, None, None  # Return None values if extraction fails
+            if make:
+                make_text = make.get_text(strip=True)
                 scraped_data["make"] = description_text
+
+            if model:
+                model_text = model.get_text(strip=True)
+                scraped_data["model"] = description_text
+
+            if year:
+                year_text = year.get_text(strip=True)
+                scraped_data["year"] = description_text
+
+
+
+            # # Scrape make
+            # make_element = details_soup.find("div", class_="detail-info-description-txt")
+            # if make_element:
+            #     description_text = make_element.get_text(strip=True)
+            #     scraped_data["make"] = description_text
+
+
+            # # Scrape model
+            # model_element = details_soup.find("div", class_="detail-info-description-txt")
+            # if model_element:
+            #     description_text = model_element.get_text(strip=True)
+            #     scraped_data["model"] = description_text
+
+            # # Scrape model
+            # year_element = details_soup.find("div", class_="detail-info-description-txt")
+            # if year_element:
+            #     description_text = year_element.get_text(strip=True)
+            #     scraped_data["year"] = description_text
 
 
             # Initialize listing_price to None
@@ -197,14 +220,6 @@ def scrape_details(details_url):
 
 
 
-
-
-
-
-
-
-
-
 #region  # Main
 if __name__ == "__main__":
     initialize_database()
@@ -231,14 +246,15 @@ if __name__ == "__main__":
         response = requests.get(start_url)
 
         if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
+            base_url = "https://www.kbb.com/cars-for-sale/vehicle/{}"
+
+            for listing_id in range(685000000, 699000000 + 1):
+                listing_url = base_url.format(listing_id)
             
-            # Find listings based on the article tag and classes
-            listings = soup.find_all("div", class_="property-info")
-            
-            # Debugging with intermediate variables
-            num_listings = len(listings)
-            logging.info(f"Found {num_listings} listings on this page.")
+
+
+
+
 
 
 
