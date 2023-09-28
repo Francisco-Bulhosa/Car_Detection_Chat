@@ -9,23 +9,31 @@ import re
 #region # Create Database
 
 def initialize_database():
-    conn = sqlite3.connect("C:\\Users\\franc\\Documents\\GitHub\\Car_Detection_Chat\\car_listings.db")
-    cursor = conn.cursor()
+    try: 
+        conn = sqlite3.connect("C:\\Users\\franc\\Documents\\GitHub\\Car_Detection_Chat\\car_listings.db")
+        cursor = conn.cursor()
 
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS listings (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        timestamp TEXT DEFAULT (strftime('%Y-%m-%d %H:00', 'now')),
-        make TEXT,
-        model TEXT,
-        year TEXT,
-        listing_price TEXT,
-        url TEXT
-    );
-    """)
-    
-    conn.commit()
-    conn.close()
+        cursor.execute("""
+        CREATE TABLE IF NOT EXISTS car_listings (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            timestamp TEXT DEFAULT (strftime('%Y-%m-%d %H:00', 'now')),
+            make TEXT,
+            model TEXT,
+            year TEXT,
+            mileage INT,
+            listing_price TEXT,
+            url TEXT
+        );
+        """)
+        
+        conn.commit()
+        print("Database initialized successfully.")
+
+    except Exception as e:
+        print(f"Failed to initialize database: {e}")
+
+    finally:
+        conn.close()
 
 #endregion
 
@@ -33,11 +41,11 @@ def initialize_database():
 #region # Insert into database
 
 def insert_into_database(data):
-    conn = sqlite3.connect("listings.db")
+    conn = sqlite3.connect("car_listings.db")
     cursor = conn.cursor()
     # Query the database to check for duplicate listings
     cursor.execute("""
-    SELECT * FROM listings WHERE 
+    SELECT * FROM car_listings WHERE 
         url = ? AND 
         listing_price = ?
     """, (
@@ -51,11 +59,11 @@ def insert_into_database(data):
     # If no duplicate is found, insert the data
     if not duplicate:
         cursor.execute("""
-        INSERT INTO listings (
-            make, model, year, listing_price, url)
-        VALUES (?, ?, ?, ?, ?)
+        INSERT INTO car_listings (
+            make, model, year, mileage, listing_price, url)
+        VALUES (?, ?, ?, ?, ?, ?)
         """, (
-            data.get('make'), data.get('model'), data.get('year'), data.get('listing_price'), 
+            data.get('make'), data.get('model'), data.get('year'), data.get('mileage'), data.get('listing_price'), 
             data.get('url')
         ))
         conn.commit()
@@ -88,115 +96,50 @@ def scrape_details(details_url):
                 text_content = heading.get_text(strip=True)
                 words = text_content.split()
                 if len(words) > 2:
-                    year = words[1]
-                    make = words[2]
-                    model = ' '.join(words[3:])
-                    return make, model, year
-            return None, None, None  # Return None values if extraction fails
-            if make:
-                make_text = make.get_text(strip=True)
-                scraped_data["make"] = description_text
-
-            if model:
-                model_text = model.get_text(strip=True)
-                scraped_data["model"] = description_text
-
-            if year:
-                year_text = year.get_text(strip=True)
-                scraped_data["year"] = description_text
-
-
-
-            # # Scrape make
-            # make_element = details_soup.find("div", class_="detail-info-description-txt")
-            # if make_element:
-            #     description_text = make_element.get_text(strip=True)
-            #     scraped_data["make"] = description_text
-
-
-            # # Scrape model
-            # model_element = details_soup.find("div", class_="detail-info-description-txt")
-            # if model_element:
-            #     description_text = model_element.get_text(strip=True)
-            #     scraped_data["model"] = description_text
-
-            # # Scrape model
-            # year_element = details_soup.find("div", class_="detail-info-description-txt")
-            # if year_element:
-            #     description_text = year_element.get_text(strip=True)
-            #     scraped_data["year"] = description_text
-
-
-            # # Initialize listing_price to None
-            # listing_price = None
-            # # Scrape listing price
-            # listing_price_element = details_soup.find("div", class_="property-price")
-            # if listing_price_element is not None:
-            #     # Get the text of the span element
-            #     listing_price_text = listing_price_element.get_text(strip=True)
+                    scraped_data["year"] = words[1]
+                    scraped_data["make"] = words[2]
+                    scraped_data["model"] = ' '.join(words[3:])
+                else:
+                    logging.error(f'Failed to extract make, model, and year from heading: {text_content}')
+                    return None  # Return None if extraction fails
                 
-            #     # Remove unwanted characters like "€" and "Simular prestação"
-            #     listing_price_cleaned = listing_price_text.replace("€", "").replace("Simular prestação", "").strip()
+            # Find the span tag containing the listing price
+            price_tag = details_soup.find('span', {'class': 'first-price', 'data-cmp': 'firstPrice'})
+            if price_tag:
+                # Check for the presence of MSRP
+                if "MSRP" in price_tag.get_text():
+                    logging.info(f'Skipping {details_url} due to presence of MSRP.')
+                    return None  # Return None to indicate that this listing should not be scraped
                 
-            #     # Remove dots and replace commas with dots for conversion to float
-            #     listing_price_cleaned = listing_price_cleaned.replace(".", "").replace(",", ".")
+                # If MSRP is not present, proceed to extract the price
+                price_text = price_tag.get_text(strip=True)
+                # Remove commas, if any, to convert to integer later
+                scraped_data['listing_price'] = price_text.replace(',', '')
+            else:
+                logging.warning(f'Failed to extract listing price from {details_url}')
+
+                # Find the div tag containing the mileage
+                mileage_div = details_soup.find('div', {'class': 'col-xs-10', 'class': 'margin-bottom-0'})
+            if mileage_div:
+                mileage_text = mileage_div.get_text(strip=True).replace(',', '')  # Remove commas
+                # Extract only the integer value using regex
+                mileage_match = re.search(r'(\d+)', mileage_text)
+                if mileage_match:
+                    scraped_data['mileage'] = int(mileage_match.group(1))
+                else:
+                    logging.warning(f'Failed to extract mileage integer from {mileage_text}')
+            else:
+                logging.warning(f'Failed to extract mileage from {details_url}')
+
+
+            scraped_data['url'] = details_url
+
                 
-            #     try:
-            #         # Convert the cleaned listing price to a float
-            #         listing_price = float(listing_price_cleaned)
-                    
-            #         # Store the cleaned listing price in the scraped_data dictionary
-            #         scraped_data["listing_price"] = listing_price
-            #     except ValueError:
-            #         logging.error("Failed to convert listing_price to float.")
-            # else:
-            #     logging.error("Failed to find the listing price element.")
+            return scraped_data
 
-
-
-
-            # # Scrape listing date
-            # listing_date_element = details_soup.find("div", class_="property-lastupdate")
-            # if listing_date_element:
-            #     listing_date_text = listing_date_element.text.strip()
-                
-            #     # Using regex to find the date pattern in the text
-            #     match = re.search(r"(\d+ de \w+)", listing_date_text)
-            #     if match:
-            #         extracted_date_text = match.group(1)
-                    
-            #         # Translate month names from Portuguese to English
-            #         month_translation = {
-            #             'janeiro': 'January',
-            #             'fevereiro': 'February',
-            #             'março': 'March',
-            #             'abril': 'April',
-            #             'maio': 'May',
-            #             'junho': 'June',
-            #             'julho': 'July',
-            #             'agosto': 'August',
-            #             'setembro': 'September',
-            #             'outubro': 'October',
-            #             'novembro': 'November',
-            #             'dezembro': 'December'
-            #         }
-                    
-            #         day, _, month = extracted_date_text.split(' ')
-            #         month_in_english = month_translation[month.lower()]
-                    
-            #         # Convert to MM-DD format
-            #         formatted_date = datetime.strptime(f"{day} {month_in_english}", "%d %B").strftime("%m-%d")
-            #         scraped_data["listing_date"] = formatted_date
-            #     else:
-            #         logging.error("Failed to extract the date from the listing date text.")
-            # else:
-            #     logging.error("Failed to find the listing date element.")
-
-
-        #     return scraped_data
-        # else:
-        #     logging.info(f"Failed to retrieve details page with status code {response.status_code}")
-        #     return None
+        else:
+            logging.info(f"Failed to retrieve details page with status code {response.status_code}")
+            return None
         
 
 #endregion
