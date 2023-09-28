@@ -204,9 +204,13 @@ def scrape_details(details_url):
 
 
 
+# Create a function to check if a listing is inactive based on the provided HTML snippet
 
-
-
+def is_listing_inactive(soup):
+    inactive_div = soup.find('div', {'data-cmp': 'heading', 'class': 'text-bold'})
+    if inactive_div:
+        return "This car is no longer available." in inactive_div.get_text()
+    return False
 
 
 
@@ -231,21 +235,40 @@ if __name__ == "__main__":
     failed_next_page_count = 0
     max_failed_next_page_count = 5  # Maximum number of failed attempts
 
+    inactive_listing_ids = set()
+
+    # Load cached inactive listing IDs (if any) from a file
+    try:
+        with open('inactive_listing_ids.txt', 'r') as file:
+            inactive_listing_ids = set(file.read().splitlines())
+    except FileNotFoundError:
+        pass  # It's okay if the file doesn't exist yet
 
 
     while start_url and count < max_count:  # Modified this line to include count < max_count
     # while start_url:
-        # Make a request to the Idealista website
-        response = requests.get(start_url)
-
-        if response.status_code == 200:
-
-
-            for listing_id in range(685000000, 699000000 + 1):
-                listing_url = start_url.format(listing_id)
+        for listing_id in range(685000000, 699000000 + 1):
+            if str(listing_id) in inactive_listing_ids:
+                continue
             
+            listing_url = start_url.format(listing_id)
+            try:
+                response = requests.get(listing_url)
+            except requests.RequestException as e:
+                logging.warning(f"Failed to retrieve listing {listing_id}: {e}")
+                continue  # Skip to the next listing_id if a network error occurs
+
+            if response.status_code == 200:
+
+                soup = BeautifulSoup(response.content, 'html.parser')
+
+                if is_listing_inactive(soup):
+                    logging.info(f"Listing {listing_id} is inactive. Caching and skipping.")
+                    inactive_listing_ids.add(str(listing_id))  # Cache inactive listing ID
+                    continue  # Skip to the next listing_id
+
                 details_data = scrape_details(listing_url)
-                
+            
                 if details_data:  # Check if details were successfully scraped
                     insert_into_database(details_data)  # Insert data into the database
                     
@@ -260,22 +283,22 @@ if __name__ == "__main__":
                 else:
                     logging.info("Failed to scrape details for this listing.")
 
-            else:
-                logging.warning(f"No <a> tag found in details link element: {details_link_element}")
 
-        else:
-            logging.warning(f"No details link element found in listing:\n{listing}")
-
-            
         if count >= max_count:  # New condition
             logging.info(f"Reached the maximum count of {max_count}. Exiting.")
             break  # Break the loop if maximum count reached
 
         # Sleep for a short time to respect the website's rate-limiting
         time.sleep(8)
+
     else:
         logging.info("Failed to retrieve the webpage")
         start_url = None
+
+    # Save cached inactive listing IDs
+    with open('inactive_listing_ids.txt', 'w') as file:
+        for listing_id in inactive_listing_ids:
+            file.write(f"{listing_id}\n")
 
 
 #endregion
