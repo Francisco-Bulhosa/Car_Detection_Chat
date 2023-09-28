@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "car-detection-chat"
+version = "0.1.0"
+description = ""
+authors = ["FBF <francisco.bulhosa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+beautifulsoup4 = "^4.12.2"
+pandas = "^2.1.1"
+numpy = "^1.26.0"
+tensorflow = "^2.14.0"
+streamlit = "^1.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
