@@ -3,14 +3,13 @@ from bs4 import BeautifulSoup
 import time
 import logging
 import sqlite3 
-from SQLite_db import initialize_database
 from datetime import datetime
 import re
 
 #region # Create Database
 
 def initialize_database():
-    conn = sqlite3.connect("listings.db")
+    conn = sqlite3.connect("C:\\Users\\franc\\Documents\\GitHub\\Car_Detection_Chat\\car_listings.db")
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -21,7 +20,7 @@ def initialize_database():
         model TEXT,
         year TEXT,
         listing_price TEXT,
-        url TEXT,
+        url TEXT
     );
     """)
     
@@ -89,9 +88,9 @@ def scrape_details(details_url):
                 text_content = heading.get_text(strip=True)
                 words = text_content.split()
                 if len(words) > 2:
-                    Year = words[1]
-                    Make = words[2]
-                    Model = ' '.join(words[3:])
+                    year = words[1]
+                    make = words[2]
+                    model = ' '.join(words[3:])
                     return make, model, year
             return None, None, None  # Return None values if extraction fails
             if make:
