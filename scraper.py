@@ -5,6 +5,10 @@ import logging
 import sqlite3 
 from datetime import datetime
 import re
+from concurrent.futures import ThreadPoolExecutor
+from fake_useragent import UserAgent
+
+
 
 #region # Create Database
 
@@ -118,8 +122,8 @@ def scrape_details(details_url):
             else:
                 logging.warning(f'Failed to extract listing price from {details_url}')
 
-                # Find the div tag containing the mileage
-                mileage_div = details_soup.find('div', {'class': 'col-xs-10', 'class': 'margin-bottom-0'})
+            # Find the div tag containing the mileage
+            mileage_div = details_soup.find('div', {'class': 'col-xs-10', 'class': 'margin-bottom-0'})
             if mileage_div:
                 mileage_text = mileage_div.get_text(strip=True).replace(',', '')  # Remove commas
                 # Extract only the integer value using regex
