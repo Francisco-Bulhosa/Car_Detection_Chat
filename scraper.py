@@ -99,11 +99,10 @@ def insert_into_database(data):
 
 
 def get_next_image_index(year, make, model):
+    # Replace spaces in make and model names
+    make = make.replace(' ', '_')
+    model = model.replace(' ', '_')
 
-    # Replace spaces and slashes in make and model names
-    make = make.replace(' ', '_').replace('/', '')
-    model = model.replace(' ', '_').replace('/', '')
-    
     # Combine year, make, and model into a single string, replacing spaces with underscores
     prefix = f"{year}_{make}_{model}_"
 
@@ -173,7 +172,7 @@ def get_random_user_agent():
     return ua.random
 
 def random_delay():
-    delay = random.uniform(4, 17)  # Random delay between 2 and 10 seconds
+    delay = random.uniform(3, 12)  # Random delay between 2 and 10 seconds
     time.sleep(delay)
 
 # Initialize a requests session
@@ -399,7 +398,7 @@ else:
     logging.info("Failed to retrieve the webpage")
 
 
-#endregion
+# endregion
 
 # import sqlite3
 
