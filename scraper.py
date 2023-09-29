@@ -15,6 +15,23 @@ from pathlib import Path
 
 #region # DATABASE
 
+def url_exists(url):
+    try:
+        conn = sqlite3.connect("C:\\Users\\franc\\Documents\\GitHub\\Car_Detection_Chat\\car_listings.db")
+        cursor = conn.cursor()
+        
+        cursor.execute("SELECT 1 FROM car_listings WHERE url = ?", (url,))
+        result = cursor.fetchone()
+        
+        conn.close()
+        
+        return result is not None
+    except Exception as e:
+        logging.error(f"Failed to check URL existence: {e}")
+        return False  # Assume URL does not exist in case of an error
+
+
+
 def initialize_database():
     try: 
         conn = sqlite3.connect("C:\\Users\\franc\\Documents\\GitHub\\Car_Detection_Chat\\car_listings.db")
@@ -82,13 +99,27 @@ def insert_into_database(data):
 
 
 def get_next_image_index(year, make, model):
+
+    # Replace spaces and slashes in make and model names
+    make = make.replace(' ', '_').replace('/', '')
+    model = model.replace(' ', '_').replace('/', '')
+    
     # Combine year, make, and model into a single string, replacing spaces with underscores
     prefix = f"{year}_{make}_{model}_"
+
+    # Log the prefix to ensure it's formatted correctly
+    logging.info(f"Prefix: {prefix}")
+
     # Get a list of all existing files that match this prefix
-    existing_files = Path("images").glob(f"{prefix}*.jpg")
+    existing_files = list(Path("images").glob(f"{prefix}*.jpg"))
+    # Log the existing files to check if glob is working correctly
+    logging.info(f"Existing files: {existing_files}")
+
     # Extract the image indices from these filenames, and find the highest index
     existing_indices = [int(f.stem.split('_')[-1]) for f in existing_files]
     next_index = max(existing_indices, default=0) + 1
+    logging.info(f'Existing files for {prefix}: {list(existing_files)}')
+    logging.info(f'Next image index for {year}_{make}_{model}: {next_index}')
     return next_index
 
 
@@ -259,7 +290,13 @@ def scrape_details(details_url):
                     
                     # Get the next available image index for this car model
                     next_index = get_next_image_index(year, make, model)
-                    filename = f"images/{year}_{make}_{model}_{next_index}.jpg"
+
+                    # Replace spaces and slashes in make and model names
+                    make_model = f"{make}_{model}".replace(' ', '_').replace('/', '')
+
+                    # Construct the filename
+                    filename = f"images/{year}_{make_model}_{next_index}.jpg"
+                    
                     img_cropped.save(filename)
                 else:
                     logging.error(f"Failed to retrieve image {img_url}")
@@ -274,4 +311,109 @@ def scrape_details(details_url):
 
 #endregion
 
- 
+
+
+#region  # Main
+if __name__ == "__main__":
+    initialize_database()
+    logging.basicConfig(level=logging.INFO)
+
+
+    # Starting URL
+    start_url = "https://www.cars.com/shopping/results/?dealer_id=&keyword=&list_price_max=&list_price_min=90000&makes[]=&maximum_distance=30&mileage_max=&monthly_payment=&page_size=20&sort=list_price_desc&stock_type=used&year_max=&year_min=&zip=#vehicle-card-d42a7308-dd43-4ce2-a138-a42d1fa8ec3f"
+
+
+    # Counter for the number of listings scraped
+    count = 0
+    max_count = 3000  # Maximum number of listings to scrape
+
+        # Counter for the number of failed attempts to fetch next pages
+    failed_next_page_count = 0
+    max_failed_next_page_count = 5  # Maximum number of failed attempts
+
+    current_url = start_url
+
+    while current_url and count < max_count:  # Modified this line to include count < max_count
+
+        # Set a random User-Agent for each request
+        session.headers['User-Agent'] = get_random_user_agent()
+
+
+        try:
+            response = requests.get(current_url)
+            response.raise_for_status()  # Will raise HTTPError for bad responses (4xx and 5xx)
+        except requests.RequestException as e:
+            logging.warning(f"Failed to retrieve page {current_url}: {e}")
+            failed_next_page_count += 1
+            if failed_next_page_count >= max_failed_next_page_count:
+                logging.error("Max failed attempts reached. Exiting.")
+                break
+            random_delay()  # Randomized delay here
+            continue
+
+        if response.status_code == 200:
+
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            # Get the listing URLs from the current page
+            listing_urls = get_listings(soup)
+
+            for listing_url in listing_urls:
+                if count >= max_count:
+                    break  # Break the loop if maximum count reached
+
+                # Check if the URL already exists in the database
+                if url_exists(listing_url):
+                    logging.info(f"Skipping already scraped URL: {listing_url}")
+                    continue  # Skip to the next URL
+
+                details_data = scrape_details(listing_url)
+        
+                if details_data:  # Check if details were successfully scraped
+                    insert_into_database(details_data)  # Insert data into the database
+                
+                    # Increase the count for each listing processed
+                    count += 1
+                    print(details_data)  # Print the scraped details
+                else:
+                    logging.info(f"Failed to scrape details for {listing_url}")
+                
+            if count >= max_count:
+                logging.info(f"Reached the maximum count of {max_count}. Exiting.")
+                break
+
+            # Get the URL of the next page
+            next_button = soup.find('a', {'id': 'next_paginate'})
+            if next_button and 'href' in next_button.attrs:
+                current_url = f"https://www.cars.com{next_button['href']}"
+            else:
+                logging.info("No more pages to scrape. Exiting.")
+                break
+        
+        random_delay()  # Randomized delay here
+
+    # Sleep for a short time to respect the website's rate-limiting
+    time.sleep(12)
+
+else:
+    logging.info("Failed to retrieve the webpage")
+
+
+#endregion
+
+# import sqlite3
+
+# # Connect to database
+# conn = sqlite3.connect('car_listings.db')
+
+# # Create a cursor
+# c = conn.cursor()
+
+# # Execute DELETE command
+# c.execute("DELETE FROM car_listings WHERE id > 26")
+
+# # Commit changes
+# conn.commit()
+
+# # Close the connection
+# conn.close()
