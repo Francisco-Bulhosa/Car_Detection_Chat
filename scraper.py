@@ -80,6 +80,7 @@ def insert_into_database(data):
 #endregion
 
 
+
 def get_next_image_index(year, make, model):
     # Combine year, make, and model into a single string, replacing spaces with underscores
     prefix = f"{year}_{make}_{model}_"
@@ -141,7 +142,7 @@ def get_random_user_agent():
     return ua.random
 
 def random_delay():
-    delay = random.uniform(2, 10)  # Random delay between 2 and 10 seconds
+    delay = random.uniform(4, 17)  # Random delay between 2 and 10 seconds
     time.sleep(delay)
 
 # Initialize a requests session
@@ -154,6 +155,7 @@ session = requests.Session()
 #region # Detail Scraper
 
 def scrape_details(details_url):
+
         try:
             response = requests.get(url = details_url, timeout=10)
         except requests.exceptions.RequestException as e:
@@ -226,19 +228,39 @@ def scrape_details(details_url):
                     continue  # Skip to the next image if an error occurs
                 
                 # To help avoid rate limiting, add a delay between requests
-                time.sleep(5)  # Adjust the delay as needed
+                random_delay()  # Randomized delay here
                 
                 if response.status_code == 200:
                     img_data = BytesIO(response.content)  # Save image data as binary
                     img = Image.open(img_data)
+
+                    # Determine the aspect ratio
+                    width, height = img.size
+                    aspect_ratio = width / height
+
+                    # Resize the image so the smallest side is 224 pixels
+                    if width < height:
+                        new_width = 224
+                        new_height = int(224 / aspect_ratio)
+                    else:
+                        new_height = 224
+                        new_width = int(224 * aspect_ratio)
+                    img_resized = img.resize((new_width, new_height), Image.ANTIALIAS)
+
+                    # Determine the position for the crop
+                    left = (img_resized.width - 224)/2
+                    top = (img_resized.height - 224)/2
+                    right = (img_resized.width + 224)/2
+                    bottom = (img_resized.height + 224)/2
+
+                    # Crop to 224x224
+                    img_cropped = img_resized.crop((left, top, right, bottom))
                     
-                    # Resize the image to 224x224
-                    img_resized = img.resize((224, 224))
                     
                     # Get the next available image index for this car model
                     next_index = get_next_image_index(year, make, model)
                     filename = f"images/{year}_{make}_{model}_{next_index}.jpg"
-                    img_resized.save(filename)
+                    img_cropped.save(filename)
                 else:
                     logging.error(f"Failed to retrieve image {img_url}")
 
@@ -252,87 +274,4 @@ def scrape_details(details_url):
 
 #endregion
 
-
-
-#region  # Main
-if __name__ == "__main__":
-    initialize_database()
-    logging.basicConfig(level=logging.INFO)
-
-
-    # Starting URL
-    start_url = "https://www.cars.com/shopping/results/?dealer_id=&keyword=&list_price_max=&list_price_min=90000&makes[]=&maximum_distance=30&mileage_max=&monthly_payment=&page_size=20&sort=list_price_desc&stock_type=used&year_max=&year_min=&zip=#vehicle-card-d42a7308-dd43-4ce2-a138-a42d1fa8ec3f"
-
-
-    # Counter for the number of listings scraped
-    count = 0
-    max_count = 10  # Maximum number of listings to scrape
-
-        # Counter for the number of failed attempts to fetch next page
-    failed_next_page_count = 0
-    max_failed_next_page_count = 5  # Maximum number of failed attempts
-
-    current_url = start_url
-
-    while current_url and count < max_count:  # Modified this line to include count < max_count
-
-        # Set a random User-Agent for each request
-        session.headers['User-Agent'] = get_random_user_agent()
-
-
-        try:
-            response = requests.get(current_url)
-            response.raise_for_status()  # Will raise HTTPError for bad responses (4xx and 5xx)
-        except requests.RequestException as e:
-            logging.warning(f"Failed to retrieve page {current_url}: {e}")
-            failed_next_page_count += 1
-            if failed_next_page_count >= max_failed_next_page_count:
-                logging.error("Max failed attempts reached. Exiting.")
-                break
-            random_delay()  # Randomized delay here
-            continue
-
-        if response.status_code == 200:
-
-            soup = BeautifulSoup(response.content, 'html.parser')
-            
-            # Get the listing URLs from the current page
-            listing_urls = get_listings(soup)
-
-            for listing_url in listing_urls:
-                if count >= max_count:
-                    break  # Break the loop if maximum count reached
-
-                details_data = scrape_details(listing_url)
-        
-                if details_data:  # Check if details were successfully scraped
-                    insert_into_database(details_data)  # Insert data into the database
-                
-                    # Increase the count for each listing processed
-                    count += 1
-                    print(details_data)  # Print the scraped details
-                else:
-                    logging.info(f"Failed to scrape details for {listing_url}")
-                
-            if count >= max_count:
-                logging.info(f"Reached the maximum count of {max_count}. Exiting.")
-                break
-
-            # Get the URL of the next page
-            next_button = soup.find('a', {'id': 'next_paginate'})
-            if next_button and 'href' in next_button.attrs:
-                current_url = f"https://www.cars.com{next_button['href']}"
-            else:
-                logging.info("No more pages to scrape. Exiting.")
-                break
-        
-        random_delay()  # Randomized delay here
-
-    # Sleep for a short time to respect the website's rate-limiting
-    time.sleep(12)
-
-else:
-    logging.info("Failed to retrieve the webpage")
-
-
-#endregion
+ 
