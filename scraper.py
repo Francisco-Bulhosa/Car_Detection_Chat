@@ -7,10 +7,13 @@ from datetime import datetime
 import re
 from concurrent.futures import ThreadPoolExecutor
 from fake_useragent import UserAgent
+import random
+from PIL import Image
+from io import BytesIO
+import os
+from pathlib import Path
 
-
-
-#region # Create Database
+#region # DATABASE
 
 def initialize_database():
     try: 
@@ -39,10 +42,10 @@ def initialize_database():
     finally:
         conn.close()
 
-#endregion
 
 
-#region # Insert into database
+
+# Insert into database
 
 def insert_into_database(data):
     conn = sqlite3.connect("car_listings.db")
@@ -76,6 +79,75 @@ def insert_into_database(data):
 
 #endregion
 
+
+def get_next_image_index(year, make, model):
+    # Combine year, make, and model into a single string, replacing spaces with underscores
+    prefix = f"{year}_{make}_{model}_"
+    # Get a list of all existing files that match this prefix
+    existing_files = Path("images").glob(f"{prefix}*.jpg")
+    # Extract the image indices from these filenames, and find the highest index
+    existing_indices = [int(f.stem.split('_')[-1]) for f in existing_files]
+    next_index = max(existing_indices, default=0) + 1
+    return next_index
+
+
+
+def get_next_page_url(soup):
+    next_page_btn = soup.find('a', {'aria-label': 'Next page', 'class': 'sds-button'})
+    if next_page_btn and 'href' in next_page_btn.attrs:
+        return f"https://www.cars.com{next_page_btn['href']}"
+    return None
+
+def get_listings(soup):
+    listings = []
+    vehicle_cards = soup.find_all('div', {'class': 'vehicle-card'})
+    for vehicle_card in vehicle_cards:
+        a_tag = vehicle_card.find('a', {'class': 'image-gallery-link vehicle-card-visited-tracking-link'})
+        if a_tag and 'href' in a_tag.attrs:
+            listing_url = f"https://www.cars.com{a_tag['href']}"
+            listings.append(listing_url)
+    return listings
+
+
+def process_page(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    listings = get_listings(soup)
+    for listing_url in listings:
+        details_data = scrape_details(listing_url)
+        if details_data:
+            insert_into_database(details_data)
+            print(details_data)  # Print scraped details
+        else:
+            logging.info(f"Failed to scrape details for {listing_url}")
+        time.sleep(2)  # Respectful delay between requests
+
+    # Get the URL of the next page
+    next_page_url = get_next_page_url(soup)
+    return next_page_url
+
+
+
+# SCRAPER RESILIENCE
+
+#region
+
+
+# Initialize a UserAgent object
+ua = UserAgent()
+
+def get_random_user_agent():
+    return ua.random
+
+def random_delay():
+    delay = random.uniform(2, 10)  # Random delay between 2 and 10 seconds
+    time.sleep(delay)
+
+# Initialize a requests session
+session = requests.Session()
+
+#endregion
 
 
 
@@ -132,7 +204,45 @@ def scrape_details(details_url):
 
             scraped_data['url'] = details_url
 
+            # Assume year, make, and model are obtained as before
+            year, make, model = scraped_data["year"], scraped_data["make"], scraped_data["model"]
+
+            # Ensure the images directory exists
+            if not os.path.exists('images'):
+                os.makedirs('images')
+
+
+            gallery_slides = details_soup.find('gallery-slides')
+            image_tags = gallery_slides.find_all('img', limit=10) if gallery_slides else []
+
+            for index, img_tag in enumerate(image_tags, start=1):
+                img_url = img_tag['src']
+
+                try:
+                    response = requests.get(img_url)
+                    response.raise_for_status()
+                except requests.RequestException as e:
+                    logging.error(f"Failed to retrieve image {img_url}: {e}")
+                    continue  # Skip to the next image if an error occurs
                 
+                # To help avoid rate limiting, add a delay between requests
+                time.sleep(5)  # Adjust the delay as needed
+                
+                if response.status_code == 200:
+                    img_data = BytesIO(response.content)  # Save image data as binary
+                    img = Image.open(img_data)
+                    
+                    # Resize the image to 224x224
+                    img_resized = img.resize((224, 224))
+                    
+                    # Get the next available image index for this car model
+                    next_index = get_next_image_index(year, make, model)
+                    filename = f"images/{year}_{make}_{model}_{next_index}.jpg"
+                    img_resized.save(filename)
+                else:
+                    logging.error(f"Failed to retrieve image {img_url}")
+
+                    
             return scraped_data
 
         else:
@@ -141,43 +251,6 @@ def scrape_details(details_url):
         
 
 #endregion
-
-def get_next_page_url(soup):
-    next_page_btn = soup.find('a', {'aria-label': 'Next page', 'class': 'sds-button'})
-    if next_page_btn and 'href' in next_page_btn.attrs:
-        return f"https://www.cars.com{next_page_btn['href']}"
-    return None
-
-def get_listings(soup):
-    listings = []
-    vehicle_cards = soup.find_all('div', {'class': 'vehicle-card'})
-    for vehicle_card in vehicle_cards:
-        a_tag = vehicle_card.find('a', {'class': 'image-gallery-link vehicle-card-visited-tracking-link'})
-        if a_tag and 'href' in a_tag.attrs:
-            listing_url = f"https://www.cars.com{a_tag['href']}"
-            listings.append(listing_url)
-    return listings
-
-
-def process_page(url):
-    response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
-
-    listings = get_listings(soup)
-    for listing_url in listings:
-        details_data = scrape_details(listing_url)
-        if details_data:
-            insert_into_database(details_data)
-            print(details_data)  # Print scraped details
-        else:
-            logging.info(f"Failed to scrape details for {listing_url}")
-        time.sleep(2)  # Respectful delay between requests
-
-    # Get the URL of the next page
-    next_page_url = get_next_page_url(soup)
-    return next_page_url
-
-
 
 
 
@@ -193,7 +266,7 @@ if __name__ == "__main__":
 
     # Counter for the number of listings scraped
     count = 0
-    max_count = 500  # Maximum number of listings to scrape
+    max_count = 10  # Maximum number of listings to scrape
 
         # Counter for the number of failed attempts to fetch next page
     failed_next_page_count = 0
@@ -202,7 +275,11 @@ if __name__ == "__main__":
     current_url = start_url
 
     while current_url and count < max_count:  # Modified this line to include count < max_count
-    # while start_url:
+
+        # Set a random User-Agent for each request
+        session.headers['User-Agent'] = get_random_user_agent()
+
+
         try:
             response = requests.get(current_url)
             response.raise_for_status()  # Will raise HTTPError for bad responses (4xx and 5xx)
@@ -212,6 +289,7 @@ if __name__ == "__main__":
             if failed_next_page_count >= max_failed_next_page_count:
                 logging.error("Max failed attempts reached. Exiting.")
                 break
+            random_delay()  # Randomized delay here
             continue
 
         if response.status_code == 200:
@@ -239,7 +317,7 @@ if __name__ == "__main__":
             if count >= max_count:
                 logging.info(f"Reached the maximum count of {max_count}. Exiting.")
                 break
-            
+
             # Get the URL of the next page
             next_button = soup.find('a', {'id': 'next_paginate'})
             if next_button and 'href' in next_button.attrs:
@@ -247,6 +325,8 @@ if __name__ == "__main__":
             else:
                 logging.info("No more pages to scrape. Exiting.")
                 break
+        
+        random_delay()  # Randomized delay here
 
     # Sleep for a short time to respect the website's rate-limiting
     time.sleep(12)
