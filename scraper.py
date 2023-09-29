@@ -95,35 +95,29 @@ def scrape_details(details_url):
             scraped_data = {}
 
 
-            heading = details_soup.find('h1', {'data-cmp': 'heading', 'class': 'text-bold'})
+            heading = details_soup.find('h1', {'class': 'listing-title'})
             if heading:
                 text_content = heading.get_text(strip=True)
                 words = text_content.split()
                 if len(words) > 2:
-                    scraped_data["year"] = words[1]
-                    scraped_data["make"] = words[2]
-                    scraped_data["model"] = ' '.join(words[3:])
+                    scraped_data["year"] = words[0]
+                    scraped_data["make"] = words[1]
+                    scraped_data["model"] = ' '.join(words[2:])
                 else:
                     logging.error(f'Failed to extract make, model, and year from heading: {text_content}')
                     return None  # Return None if extraction fails
                 
             # Find the span tag containing the listing price
-            price_tag = details_soup.find('span', {'class': 'first-price', 'data-cmp': 'firstPrice'})
+            price_tag = details_soup.find('span', {'class': 'primary-price'})
             if price_tag:
-                # Check for the presence of MSRP
-                if "MSRP" in price_tag.get_text():
-                    logging.info(f'Skipping {details_url} due to presence of MSRP.')
-                    return None  # Return None to indicate that this listing should not be scraped
-                
-                # If MSRP is not present, proceed to extract the price
                 price_text = price_tag.get_text(strip=True)
                 # Remove commas, if any, to convert to integer later
-                scraped_data['listing_price'] = price_text.replace(',', '')
+                scraped_data['listing_price'] = price_text.replace(',', '').replace('$', '')
             else:
                 logging.warning(f'Failed to extract listing price from {details_url}')
 
             # Find the div tag containing the mileage
-            mileage_div = details_soup.find('div', {'class': 'col-xs-10', 'class': 'margin-bottom-0'})
+            mileage_div = details_soup.find('div', {'class': 'listing-mileage'})
             if mileage_div:
                 mileage_text = mileage_div.get_text(strip=True).replace(',', '')  # Remove commas
                 # Extract only the integer value using regex
@@ -148,16 +142,40 @@ def scrape_details(details_url):
 
 #endregion
 
+def get_next_page_url(soup):
+    next_page_btn = soup.find('a', {'aria-label': 'Next page', 'class': 'sds-button'})
+    if next_page_btn and 'href' in next_page_btn.attrs:
+        return f"https://www.cars.com{next_page_btn['href']}"
+    return None
+
+def get_listings(soup):
+    listings = []
+    vehicle_cards = soup.find_all('div', {'class': 'vehicle-card'})
+    for vehicle_card in vehicle_cards:
+        a_tag = vehicle_card.find('a', {'class': 'image-gallery-link vehicle-card-visited-tracking-link'})
+        if a_tag and 'href' in a_tag.attrs:
+            listing_url = f"https://www.cars.com{a_tag['href']}"
+            listings.append(listing_url)
+    return listings
 
 
-# Create a function to check if a listing is inactive based on the provided HTML snippet
+def process_page(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
 
-def is_listing_inactive(soup):
-    inactive_div = soup.find('div', {'data-cmp': 'heading', 'class': 'text-bold'})
-    if inactive_div:
-        return "This car is no longer available." in inactive_div.get_text()
-    return False
+    listings = get_listings(soup)
+    for listing_url in listings:
+        details_data = scrape_details(listing_url)
+        if details_data:
+            insert_into_database(details_data)
+            print(details_data)  # Print scraped details
+        else:
+            logging.info(f"Failed to scrape details for {listing_url}")
+        time.sleep(2)  # Respectful delay between requests
 
+    # Get the URL of the next page
+    next_page_url = get_next_page_url(soup)
+    return next_page_url
 
 
 
@@ -170,7 +188,7 @@ if __name__ == "__main__":
 
 
     # Starting URL
-    start_url = "https://www.kbb.com/cars-for-sale/vehicle/{}"
+    start_url = "https://www.cars.com/shopping/results/?dealer_id=&keyword=&list_price_max=&list_price_min=90000&makes[]=&maximum_distance=30&mileage_max=&monthly_payment=&page_size=20&sort=list_price_desc&stock_type=used&year_max=&year_min=&zip=#vehicle-card-d42a7308-dd43-4ce2-a138-a42d1fa8ec3f"
 
 
     # Counter for the number of listings scraped
@@ -181,70 +199,60 @@ if __name__ == "__main__":
     failed_next_page_count = 0
     max_failed_next_page_count = 5  # Maximum number of failed attempts
 
-    inactive_listing_ids = set()
+    current_url = start_url
 
-    # Load cached inactive listing IDs (if any) from a file
-    try:
-        with open('inactive_listing_ids.txt', 'r') as file:
-            inactive_listing_ids = set(file.read().splitlines())
-    except FileNotFoundError:
-        pass  # It's okay if the file doesn't exist yet
-
-
-    while start_url and count < max_count:  # Modified this line to include count < max_count
+    while current_url and count < max_count:  # Modified this line to include count < max_count
     # while start_url:
-        for listing_id in range(685000000, 699000000 + 1):
-            if str(listing_id) in inactive_listing_ids:
-                continue
+        try:
+            response = requests.get(current_url)
+            response.raise_for_status()  # Will raise HTTPError for bad responses (4xx and 5xx)
+        except requests.RequestException as e:
+            logging.warning(f"Failed to retrieve page {current_url}: {e}")
+            failed_next_page_count += 1
+            if failed_next_page_count >= max_failed_next_page_count:
+                logging.error("Max failed attempts reached. Exiting.")
+                break
+            continue
+
+        if response.status_code == 200:
+
+            soup = BeautifulSoup(response.content, 'html.parser')
             
-            listing_url = start_url.format(listing_id)
-            try:
-                response = requests.get(listing_url)
-            except requests.RequestException as e:
-                logging.warning(f"Failed to retrieve listing {listing_id}: {e}")
-                continue  # Skip to the next listing_id if a network error occurs
+            # Get the listing URLs from the current page
+            listing_urls = get_listings(soup)
 
-            if response.status_code == 200:
-
-                soup = BeautifulSoup(response.content, 'html.parser')
-
-                if is_listing_inactive(soup):
-                    logging.info(f"Listing {listing_id} is inactive. Caching and skipping.")
-                    inactive_listing_ids.add(str(listing_id))  # Cache inactive listing ID
-                    continue  # Skip to the next listing_id
+            for listing_url in listing_urls:
+                if count >= max_count:
+                    break  # Break the loop if maximum count reached
 
                 details_data = scrape_details(listing_url)
-            
+        
                 if details_data:  # Check if details were successfully scraped
                     insert_into_database(details_data)  # Insert data into the database
-                    
+                
                     # Increase the count for each listing processed
                     count += 1
-                    
-                    if count > max_count:  # New condition
-                        break  # Break the loop if maximum count reached
-
-                        # Print the scraped details
-                        print(details_data)
+                    print(details_data)  # Print the scraped details
                 else:
-                    logging.info("Failed to scrape details for this listing.")
+                    logging.info(f"Failed to scrape details for {listing_url}")
+                
+            if count >= max_count:
+                logging.info(f"Reached the maximum count of {max_count}. Exiting.")
+                break
+            
+            # Get the URL of the next page
+            next_button = soup.find('a', {'id': 'next_paginate'})
+            if next_button and 'href' in next_button.attrs:
+                current_url = f"https://www.cars.com{next_button['href']}"
+            else:
+                logging.info("No more pages to scrape. Exiting.")
+                break
 
+    # Sleep for a short time to respect the website's rate-limiting
+    time.sleep(12)
 
-        if count >= max_count:  # New condition
-            logging.info(f"Reached the maximum count of {max_count}. Exiting.")
-            break  # Break the loop if maximum count reached
-
-        # Sleep for a short time to respect the website's rate-limiting
-        time.sleep(8)
-
-    else:
-        logging.info("Failed to retrieve the webpage")
-        start_url = None
-
-    # Save cached inactive listing IDs
-    with open('inactive_listing_ids.txt', 'w') as file:
-        for listing_id in inactive_listing_ids:
-            file.write(f"{listing_id}\n")
+else:
+    logging.info("Failed to retrieve the webpage")
 
 
 #endregion
