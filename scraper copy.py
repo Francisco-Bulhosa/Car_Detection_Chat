@@ -12,7 +12,7 @@ from PIL import Image
 from io import BytesIO
 import os
 from pathlib import Path
-from PIL import Image
+
 
 #region # DATABASE
 
@@ -301,7 +301,11 @@ def scrape_details(details_url):
                 
                 if response.status_code == 200:
                     img_data = BytesIO(response.content)  # Save image data as binary
-                    img = Image.open(img_data)
+                    try:
+                        img = Image.open(img_data)
+                    except UnidentifiedImageError:
+                        logging.warning(f"Unidentified image format from URL {img_url}. Skipping...")
+                        continue
 
                     # Determine the aspect ratio
                     width, height = img.size
