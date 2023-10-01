@@ -286,7 +286,10 @@ def scrape_details(details_url):
                     # Crop to 224x224
                     img_cropped = img_resized.crop((left, top, right, bottom))
                     
-                    
+                    # Convert RGBA to RGB if necessary before saving as JPEG
+                    if img_cropped.mode == 'RGBA':
+                        img_cropped = img_cropped.convert('RGB')
+
                     # Get the next available image index for this car model
                     next_index = get_next_image_index(year, make, model)
 
