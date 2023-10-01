@@ -18,10 +18,10 @@ from pathlib import Path
 
 def url_exists(url):
     try:
-        conn = sqlite3.connect("C:\\Users\\franc\\Documents\\GitHub\\Car_Detection_Chat\\car_listings.db")
+        conn = sqlite3.connect("C:\\Users\\franc\\Documents\\GitHub\\Car_Detection_Chat\\Mobile_de\\car_mobile_listings.db")
         cursor = conn.cursor()
         
-        cursor.execute("SELECT 1 FROM car_listings WHERE url = ?", (url,))
+        cursor.execute("SELECT 1 FROM car_mobile_listings WHERE url = ?", (url,))
         result = cursor.fetchone()
         
         conn.close()
@@ -35,11 +35,11 @@ def url_exists(url):
 
 def initialize_database():
     try: 
-        conn = sqlite3.connect("C:\\Users\\franc\\Documents\\GitHub\\Car_Detection_Chat\\car_listings.db")
+        conn = sqlite3.connect("C:\\Users\\franc\\Documents\\GitHub\\Car_Detection_Chat\\Mobile_de\\car_mobile_listings.db")
         cursor = conn.cursor()
 
         cursor.execute("""
-        CREATE TABLE IF NOT EXISTS car_listings (
+        CREATE TABLE IF NOT EXISTS car_mobile_listings (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             timestamp TEXT DEFAULT (strftime('%Y-%m-%d %H:00', 'now')),
             make TEXT,
@@ -66,11 +66,11 @@ def initialize_database():
 # Insert into database
 
 def insert_into_database(data):
-    conn = sqlite3.connect("car_listings.db")
+    conn = sqlite3.connect("car_mobile_listings.db")
     cursor = conn.cursor()
     # Query the database to check for duplicate listings
     cursor.execute("""
-    SELECT * FROM car_listings WHERE 
+    SELECT * FROM car_mobile_listings WHERE 
         url = ? AND 
         listing_price = ?
     """, (
@@ -84,7 +84,7 @@ def insert_into_database(data):
     # If no duplicate is found, insert the data
     if not duplicate:
         cursor.execute("""
-        INSERT INTO car_listings (
+        INSERT INTO car_mobile_listings (
             make, model, year, mileage, listing_price, url)
         VALUES (?, ?, ?, ?, ?, ?)
         """, (
@@ -283,29 +283,44 @@ def scrape_details(details_url):
                 os.makedirs('images')
 
 
-            gallery_slides = details_soup.find('gallery-slides')
-            image_tags = gallery_slides.find_all('img', limit=10) if gallery_slides else []
+            # Find all div elements with a class of 'gallery-img-wrapper'
+            gallery_wrappers = details_soup.find_all('div', class_='gallery-img-wrapper', limit=10)
 
-            for index, img_tag in enumerate(image_tags, start=1):
-                img_url = img_tag['src']
 
-                try:
-                    response = requests.get(img_url)
-                    response.raise_for_status()
-                except requests.RequestException as e:
-                    logging.error(f"Failed to retrieve image {img_url}: {e}")
-                    continue  # Skip to the next image if an error occurs
-                
-                # To help avoid rate limiting, add a delay between requests
-                random_delay()  # Randomized delay here
-                
-                if response.status_code == 200:
-                    img_data = BytesIO(response.content)  # Save image data as binary
+
+
+
+            for index, gallery_wrapper in enumerate(gallery_wrappers, start=1):
+                img_tag = gallery_wrapper.find('img')  # Find the img element within the div
+                if img_tag and 'src' in img_tag.attrs:
+                    img_url = img_tag['src']
+
                     try:
-                        img = Image.open(img_data)
-                    except UnidentifiedImageError:
-                        logging.warning(f"Unidentified image format from URL {img_url}. Skipping...")
-                        continue
+                        response = requests.get(img_url)
+                        response.raise_for_status()
+                    except requests.RequestException as e:
+                        logging.error(f"Failed to retrieve image {img_url}: {e}")
+                        continue  # Skip to the next image if an error occurs
+                    
+                    # To help avoid rate limiting, add a delay between requests
+                    random_delay()  # Randomized delay here
+                    
+                    if response.status_code == 200:
+                        img_data = BytesIO(response.content)  # Save image data as binary
+                        try:
+                            img = Image.open(img_data)
+                        except UnidentifiedImageError:
+                            logging.warning(f"Unidentified image format from URL {img_url}. Skipping...")
+                            continue
+
+                        # ... rest of your image processing and saving code ...
+                    else:
+                        logging.error(f"Failed to retrieve image {img_url}")
+                else:
+                    logging.warning(f"No 'src' attribute found for image {index}.")
+
+                if index >= 10:
+                    break  # Exit the loop after processing 10 images
 
                     # Determine the aspect ratio
                     width, height = img.size
@@ -365,7 +380,7 @@ if __name__ == "__main__":
 
 
     # Starting URL
-    start_url = "https://www.cars.com/shopping/results/?dealer_id=&keyword=&list_price_max=&list_price_min=90000&makes[]=&maximum_distance=30&mileage_max=&monthly_payment=&page_size=20&sort=list_price_desc&stock_type=used&year_max=&year_min=&zip=#vehicle-card-d42a7308-dd43-4ce2-a138-a42d1fa8ec3f"
+    start_url = "https://suchen.mobile.de/fahrzeuge/search.html?dam=0&isSearchRequest=true&od=down&p=90000%3A&ref=srp&refId=74a5a299-da39-e4c6-0037-f53f20e7ebb6&s=Car&sb=p&vc=Car"
 
 
     # Counter for the number of listings scraped
@@ -427,10 +442,12 @@ if __name__ == "__main__":
                 logging.info(f"Reached the maximum count of {max_count}. Exiting.")
                 break
 
+
+
             # Get the URL of the next page
-            next_button = soup.find('a', {'id': 'next_paginate'})
-            if next_button and 'href' in next_button.attrs:
-                current_url = f"https://www.cars.com{next_button['href']}"
+            next_button = soup.find('li', {'id': 'page-forward'})
+            if next_button and 'data-href' in next_button.attrs:
+                current_url = next_button['data-href']
             else:
                 logging.info("No more pages to scrape. Exiting.")
                 break
