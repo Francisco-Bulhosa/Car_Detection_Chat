@@ -172,7 +172,7 @@ def get_random_user_agent():
     return ua.random
 
 def random_delay():
-    delay = random.uniform(3, 12)  # Random delay between 2 and 10 seconds
+    delay = random.uniform(2, 7)  # Random delay between 2 and 10 seconds
     time.sleep(delay)
 
 # Initialize a requests session
