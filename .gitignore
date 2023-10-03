@@ -5,7 +5,7 @@ __pycache__/
 
 ### Directories
 # Ignore the image directory
-* image_directory/C:\Users\franc\Documents\GitHub\Car_Detection_Chat\images
+image_directory/C:\Users\franc\Documents\GitHub\Car_Detection_Chat\images
 
 # Distribution / packaging
 .Python
