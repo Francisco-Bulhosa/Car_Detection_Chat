@@ -23,6 +23,12 @@ val_ds = tf.keras.preprocessing.image_dataset_from_directory(
     batch_size=32
 )
 
+
+
+
+
+
+
 # Load the pre-trained ViT model and feature extractor
 extractor = AutoFeatureExtractor.from_pretrained("google/vit-base-patch16-224")
 model = AutoModelForImageClassification.from_pretrained("google/vit-base-patch16-224")
@@ -38,3 +44,6 @@ val_ds = val_ds.map(lambda x, y: tf.py_function(prepare_data, [x, y], [tf.float3
 # Fine-tune the model
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 model.fit(train_ds, validation_data=val_ds, epochs=5)
+
+
+

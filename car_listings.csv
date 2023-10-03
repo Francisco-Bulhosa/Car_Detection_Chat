@@ -1046,7 +1046,7 @@ id,timestamp,make,model,year,mileage,listing_price,url
 1054,2023-10-02 09:00,Mercedes-Benz,AMG G 63 4MATIC,2023,2200,379900,https://www.cars.com/vehicledetail/1a98324b-aa61-46f3-9557-c15756eeec53/
 1055,2023-10-02 09:00,Porsche,911 Speedster,2019,1643,379900,https://www.cars.com/vehicledetail/e4407078-6e1b-4325-86b4-fd06c77ab38d/
 1056,2023-10-02 09:00,Porsche,911 GT3 RS,2010,6186,379900,https://www.cars.com/vehicledetail/8742651a-9cc9-4339-ba66-fbcbaa9717be/
-1057,2023-10-02 09:00,Land,Rover Defender 110,1994,49200,379900,https://www.cars.com/vehicledetail/6d16aacd-8c19-4217-b2d5-f7bc55ddf23d/
+1057,2023-10-02 09:00,Land Rover,Defender 110,1994,49200,379900,https://www.cars.com/vehicledetail/6d16aacd-8c19-4217-b2d5-f7bc55ddf23d/
 1058,2023-10-02 09:00,Ferrari,F8 Tributo Base,2021,4259,379900,https://www.cars.com/vehicledetail/e7a2610e-1ceb-44f3-a37e-081c48d2a329/
 1059,2023-10-02 09:00,Ferrari,F8 Tributo Base,2021,6950,379900,https://www.cars.com/vehicledetail/dc461dff-97af-4d62-89a2-04590f399a76/
 1060,2023-10-02 09:00,Lamborghini,Aventador LP700-4,2014,8270,379888,https://www.cars.com/vehicledetail/e8190f27-8292-4963-9964-c4be4b78a645/
@@ -1079,7 +1079,7 @@ id,timestamp,make,model,year,mileage,listing_price,url
 1087,2023-10-02 10:00,Ferrari,F8 Tributo Base,2021,6566,374990,https://www.cars.com/vehicledetail/5f058b8c-9859-42c9-9d39-4febf31099d5/
 1088,2023-10-02 10:00,Lamborghini,Huracan Performante,2019,5015,374989,https://www.cars.com/vehicledetail/d5485c3b-fb4f-41d8-bb07-3041c23708af/
 1089,2023-10-02 10:00,Mercedes-Benz,SL-Class Black Series,2009,12121,374950,https://www.cars.com/vehicledetail/632321d9-8f59-4da4-a914-e43d9910b1ee/
-1090,2023-10-02 10:00,Alfa,Romeo 8c Competizione,2008,1220,374900,https://www.cars.com/vehicledetail/2c41a863-204d-45ed-b536-1264c99c3c65/
+1090,2023-10-02 10:00,Alfa Romeo,8c Competizione,2008,1220,374900,https://www.cars.com/vehicledetail/2c41a863-204d-45ed-b536-1264c99c3c65/
 1091,2023-10-02 10:00,Ferrari,F8 Tributo Base,2022,2600,374900,https://www.cars.com/vehicledetail/11dce41f-341a-46ab-8145-ecf3542de058/
 1092,2023-10-02 10:00,Ferrari,F8 Tributo Base,2021,7702,374900,https://www.cars.com/vehicledetail/5a17e87c-bc2e-464a-b2e7-f339ef454231/
 1093,2023-10-02 10:00,Ferrari,812 Superfast Base,2019,5085,374900,https://www.cars.com/vehicledetail/e267280a-c226-4a22-a784-096e5fa9b444/
@@ -1088,3 +1088,970 @@ id,timestamp,make,model,year,mileage,listing_price,url
 1096,2023-10-02 10:00,Rolls-Royce,Ghost,2021,4964,374500,https://www.cars.com/vehicledetail/60e8db8a-34e0-485e-a995-594891334a31/
 1097,2023-10-02 10:00,Rolls-Royce,Ghost,2022,5235,374007,https://www.cars.com/vehicledetail/696b58bc-b82b-4086-ad92-d7fbb703ec1b/
 1098,2023-10-02 10:00,Ferrari,F430 Scuderia,2008,5871,374000,https://www.cars.com/vehicledetail/55bb6844-68b8-4d87-92a7-fb1124f310e4/
+1099,2023-10-02 10:00,Lamborghini,Aventador LP750-4 Superveloce,2016,1212,549991,https://www.cars.com/vehicledetail/60fd5309-7b39-4437-b8e6-f6e71afdd4e8/
+1100,2023-10-02 10:00,Lamborghini,Aventador LP750-4 Superveloce,2017,10654,429991,https://www.cars.com/vehicledetail/f266a420-9dd8-41f8-9672-be148d002aa9/
+1101,2023-10-02 10:00,Lamborghini,Huracan STO Coupe,2022,1450,409991,https://www.cars.com/vehicledetail/6985b6b6-63fe-48f7-bc3e-8e7b4969fc0c/
+1102,2023-10-02 10:00,Rolls-Royce,Ghost Black Badge,2022,55,402888,https://www.cars.com/vehicledetail/dd4ac2fe-52b8-4543-b0d4-26f4b2e571c4/
+1103,2023-10-02 10:00,Rolls-Royce,Cullinan Sport Utility,2019,16000,371995,https://www.cars.com/vehicledetail/cae92ba0-6b4c-48dc-9527-4bbf84301533/
+1104,2023-10-02 10:00,Ferrari,F8 Tributo Base,2020,1093,370500,https://www.cars.com/vehicledetail/a11b02e1-9ba4-4be6-8a6d-583938978499/
+1105,2023-10-02 10:00,Lamborghini,Urus Performante,2023,3220,369999,https://www.cars.com/vehicledetail/33ebac5f-15ba-4ffd-9316-88c038f65759/
+1106,2023-10-02 10:00,Aston Martin,Vantage Base,2023,26,369999,https://www.cars.com/vehicledetail/b77c4ea7-560d-43b0-b8c5-097c6678b2a8/
+1107,2023-10-02 10:00,Rolls-Royce,Cullinan Base,2021,8935,369998,https://www.cars.com/vehicledetail/10be159f-0028-4c08-bd15-aaa7f8ea521b/
+1108,2023-10-02 10:00,Lamborghini,Huracan Tecnica Base,2023,124,369998,https://www.cars.com/vehicledetail/46370cf3-3a6f-42cb-8945-c3851fbb47b4/
+1109,2023-10-02 10:00,McLaren,720S Performance,2022,636,369996,https://www.cars.com/vehicledetail/80243995-7396-47e1-aef0-35b211f61d09/
+1110,2023-10-02 10:00,Rolls-Royce,Cullinan,2022,6413,369995,https://www.cars.com/vehicledetail/7f28f476-6874-4cd8-bb18-0bec2f0fc7b0/
+1111,2023-10-02 10:00,Ferrari,488 GTB Base,2018,2365,369995,https://www.cars.com/vehicledetail/b70dd9e7-636f-4bc9-a13a-171f12e54142/
+1112,2023-10-02 10:00,Lamborghini,Huracan Performante,2019,1710,369990,https://www.cars.com/vehicledetail/428359f6-ea9d-434a-9940-e39ed28c2faf/
+1113,2023-10-02 10:00,Ferrari,F8 Tributo Base,2020,9870,369990,https://www.cars.com/vehicledetail/21c13ad9-4fa8-4ef1-aea4-fde61f19e773/
+1114,2023-10-02 10:00,Porsche,911 GT2 RS,2018,7715,369990,https://www.cars.com/vehicledetail/409ea33a-a598-442f-b64f-a06f1a6ab03b/
+1115,2023-10-02 10:00,Rolls-Royce,Wraith Base,2020,12481,369988,https://www.cars.com/vehicledetail/4442e91b-7584-400a-bf94-35226bc0f2dc/
+1116,2023-10-02 10:00,Lamborghini,Urus Performante,2023,7964,369951,https://www.cars.com/vehicledetail/1aab6acd-1cf2-4228-90ac-f171c1a92f3e/
+1117,2023-10-02 10:00,Mercedes-Benz,AMG G 63 4MATIC,2023,475,369950,https://www.cars.com/vehicledetail/33b5d39a-0c28-46a0-9e68-c8b3c15408f1/
+1118,2023-10-02 10:00,Rolls-Royce,Cullinan,2020,9257,369950,https://www.cars.com/vehicledetail/c8de1d14-ec64-4578-a7a0-565406030d96/
+1119,2023-10-02 10:00,Aston Martin,DBS V12 Coupe,2023,702,369950,https://www.cars.com/vehicledetail/1e6ab480-00e3-4b6f-a45b-97ec8305f643/
+1120,2023-10-02 10:00,Mercedes-Benz,SLR McLaren,2006,9945,369900,https://www.cars.com/vehicledetail/6e70b2dd-8d2d-431c-8cc3-19aa035aea06/
+1121,2023-10-02 10:00,Rolls-Royce,Dawn,2020,8328,369900,https://www.cars.com/vehicledetail/527e8593-9407-44ce-a8d7-59616f8cd458/
+1122,2023-10-02 10:00,Lamborghini,Aventador LP720-4 50th Anniversario,2014,15250,369900,https://www.cars.com/vehicledetail/2ea150e1-d202-4255-831e-8c2a3ce527a6/
+1123,2023-10-02 10:00,Ferrari,488 Spider Base,2019,1712,369800,https://www.cars.com/vehicledetail/2b40e642-ad69-4cf3-ad4a-24e3a3910f9e/
+1124,2023-10-02 10:00,Rolls-Royce,Cullinan Cullinan,2020,14989,369800,https://www.cars.com/vehicledetail/9808552f-5bc2-43ad-a19d-6fb6d93a8d2f/
+1125,2023-10-02 10:00,Ferrari,812 Superfast Base,2019,7754,369386,https://www.cars.com/vehicledetail/193be86b-c0d9-447c-837f-74af7e40b1c2/
+1126,2023-10-02 10:00,Ferrari,F430 Scuderia,2009,3449,369000,https://www.cars.com/vehicledetail/76ac27a1-d0df-46ed-b0f4-4cc3718423df/
+1127,2023-10-02 10:00,Porsche,911 Speedster,2019,2127,369000,https://www.cars.com/vehicledetail/79a0daa9-75f4-4054-a325-13aae6ea37d3/
+1128,2023-10-02 10:00,Lamborghini,Huracan Performante,2018,5237,369000,https://www.cars.com/vehicledetail/599c83ca-e1ff-4fc6-a43d-c30a7d59b86d/
+1129,2023-10-02 10:00,Ferrari,812 Superfast Base,2020,15753,369000,https://www.cars.com/vehicledetail/757dba7a-c22d-43a1-b0b5-db71cd972813/
+1130,2023-10-02 10:00,Aston Martin,DBS Base,2023,93,369000,https://www.cars.com/vehicledetail/af0ed04c-229a-421e-aa5d-540095a9f5e7/
+1131,2023-10-02 10:00,Lamborghini,Urus Performante,2023,813,368888,https://www.cars.com/vehicledetail/7aa3f1fd-018b-444d-8b79-b83474e7ab7d/
+1132,2023-10-02 10:00,Lamborghini,Huracan EVO Spyder RWD,2023,993,368500,https://www.cars.com/vehicledetail/c047b199-2929-4dae-ac3b-c139c2082798/
+1133,2023-10-02 10:00,Ferrari,812 Superfast Base,2020,12574,368500,https://www.cars.com/vehicledetail/469a2919-c5be-497f-934a-4b8ea7991cf8/
+1134,2023-10-02 11:00,Lamborghini,Urus Performante,2023,1486,367950,https://www.cars.com/vehicledetail/2155dfdb-1561-413a-be22-97a7dd2c96f4/
+1135,2023-10-02 11:00,Ferrari,812 Superfast Base,2019,8520,367900,https://www.cars.com/vehicledetail/9c497edf-1351-45f8-9a10-e48ce9150546/
+1136,2023-10-02 11:00,Lamborghini,Huracan Tecnica Base,2023,1373,365999,https://www.cars.com/vehicledetail/f4818d12-3fad-4245-8539-3f110dc91182/
+1137,2023-10-02 11:00,Lamborghini,Aventador LP700-4,2012,31492,365995,https://www.cars.com/vehicledetail/2c5a8a7c-2307-4cec-a031-39df869121db/
+1138,2023-10-02 11:00,Jeep,Gladiator Sport S,2020,7676,365950,https://www.cars.com/vehicledetail/72559289-e4b0-4bbc-b008-40319bbd1c4e/
+1139,2023-10-02 11:00,Bentley,Continental GT Speed,2023,690,365900,https://www.cars.com/vehicledetail/1ccf7e93-54c0-4f94-87b1-2995712e7de3/
+1140,2023-10-02 11:00,Ferrari,812 Superfast Base,2019,1388,365888,https://www.cars.com/vehicledetail/e32700c8-ecc2-4887-a5f8-a99733f7368e/
+1141,2023-10-02 11:00,Rolls-Royce,Ghost,2022,555,365519,https://www.cars.com/vehicledetail/d0975741-42a5-4616-9ef8-4b54b4a2273c/
+1142,2023-10-02 11:00,Rolls-Royce,Cullinan Cullinan,2021,2932,365141,https://www.cars.com/vehicledetail/763d513e-a8c5-4c9a-b9fd-421c00205cff/
+1143,2023-10-02 11:00,Mercedes-Benz,AMG GT BS,2021,5114,365000,https://www.cars.com/vehicledetail/3e78b40b-b42d-4875-81ee-1a032e04a5cb/
+1144,2023-10-02 11:00,Jeep,Gladiator Sport S,2022,5878,365000,https://www.cars.com/vehicledetail/488fcaa8-364b-4276-8ec6-5a2db5096790/
+1145,2023-10-02 11:00,McLaren,720S Base,2022,6270,365000,https://www.cars.com/vehicledetail/2a826904-4d10-454b-bbe6-a63778d03f9f/
+1146,2023-10-02 11:00,McLaren,720S Performance,2022,943,364996,https://www.cars.com/vehicledetail/f437b927-4c02-4a73-b2a4-2c0ba220dfbb/
+1147,2023-10-02 11:00,Lamborghini,Huracan Performante,2018,14500,364990,https://www.cars.com/vehicledetail/004b908c-b495-4a08-8484-fbd031bbb047/
+1148,2023-10-02 11:00,Bentley,Continental GT GT,2020,1035,364583,https://www.cars.com/vehicledetail/faccc1a9-8996-447c-b7da-eceef77d98e1/
+1149,2023-10-02 11:00,Rolls-Royce,Ghost BADGE,2023,68,364500,https://www.cars.com/vehicledetail/2d2fe995-aa71-4ec7-bf8a-e730fd8c6e13/
+1150,2023-10-02 11:00,Rolls-Royce,Cullinan Cullinan,2021,4680,364488,https://www.cars.com/vehicledetail/3ff53f6d-bd13-4395-8669-c05d37f58a2b/
+1151,2023-10-02 11:00,Rolls-Royce,Cullinan Base,2022,19414,362996,https://www.cars.com/vehicledetail/3b2316e4-70d9-47e0-9f92-2e95d67da72e/
+1152,2023-10-02 11:00,Mercedes-Benz,AMG GT BS,2021,4696,360571,https://www.cars.com/vehicledetail/2bcc2eeb-ddaf-483c-8654-305bbcc0dd68/
+1153,2023-10-02 11:00,Rolls-Royce,Wraith,2018,6118,359999,https://www.cars.com/vehicledetail/4a24dd25-91f0-4d6e-b1a8-46cc5257fb67/
+1154,2023-10-02 11:00,Rolls-Royce,Cullinan Base,2021,24569,359998,https://www.cars.com/vehicledetail/a5897b26-bfa4-47f9-ab98-360b9c26aedc/
+1155,2023-10-02 11:00,Rolls-Royce,Ghost,2022,3500,359998,https://www.cars.com/vehicledetail/e928e915-b7ca-436f-8e6e-f948828f7edd/
+1156,2023-10-02 11:00,Lamborghini,Urus Performante,2023,3938,359998,https://www.cars.com/vehicledetail/b7b42ac8-7b85-4aac-a0fe-b5b9bda20eeb/
+1157,2023-10-02 11:00,Rolls-Royce,Dawn Base,2020,4495,359998,https://www.cars.com/vehicledetail/4ec63a0c-aedd-4ced-8244-416ab1dea8a8/
+1158,2023-10-02 11:00,Lamborghini,Huracan Tecnica Base,2023,34,359998,https://www.cars.com/vehicledetail/4d82c27d-60fa-4dd0-8457-e70a6879b0bf/
+1159,2023-10-02 11:00,Lamborghini,Aventador LP700-4,2015,22534,359996,https://www.cars.com/vehicledetail/6ee3f3e1-9f5a-4717-b875-359302b11995/
+1160,2023-10-02 11:00,Rolls-Royce,Cullinan Base,2022,1749,359995,https://www.cars.com/vehicledetail/4f47cfd3-701c-40e2-86e3-ecb409b45680/
+1161,2023-10-02 11:00,Lamborghini,Aventador LP700-4,2015,6163,359995,https://www.cars.com/vehicledetail/c370df82-69f7-4738-9694-8db39737e86f/
+1162,2023-10-02 11:00,Ferrari,F430 Spider F1,2009,7926,359995,https://www.cars.com/vehicledetail/8e043d2e-b688-4c39-8dec-36c7e0bf4a6f/
+1163,2023-10-02 11:00,Lamborghini,Huracan Performante,2018,5568,359991,https://www.cars.com/vehicledetail/a6149155-d473-4334-81b9-e6fc4cdf9ce7/
+1164,2023-10-02 11:00,Lamborghini,Urus Performante,2023,1238,359991,https://www.cars.com/vehicledetail/186e1675-8ce1-480f-a072-c3b84cb12705/
+1165,2023-10-02 11:00,Lamborghini,Urus Performante,2023,670,359990,https://www.cars.com/vehicledetail/66d9ded9-6fec-4135-8efc-055a38b6c608/
+1166,2023-10-02 11:00,Ferrari,F8 Tributo Base,2021,5098,359990,https://www.cars.com/vehicledetail/9c388735-6635-4fbf-9633-06524ec6da48/
+1167,2023-10-02 11:00,Lamborghini,Aventador LP720-4 50th Anniversario,2014,12035,359990,https://www.cars.com/vehicledetail/9ca135ea-42ec-41e3-996a-947cf674c963/
+1168,2023-10-02 11:00,Lamborghini,Huracan Performante,2018,9798,359988,https://www.cars.com/vehicledetail/3ce8e52b-4a1c-4379-98d0-a95641021ff5/
+1169,2023-10-02 11:00,Rolls-Royce,Cullinan Cullinan,2021,2629,359988,https://www.cars.com/vehicledetail/3fbec666-45c7-4b76-9e0a-83dcc0d28e92/
+1170,2023-10-02 11:00,Lamborghini,Huracan Performante,2018,6532,359985,https://www.cars.com/vehicledetail/226a7e92-470e-4540-ae80-e014498a1397/
+1171,2023-10-02 11:00,Rolls-Royce,Cullinan Cullinan,2021,8025,359950,https://www.cars.com/vehicledetail/58211b2d-94bc-4b59-b86a-f33e82a50efe/
+1172,2023-10-02 11:00,Lamborghini,Urus Performante,2023,48,359950,https://www.cars.com/vehicledetail/1faf5ff6-6054-42c5-8837-ddf21ffe9217/
+1173,2023-10-02 11:00,Lamborghini,Urus Performante,2023,54,359950,https://www.cars.com/vehicledetail/b00c2d9a-5496-4984-b7c9-e6ac99ed755e/
+1174,2023-10-02 11:00,Lamborghini,Huracan Tecnica Base,2023,1325,359928,https://www.cars.com/vehicledetail/12a46ac9-57c0-4c23-acd1-bd860ad44274/
+1175,2023-10-02 11:00,Rolls-Royce,Cullinan Cullinan,2020,8700,359900,https://www.cars.com/vehicledetail/1c091e1c-e829-4cfa-a024-3c4627807ecf/
+1176,2023-10-02 11:00,Rolls-Royce,Cullinan Cullinan,2020,20399,359900,https://www.cars.com/vehicledetail/2d26f648-ff93-49ca-93fa-f4b3c665b5bf/
+1177,2023-10-02 11:00,Ferrari,812 Superfast Base,2019,9915,359900,https://www.cars.com/vehicledetail/bed2371a-422b-4bdb-99b3-dea0e14fc816/
+1178,2023-10-02 11:00,Ferrari,458 Spider Base,2015,6548,359900,https://www.cars.com/vehicledetail/d833eba4-c2ce-492e-a8b2-73af8dbcd4a6/
+1179,2023-10-02 11:00,Lamborghini,Huracan EVO Base,2020,4472,359895,https://www.cars.com/vehicledetail/ba2d7d58-6b2d-475f-a4cd-872591683ea8/
+1180,2023-10-02 11:00,Rolls-Royce,Cullinan,2021,1900,359888,https://www.cars.com/vehicledetail/d41864d0-2bb0-41e9-943c-b303c8c3ae3a/
+1181,2023-10-02 11:00,Lamborghini,Huracan Performante,2019,10602,359888,https://www.cars.com/vehicledetail/faf282c7-8fa2-4e30-a757-9b72b367d9b1/
+1182,2023-10-02 11:00,Rolls-Royce,Dawn,2019,4775,359866,https://www.cars.com/vehicledetail/0579f3c2-3ed7-4620-a961-caab246c2143/
+1183,2023-10-02 11:00,Lamborghini,Huracan Tecnica Base,2023,49,359777,https://www.cars.com/vehicledetail/2fe06b53-b548-4f82-b35c-bf3f01287abc/
+1184,2023-10-02 11:00,Ferrari,F8 Tributo Base,2021,7170,359500,https://www.cars.com/vehicledetail/65000f0e-d230-4295-a0b8-ab66dbefcf65/
+1185,2023-10-02 11:00,Rolls-Royce,Ghost Base,2022,5936,359478,https://www.cars.com/vehicledetail/df59bd1d-c2a9-4614-8090-8caec208b940/
+1186,2023-10-02 11:00,Rolls-Royce,Cullinan Cullinan,2021,6944,359180,https://www.cars.com/vehicledetail/195e5043-b300-4926-9a63-26c490c5b9b0/
+1187,2023-10-02 11:00,Rolls-Royce,Cullinan Base,2021,15820,359000,https://www.cars.com/vehicledetail/92e265a5-7d1f-4ecd-b9e9-82b3417cf013/
+1188,2023-10-02 11:00,Lamborghini,Huracan Tecnica Base,2023,250,359000,https://www.cars.com/vehicledetail/9d1e93a0-cbe4-49d4-be0c-10fe704af4fa/
+1189,2023-10-02 11:00,Rolls-Royce,Cullinan,2020,2410,359000,https://www.cars.com/vehicledetail/9b6c834e-aba9-4874-8f19-ab6473bb840d/
+1190,2023-10-02 11:00,Porsche,911 GT2 RS,2018,8627,359000,https://www.cars.com/vehicledetail/005dc7e0-5731-4a5b-b28d-86fecdd31994/
+1191,2023-10-02 11:00,Lamborghini,Huracan EVO Base,2022,535,358950,https://www.cars.com/vehicledetail/022bd17a-c754-4ecf-b474-8103de47b434/
+1192,2023-10-02 11:00,Porsche,911 Speedster,2019,6811,358918,https://www.cars.com/vehicledetail/ce3a2895-516f-4113-b8dd-8110af4d1c47/
+1193,2023-10-02 11:00,Lamborghini,Huracan Tecnica Base,2023,102,358888,https://www.cars.com/vehicledetail/bbe06eeb-abfc-42ee-a373-c9a77f51e5c8/
+1194,2023-10-02 11:00,Aston Martin,DBS DBS,2023,388,358888,https://www.cars.com/vehicledetail/1125e798-62af-40a8-8b69-59365962f8d8/
+1195,2023-10-02 11:00,Ferrari,Roma,2021,4603,357980,https://www.cars.com/vehicledetail/5c93c016-977c-43df-b02f-67e7b17b1dbb/
+1196,2023-10-02 11:00,Rolls-Royce,Cullinan,2022,11814,357950,https://www.cars.com/vehicledetail/ddf86b73-2570-4ccc-9d91-462cc7a990c1/
+1197,2023-10-02 11:00,Rolls-Royce,Cullinan,2021,10451,357500,https://www.cars.com/vehicledetail/03c6fda4-bbca-4b4e-af39-afaaaa9117c0/
+1198,2023-10-02 11:00,Ferrari,Challenge Stradale,2004,5625,355990,https://www.cars.com/vehicledetail/eb2c8353-8ae4-4040-8a6d-c5b425634087/
+1199,2023-10-02 11:00,Rolls-Royce,Dawn,2019,11251,355500,https://www.cars.com/vehicledetail/db2f9b4d-1d5d-4ba9-9c48-7f569990e4cd/
+1200,2023-10-02 11:00,Rolls-Royce,Phantom Drophead Coupe Convertible,2016,6219,355000,https://www.cars.com/vehicledetail/15cd8db2-a6ca-4151-9195-8081fa0b1004/
+1201,2023-10-02 11:00,Aston Martin,Vantage Base,2023,48,355000,https://www.cars.com/vehicledetail/26b76864-a335-458e-b853-f9841cd56609/
+1202,2023-10-02 11:00,Rolls-Royce,Ghost,2022,1823,354996,https://www.cars.com/vehicledetail/026dc241-cb46-4f70-b961-3d554db773ce/
+1203,2023-10-02 11:00,Rolls-Royce,Ghost,2022,1023,354995,https://www.cars.com/vehicledetail/8cbca374-0436-4e84-8126-e772e9ae0574/
+1204,2023-10-02 11:00,Rolls-Royce,Cullinan Cullinan,2021,8814,354488,https://www.cars.com/vehicledetail/830fe1a5-b2e3-4cf8-bd9a-4b703ee07b5a/
+1205,2023-10-02 11:00,Bentley,Continental GT Speed,2023,42,352920,https://www.cars.com/vehicledetail/8688ffec-0d40-4f33-9497-4f74c311deed/
+1206,2023-10-02 11:00,Lamborghini,Huracan Tecnica Coupe,2023,46,352900,https://www.cars.com/vehicledetail/d9829369-8d1a-4da8-ab88-5142091af0f4/
+1207,2023-10-02 11:00,Lamborghini,Huracan Performante,2018,6439,351754,https://www.cars.com/vehicledetail/63228a14-8509-4b51-abd3-b0f41a45fcec/
+1208,2023-10-02 12:00,Rolls-Royce,Cullinan Base,2020,7515,351390,https://www.cars.com/vehicledetail/f2dacf5f-b5e6-436c-b661-4f8d4710a7f4/
+1209,2023-10-02 12:00,Mercedes-Benz,G-Class G500 Cabriolet Final Edition,2012,19248,350000,https://www.cars.com/vehicledetail/86aaba54-a5fe-450e-b94f-9aff66d2aae8/
+1210,2023-10-02 12:00,Mercedes-Benz,G-Class AMG G 63,2023,807,350000,https://www.cars.com/vehicledetail/ffce59e4-6577-4917-9aa6-3c254a88f946/
+1211,2023-10-02 12:00,Bentley,Continental GT Speed,2023,1907,350000,https://www.cars.com/vehicledetail/2a212e9e-6728-4f43-bbcb-8049352383a8/
+1212,2023-10-02 12:00,Lamborghini,Huracan Tecnica Base,2023,1567,350000,https://www.cars.com/vehicledetail/d75f911c-f882-4027-a748-957fdd3c7dff/
+1213,2023-10-02 12:00,Mercedes-Benz,Sprinter 3500XD High Roof,2023,138,350000,https://www.cars.com/vehicledetail/51dbc09e-817f-43ad-978d-f4456386e932/
+1214,2023-10-02 12:00,Mercedes-Benz,Sprinter 3500XD High Roof,2023,26,350000,https://www.cars.com/vehicledetail/f27899bd-2210-48a4-8484-fb44d9e60647/
+1215,2023-10-02 12:00,Mercedes-Benz,Sprinter 3500XD High Roof,2022,58,350000,https://www.cars.com/vehicledetail/cbcca24b-5ce6-4967-b0bd-7e83a3220c6c/
+1216,2023-10-02 12:00,Mercedes-Benz,Sprinter 3500XD High Roof,2023,68,350000,https://www.cars.com/vehicledetail/9ed87ce9-4960-4064-983a-f068b8a134d9/
+1217,2023-10-02 12:00,Mercedes-Benz,Sprinter 3500XD High Roof,2023,76,350000,https://www.cars.com/vehicledetail/4aebc792-3041-4c6f-8503-0edbb3790acd/
+1218,2023-10-02 12:00,Mercedes-Benz,Sprinter 3500XD High Roof,2023,56,350000,https://www.cars.com/vehicledetail/96c0de36-ac58-4521-8f24-908dd58e1585/
+1219,2023-10-02 12:00,Rolls-Royce,Cullinan,2020,6960,349999,https://www.cars.com/vehicledetail/28ba4488-3428-4a2f-88c6-27c6d848d2f0/
+1220,2023-10-02 12:00,McLaren,720S Performance,2022,1283,349999,https://www.cars.com/vehicledetail/f67242f5-2e6b-4c99-9502-360fff6dc93e/
+1221,2023-10-02 12:00,Mercedes-Benz,AMG G 63 Base,2021,5799,349998,https://www.cars.com/vehicledetail/f02c7de3-c44c-499b-b742-88d35885fe18/
+1222,2023-10-02 12:00,Lamborghini,Huracan Performante,2019,6682,349998,https://www.cars.com/vehicledetail/5d972552-c755-4bdd-9ed3-865d21175921/
+1223,2023-10-02 12:00,Lamborghini,Huracan EVO Base,2023,37,349998,https://www.cars.com/vehicledetail/eb672971-6ff4-4d4d-b813-957ca9972110/
+1224,2023-10-02 12:00,Lamborghini,Huracan EVO Base,2023,38,349998,https://www.cars.com/vehicledetail/a7574711-8d65-41d4-b61f-d679626fcb41/
+1225,2023-10-02 12:00,Rolls-Royce,Cullinan,2022,23685,349996,https://www.cars.com/vehicledetail/bef0df0c-8512-46de-acdf-d4cb2c767f55/
+1226,2023-10-02 12:00,Lamborghini,Urus S,2023,3848,349996,https://www.cars.com/vehicledetail/659cf3f5-02d5-443e-91d6-444d0a1ca63f/
+1227,2023-10-02 12:00,Lamborghini,Urus S,2023,33,349996,https://www.cars.com/vehicledetail/b425ee73-d4cd-4f70-be48-80b57a2b3852/
+1228,2023-10-02 12:00,Lamborghini,Urus S,2023,33,349996,https://www.cars.com/vehicledetail/af946188-25d2-425b-be8a-845a29b77c98/
+1229,2023-10-02 12:00,Lamborghini,Urus S,2023,36,349996,https://www.cars.com/vehicledetail/a7827c98-4e67-46be-a532-567ae315afc7/
+1230,2023-10-02 12:00,Rolls-Royce,Cullinan,2022,2284,349995,https://www.cars.com/vehicledetail/ec1edb14-74e5-49a4-ad11-1e36931ef741/
+1231,2023-10-02 12:00,Porsche,911 Turbo S,2023,658,349992,https://www.cars.com/vehicledetail/e362585b-e09a-4b05-b963-59932b58638f/
+1232,2023-10-02 12:00,Lamborghini,Huracan Tecnica Coupe,2023,255,349991,https://www.cars.com/vehicledetail/783e66d5-32ad-4cba-a239-2c529c6aba88/
+1233,2023-10-02 12:00,Porsche,911 Carrera,1992,46270,349990,https://www.cars.com/vehicledetail/d580fdc7-397f-4c6b-ae2b-601b44568f32/
+1234,2023-10-02 12:00,Rolls-Royce,Dawn,2020,7479,349989,https://www.cars.com/vehicledetail/f6c68234-3e74-48c6-a133-a9588ed0f466/
+1235,2023-10-02 12:00,Lamborghini,Huracan Performante,2019,3824,349988,https://www.cars.com/vehicledetail/e5c5aded-5a9a-4e64-a231-eb615fae6734/
+1236,2023-10-02 12:00,Bentley,Continental GT Speed,2023,714,349950,https://www.cars.com/vehicledetail/0b2e05c4-f3a1-4132-8d56-7d6466658a52/
+1237,2023-10-02 12:00,Lamborghini,Huracan EVO Base,2023,809,349950,https://www.cars.com/vehicledetail/6ac19990-53bf-4431-9eb6-b89ae7201882/
+1238,2023-10-02 12:00,Lamborghini,Huracan Tecnica Base,2023,350,349950,https://www.cars.com/vehicledetail/a6a72a9b-92a5-4d7f-9181-20115d5d43ce/
+1239,2023-10-02 12:00,Mercedes-Benz,AMG G 63 4MATIC,2023,1476,349950,https://www.cars.com/vehicledetail/d0d8f7cb-3699-4993-8844-e183ef94814d/
+1240,2023-10-02 12:00,Rolls-Royce,Phantom Drophead Coupe Drophead,2016,17334,349950,https://www.cars.com/vehicledetail/c0526ada-d57c-4885-b14e-c2ba8b3b4aa3/
+1241,2023-10-02 12:00,Rolls-Royce,Cullinan Base,2021,10499,349950,https://www.cars.com/vehicledetail/1b930d4d-abbe-468c-9acb-c8aab8827da6/
+1242,2023-10-02 12:00,Lamborghini,Aventador LP700-4,2014,10112,349950,https://www.cars.com/vehicledetail/0958f7c6-0d32-45a3-a33e-d566404f836f/
+1243,2023-10-02 12:00,Lamborghini,Huracan Performante,2018,5456,349950,https://www.cars.com/vehicledetail/5bc113de-ff18-45dd-8bc9-fd36ade29310/
+1244,2023-10-02 12:00,Aston Martin,Vantage Base,2023,486,349950,https://www.cars.com/vehicledetail/4d0f5b02-312f-4e22-88b6-a7bea9b44f4a/
+1245,2023-10-02 12:00,Mercedes-Benz,600,1970,22837,349950,https://www.cars.com/vehicledetail/88238ef1-5ecd-4436-8545-2d59bffcc4e5/
+1246,2023-10-02 12:00,Lamborghini,Huracan Tecnica Base,2023,25,349950,https://www.cars.com/vehicledetail/e0afca20-6bad-4c42-947a-29583cb3d2cc/
+1247,2023-10-02 12:00,Lamborghini,Huracan Tecnica Base,2023,50,349950,https://www.cars.com/vehicledetail/1c8edb44-5194-4125-a4d2-dc15d200e038/
+1248,2023-10-02 12:00,Ferrari,Portofino M Base,2022,1816,349900,https://www.cars.com/vehicledetail/8d06d98c-6a6c-4d32-9331-f03df5fad3cc/
+1249,2023-10-02 12:00,Lamborghini,Huracan Tecnica,2023,553,349900,https://www.cars.com/vehicledetail/919dee8d-de09-440b-b46b-11d1f570a5d2/
+1250,2023-10-02 12:00,Ferrari,Portofino M Base,2022,1302,349900,https://www.cars.com/vehicledetail/217bb439-90df-4dc2-8632-7d198339bed2/
+1251,2023-10-02 12:00,Ferrari,812 Superfast Base,2019,7073,349895,https://www.cars.com/vehicledetail/91871974-787e-43eb-b69b-3e12b77f6ea4/
+1252,2023-10-02 12:00,Ferrari,F8 Tributo Base,2020,11025,349895,https://www.cars.com/vehicledetail/38562251-bddb-44b5-8d45-72df74ffe6b8/
+1253,2023-10-02 12:00,Ferrari,F8 Tributo Base,2020,12084,349894,https://www.cars.com/vehicledetail/d5051baf-29ce-480b-ad18-f4a58823c9e6/
+1254,2023-10-02 12:00,Rolls-Royce,Cullinan,2021,13076,349888,https://www.cars.com/vehicledetail/15711b99-cb09-4874-94b5-14fcf0bacda4/
+1255,2023-10-02 12:00,Ferrari,Portofino M Base,2022,370,349800,https://www.cars.com/vehicledetail/494da7c9-ba56-4ea3-8a7b-7ec0240e83a4/
+1256,2023-10-02 12:00,Lamborghini,Huracan Tecnica Base,2023,1540,349800,https://www.cars.com/vehicledetail/b71bc0ea-5679-4154-8d78-426dd4253567/
+1257,2023-10-02 12:00,Ferrari,Roma Base,2023,60,349800,https://www.cars.com/vehicledetail/8aa692bc-5557-4ef3-844e-2039dd12712d/
+1258,2023-10-02 12:00,Ferrari,488 Spider Base,2019,7964,349772,https://www.cars.com/vehicledetail/51d39b6b-3f16-4a25-ab9b-715dc9a9d615/
+1259,2023-10-02 12:00,Rolls-Royce,Cullinan,2020,2269,349588,https://www.cars.com/vehicledetail/b1df7eac-0c36-47dd-b173-8bc86388d27e/
+1260,2023-10-02 12:00,Rolls-Royce,Dawn Base,2019,6464,349500,https://www.cars.com/vehicledetail/65b5fda2-1a4d-4ca2-aaf8-fcdffe0a9ef3/
+1261,2023-10-02 12:00,Lamborghini,Urus S,2023,39,349450,https://www.cars.com/vehicledetail/e045627a-ef84-496f-a9af-c8907c2c756e/
+1262,2023-10-02 12:00,Ferrari,Portofino M Base,2022,409,349000,https://www.cars.com/vehicledetail/9e2ec416-8c01-4ddb-b3d9-7b40e8ccc66b/
+1263,2023-10-02 12:00,McLaren,720S Base,2019,2993,349000,https://www.cars.com/vehicledetail/ee6d06d5-ff11-4797-8ee7-8c27a06f47a8/
+1264,2023-10-02 12:00,Lamborghini,Huracan Performante,2018,5528,349000,https://www.cars.com/vehicledetail/5f57dc21-5d88-4d69-a72d-c9ad672db426/
+1265,2023-10-02 12:00,Mercedes-Benz,AMG G 63 4MATIC,2022,38,349000,https://www.cars.com/vehicledetail/fd0494cb-def3-4e3c-9bca-8081188af750/
+1266,2023-10-02 12:00,Ferrari,488 Pista Base,2019,7500,349000,https://www.cars.com/vehicledetail/638d6ac8-0b10-4c6d-a7ac-5a69da2bda14/
+1267,2023-10-02 12:00,Rolls-Royce,Cullinan Base,2021,6400,348999,https://www.cars.com/vehicledetail/316840b0-ef3d-448e-bd61-a7df9218310e/
+1268,2023-10-02 12:00,Ferrari,512 TR,1992,16541,348900,https://www.cars.com/vehicledetail/739a69d7-a00f-4850-b1f0-11020576dde1/
+1269,2023-10-02 12:00,Rolls-Royce,Silver Cloud III CONTINENTAL,1966,47671,348900,https://www.cars.com/vehicledetail/ae450814-34a7-497f-846b-3a83cf311e32/
+1270,2023-10-02 12:00,Ferrari,F12berlinetta Base,2014,289,348888,https://www.cars.com/vehicledetail/ad90c1b9-d84e-41ac-b29e-c1a7b4934e0c/
+1271,2023-10-02 12:00,Land Rover,Range Rover SV,2023,168,348575,https://www.cars.com/vehicledetail/a164992f-d2bb-4e57-a440-85dda7a910cb/
+1272,2023-10-02 12:00,Lamborghini,Aventador LP700-4,2015,11165,347950,https://www.cars.com/vehicledetail/f7a6c8d5-a928-4bd3-9a02-a5d1700d4768/
+1273,2023-10-02 12:00,Dodge,Challenger SRT Hellcat,2022,397,347900,https://www.cars.com/vehicledetail/0e73f5d6-09bf-49c9-875f-60ccfe30fab7/
+1274,2023-10-02 12:00,Porsche,911,2011,6133,347500,https://www.cars.com/vehicledetail/45a4b8c2-4ec9-4d9a-9d34-012442c613de/
+1275,2023-10-02 12:00,McLaren,720S Performance,2022,3769,347000,https://www.cars.com/vehicledetail/13313904-0bd4-4286-a166-2c0b8ebda9ef/
+1276,2023-10-02 12:00,McLaren,720S Performance,2022,1081,346900,https://www.cars.com/vehicledetail/18f7136b-252b-4d2c-b65f-0112bb5b5b9f/
+1277,2023-10-02 12:00,Lamborghini,Aventador LP700-4,2013,12761,345000,https://www.cars.com/vehicledetail/b06881c1-5b3c-4acc-be0b-3bfe0015952e/
+1278,2023-10-02 12:00,Rolls-Royce,Cullinan Base,2020,10990,345000,https://www.cars.com/vehicledetail/e2cb8479-4312-4f03-bd35-bf83bbf33c94/
+1279,2023-10-02 12:00,Ferrari,488 Spider Base,2019,2342,345000,https://www.cars.com/vehicledetail/89911c59-f74d-4ee8-b3cf-6990c501e35d/
+1280,2023-10-02 13:00,Ferrari,812 Superfast Base,2019,25490,345000,https://www.cars.com/vehicledetail/72de353a-db3e-4c0a-b360-f892d931cefc/
+1281,2023-10-02 13:00,Rolls-Royce,Dawn,2019,23195,345000,https://www.cars.com/vehicledetail/720f3bcc-39a5-45a7-9555-14c8bb34365d/
+1282,2023-10-02 13:00,Bentley,Continental GT V8,2023,70,345000,https://www.cars.com/vehicledetail/a7093991-4fa2-4637-81ac-18d73be01618/
+1283,2023-10-02 13:00,Lamborghini,Urus Performante,2023,4085,344999,https://www.cars.com/vehicledetail/2810fa9b-0244-4f13-a98c-613ff6aefd4a/
+1284,2023-10-02 13:00,Lamborghini,Huracan Performante,2019,6206,344996,https://www.cars.com/vehicledetail/c1fedbc0-ed60-4936-98ba-d6f4ec1ea4b1/
+1285,2023-10-02 13:00,Lamborghini,Huracan Performante,2019,10856,344996,https://www.cars.com/vehicledetail/4ec7462b-89fe-4b45-a2a1-79d441ea1c32/
+1286,2023-10-02 13:00,Ferrari,Portofino M Base,2022,4693,344995,https://www.cars.com/vehicledetail/796ae888-a7ca-4849-bc77-b36b11dbe421/
+1287,2023-10-02 13:00,Rolls-Royce,Cullinan Cullinan,2021,21835,344988,https://www.cars.com/vehicledetail/25c573bc-5c27-418f-8150-e8cf08ca1cbb/
+1288,2023-10-02 13:00,Ferrari,488 Spider Base,2018,4999,344900,https://www.cars.com/vehicledetail/0828e7f7-ee0a-4b4a-a4b1-7d595008c2b7/
+1289,2023-10-02 13:00,Rolls-Royce,Cullinan Base,2022,18290,344895,https://www.cars.com/vehicledetail/ba5aa770-3af8-4ec9-8e5a-020aaee09561/
+1290,2023-10-02 13:00,Lamborghini,Aventador LP700-4,2014,15748,344888,https://www.cars.com/vehicledetail/ac3d1bd1-d4f4-4231-91f8-c671f677e29b/
+1291,2023-10-02 13:00,Lamborghini,Aventador LP700-4,2015,15357,344777,https://www.cars.com/vehicledetail/32d32be5-7f02-471a-98df-755b3ff95432/
+1292,2023-10-02 13:00,Rolls-Royce,Ghost,2022,1766,343999,https://www.cars.com/vehicledetail/6e7e15e2-08e3-4c84-837c-4d2b7c51b66f/
+1293,2023-10-02 13:00,Ferrari,488 Spider Base,2018,998,342995,https://www.cars.com/vehicledetail/614a46a5-ebfc-4389-a351-72e19133a08b/
+1294,2023-10-02 13:00,Lamborghini,Huracan EVO Spyder,2022,628,341518,https://www.cars.com/vehicledetail/ef65ded3-95e7-47b1-b4fd-60266d09d8fa/
+1295,2023-10-02 13:00,Bentley,Flying Spur,2023,221,339999,https://www.cars.com/vehicledetail/987a6daf-601a-47ff-8451-f01f5e615502/
+1296,2023-10-02 13:00,Rolls-Royce,Phantom,2018,14230,339999,https://www.cars.com/vehicledetail/05469710-9d90-41e5-ab1d-70dcf8a0d5a8/
+1297,2023-10-02 13:00,McLaren,720S Base,2022,3525,339999,https://www.cars.com/vehicledetail/781e2058-e099-4115-bfa1-c29e0b410224/
+1298,2023-10-02 13:00,Rolls-Royce,Ghost,2022,5498,339998,https://www.cars.com/vehicledetail/1c563e7d-4cbb-444e-a696-9a85605889ca/
+1299,2023-10-02 13:00,McLaren,720S Performance,2022,596,339998,https://www.cars.com/vehicledetail/6d29cb03-a438-4473-9940-affba7d16d48/
+1300,2023-10-02 13:00,McLaren,720S Performance,2022,10749,339996,https://www.cars.com/vehicledetail/25ebffbb-8768-4d83-86dd-dfe2984447ce/
+1301,2023-10-02 13:00,Lamborghini,Huracan Tecnica Base,2023,1000,339995,https://www.cars.com/vehicledetail/085a34dd-3d6f-4a6f-96e8-31034fd05a10/
+1302,2023-10-02 13:00,Ferrari,GTC4Lusso V12,2019,4945,339995,https://www.cars.com/vehicledetail/20272dde-ac15-4c91-84bf-2ddb5ae3bc5d/
+1303,2023-10-02 13:00,Lamborghini,Aventador LP700-4,2014,27191,339995,https://www.cars.com/vehicledetail/dccca58b-185e-4a4b-854f-5aa66e6eb772/
+1304,2023-10-02 13:00,Ferrari,F430 Spider,2006,15087,339995,https://www.cars.com/vehicledetail/46528e62-1e52-4184-9776-e8939f63bd77/
+1305,2023-10-02 13:00,Ferrari,F430 Scuderia,2008,3320,339995,https://www.cars.com/vehicledetail/a713b982-4ac7-4750-a0c7-22a68441f020/
+1306,2023-10-02 13:00,Ferrari,488 Spider Base,2019,3089,339991,https://www.cars.com/vehicledetail/c6752b84-c3ad-4b5b-ab6a-b64c5cdd2687/
+1307,2023-10-02 13:00,McLaren,720S Performance,2023,1855,339990,https://www.cars.com/vehicledetail/7a1c5058-5e7d-405d-965f-aa4bb51b1a0e/
+1308,2023-10-02 13:00,Rolls-Royce,Ghost,2022,8306,339990,https://www.cars.com/vehicledetail/fb7b0775-0f80-4bef-831d-303e040ebf5d/
+1309,2023-10-02 13:00,Aston Martin,Vantage Base,2023,333,339990,https://www.cars.com/vehicledetail/75c77f54-d90d-43f8-86cf-fcaa8ef3b70a/
+1310,2023-10-02 13:00,Ferrari,Portofino M Base,2022,482,339990,https://www.cars.com/vehicledetail/e395a556-867f-4a9f-b1bb-e4bcca4d9022/
+1311,2023-10-02 13:00,Mercedes-Benz,SLS AMG GT Final Edition,2015,10608,339988,https://www.cars.com/vehicledetail/2d93c1c0-0b33-4f89-85fe-7b0c7c97757c/
+1312,2023-10-02 13:00,Rolls-Royce,Ghost,2022,6220,339950,https://www.cars.com/vehicledetail/3f6e034e-9f04-445c-aaa1-0aa779f89465/
+1313,2023-10-02 13:00,Bentley,Continental GT GT,2023,1051,339950,https://www.cars.com/vehicledetail/ad44de8f-87ca-44eb-b7d7-1c4f40a9603a/
+1314,2023-10-02 13:00,Lamborghini,Aventador LP700-4,2014,15501,339950,https://www.cars.com/vehicledetail/e5071c6b-1aea-49ec-948f-01b68e662462/
+1315,2023-10-02 13:00,Ferrari,Portofino M Base,2022,526,339900,https://www.cars.com/vehicledetail/b2d833e9-8ff9-45fe-8434-d4e166200d45/
+1316,2023-10-02 13:00,Ferrari,812 Superfast Base,2018,28614,339900,https://www.cars.com/vehicledetail/5dbe9b7e-fdee-4a7b-90f3-6305a901c96e/
+1317,2023-10-02 13:00,Ferrari,Portofino M Base,2022,1649,339900,https://www.cars.com/vehicledetail/b8b10fef-e336-4b58-9d69-6992b2e0e21e/
+1318,2023-10-02 13:00,Ferrari,488 Spider Base,2019,12150,339900,https://www.cars.com/vehicledetail/ba850724-f50e-4a7b-8ca7-80603f78fcb5/
+1319,2023-10-02 13:00,Ferrari,488 Spider Base,2019,1811,339900,https://www.cars.com/vehicledetail/ff154688-ae5b-4902-9c5d-85c2102d177c/
+1320,2023-10-02 13:00,Rolls-Royce,Ghost Ghost,2021,2758,339900,https://www.cars.com/vehicledetail/0bafd237-25a0-4e5b-b2c8-272ece74e381/
+1321,2023-10-02 13:00,Ferrari,Portofino M Base,2022,74,339900,https://www.cars.com/vehicledetail/75581b5f-c1a5-4856-b322-63a888b69c6e/
+1322,2023-10-02 13:00,Rolls-Royce,Phantom Base,2018,7705,339895,https://www.cars.com/vehicledetail/49971a5c-acb0-4e54-9b51-94f5636c51f1/
+1323,2023-10-02 13:00,Mercedes-Benz,SLS AMG GT,2014,3318,339857,https://www.cars.com/vehicledetail/b14bc493-310a-43ac-a40a-7579dbcd1a23/
+1324,2023-10-02 13:00,McLaren,720S Base,2021,3701,339800,https://www.cars.com/vehicledetail/acb43144-3c3e-41a3-a4d4-232df6ba31c2/
+1325,2023-10-02 13:00,Rolls-Royce,Cullinan,2022,11425,339500,https://www.cars.com/vehicledetail/7f720ec3-9244-4e56-87c6-36cbaf47bcd3/
+1326,2023-10-02 13:00,Rolls-Royce,Cullinan,2020,8400,339500,https://www.cars.com/vehicledetail/8ef5d3ac-a85e-486a-b27a-bdba1e695031/
+1327,2023-10-02 13:00,Lamborghini,Urus Performante,2023,32,339500,https://www.cars.com/vehicledetail/88b6a0fb-179d-48a9-ac40-a6f37fd8c285/
+1328,2023-10-02 13:00,Rolls-Royce,Cullinan,2020,5613,339000,https://www.cars.com/vehicledetail/8d9de9de-8afa-493f-9b68-69966eee8f92/
+1329,2023-10-02 13:00,Rolls-Royce,Ghost,2022,1393,339000,https://www.cars.com/vehicledetail/ff83ab52-3d1e-4ef5-ac79-97b4723fd94b/
+1330,2023-10-02 13:00,Ferrari,Portofino M Base,2022,300,339000,https://www.cars.com/vehicledetail/59da5de3-9d5e-40f8-bd62-93b64b4e4d5e/
+1331,2023-10-02 13:00,BMW,Z8 Alpina,2003,7341,339000,https://www.cars.com/vehicledetail/9bf2779a-3b5f-40fe-80ed-fcfbed90f02e/
+1332,2023-10-02 13:00,Rolls-Royce,Dawn Base,2019,9790,339000,https://www.cars.com/vehicledetail/0ab34b4b-aba9-43ea-a248-5b69db5ed93c/
+1333,2023-10-02 13:00,Aston Martin,DBS Superleggera,2020,2230,339000,https://www.cars.com/vehicledetail/a0f7334d-cf74-47e3-b1d2-131c1ef3ddba/
+1334,2023-10-02 13:00,Ferrari,F12berlinetta Base,2017,1710,339000,https://www.cars.com/vehicledetail/430bc03f-5d68-4950-aef5-af1d36124072/
+1335,2023-10-02 13:00,McLaren,570S Coupe,2018,3875,339000,https://www.cars.com/vehicledetail/c646420c-f822-4f89-8c72-1c8e9ed7850c/
+1336,2023-10-02 13:00,Porsche,911 Turbo S,2024,117,339000,https://www.cars.com/vehicledetail/47c60335-9cb5-453e-9f56-aa6bfded77c6/
+1337,2023-10-02 13:00,Rolls-Royce,Ghost Base,2022,7164,338999,https://www.cars.com/vehicledetail/d24bd455-7206-49b0-8801-a333b5ab1f75/
+1338,2023-10-02 13:00,Rolls-Royce,Ghost,2022,526,338800,https://www.cars.com/vehicledetail/872b4685-51e5-4a01-867e-8bddd52b469e/
+1339,2023-10-02 13:00,Lamborghini,Huracan Tecnica Base,2023,914,338385,https://www.cars.com/vehicledetail/8aa4ec71-73ab-46ee-abfb-c0e4910b44c6/
+1340,2023-10-02 13:00,Rolls-Royce,Cullinan,2021,10983,337995,https://www.cars.com/vehicledetail/eae6b53f-8305-4c38-80fc-bd2dc6b3b80c/
+1341,2023-10-02 13:00,McLaren,720S Performance,2023,434,337992,https://www.cars.com/vehicledetail/88f41fe8-3832-445c-a07b-b5c78b2217ed/
+1342,2023-10-02 13:00,Rolls-Royce,Wraith,2020,3963,337500,https://www.cars.com/vehicledetail/adf98eb9-7661-4bcb-aec3-03f926d6c759/
+1343,2023-10-02 13:00,Porsche,911 GT3,2022,205,336988,https://www.cars.com/vehicledetail/1c1b6a95-a198-42ee-9d2e-be30988609ce/
+1344,2023-10-02 13:00,Lamborghini,Huracan Performante,2019,6305,336950,https://www.cars.com/vehicledetail/1e650a3f-2de6-4bba-95c9-71f28725c593/
+1345,2023-10-02 13:00,Chevrolet,Colorado LT,2022,11528,336900,https://www.cars.com/vehicledetail/7f5ac4d7-581d-4ca4-a918-2471753ca100/
+1346,2023-10-02 13:00,Ferrari,Challenge Stradale,2004,11595,335990,https://www.cars.com/vehicledetail/b26d5a8e-5b9a-4904-9eae-546dba842af2/
+1347,2023-10-02 13:00,Porsche,911 Turbo 3.6,1997,11105,335900,https://www.cars.com/vehicledetail/8cdfe898-e01b-413d-ab72-6d6dd12552e5/
+1348,2023-10-02 13:00,Aston Martin,Vantage Base,2023,1771,335500,https://www.cars.com/vehicledetail/563a407d-79cc-4f2b-98b6-d726dc9fb070/
+1349,2023-10-02 13:00,Rolls-Royce,Cullinan,2020,3245,335500,https://www.cars.com/vehicledetail/d3d1f245-95df-45a9-a209-80ce8b46c7f9/
+1350,2023-10-02 13:00,McLaren,720S Performance,2022,984,335500,https://www.cars.com/vehicledetail/0893c7a0-d63e-438c-bd35-b8a00ba4e649/
+1351,2023-10-02 13:00,Porsche,911 Turbo 3.6,1997,8616,335000,https://www.cars.com/vehicledetail/e86fae72-0df3-44cd-a7fb-a9b7157d7862/
+1352,2023-10-02 14:00,Lamborghini,Huracan EVO Base,2020,8828,334996,https://www.cars.com/vehicledetail/c333b8b0-3818-4f3c-a50d-d74858420a6b/
+1353,2023-10-02 14:00,Porsche,911 GT3,2007,2660,334900,https://www.cars.com/vehicledetail/fc3174f6-44b3-4b1c-89f6-1e6ff9e2c39b/
+1354,2023-10-02 14:00,Rolls-Royce,Ghost,2022,4826,334900,https://www.cars.com/vehicledetail/f3e61d57-23e8-4210-9c2a-37a372cd1cab/
+1355,2023-10-02 14:00,Ferrari,Portofino M Base,2022,214,334900,https://www.cars.com/vehicledetail/9cdeadcd-e7c7-4ce4-af9a-435ae1edee13/
+1356,2023-10-02 14:00,Rolls-Royce,Wraith,2020,3650,334800,https://www.cars.com/vehicledetail/42c66b92-ca53-4f9e-9fbd-0aef361a0ab9/
+1357,2023-10-02 14:00,Lamborghini,Huracan Performante,2018,8160,333000,https://www.cars.com/vehicledetail/8c16a0f8-a028-496d-a023-125c45d4ffbc/
+1358,2023-10-02 14:00,McLaren,600LT Convertible,2020,3281,330900,https://www.cars.com/vehicledetail/c7760a13-df26-41a0-ac6a-c623218265de/
+1359,2023-10-02 14:00,Rolls-Royce,Ghost Ghost,2022,2814,330863,https://www.cars.com/vehicledetail/5abbb21f-037a-45b9-9713-787eb46c808f/
+1360,2023-10-02 14:00,Bentley,Continental GT Speed,2022,414,330695,https://www.cars.com/vehicledetail/36731603-d59b-49d7-9e40-455752033b9f/
+1361,2023-10-02 14:00,McLaren,620R,2020,2514,330000,https://www.cars.com/vehicledetail/f6732f2a-0aad-484c-a90a-75add66b8e82/
+1362,2023-10-02 14:00,Lamborghini,Urus S,2023,1069,329999,https://www.cars.com/vehicledetail/d3ff44cf-52cf-4840-8196-9190e16931d8/
+1363,2023-10-02 14:00,Rolls-Royce,Dawn Base,2019,11000,329999,https://www.cars.com/vehicledetail/963ff5f9-ef66-4d86-b7e6-62fc4917bee6/
+1364,2023-10-02 14:00,Lamborghini,Urus S,2023,1400,329998,https://www.cars.com/vehicledetail/7458e6a5-99f3-4111-ad78-fbecc7392720/
+1365,2023-10-02 14:00,Rolls-Royce,Ghost,2022,2806,329998,https://www.cars.com/vehicledetail/76ea0faa-fc33-48d1-a343-65919b1111b8/
+1366,2023-10-02 14:00,Lamborghini,Huracan EVO Base,2023,1543,329998,https://www.cars.com/vehicledetail/26a58079-10dc-4c90-bfe9-c44f330338c8/
+1367,2023-10-02 14:00,Ferrari,Portofino M Base,2022,2831,329995,https://www.cars.com/vehicledetail/91668643-61c3-4f8b-a051-5e613e2f8e7e/
+1368,2023-10-02 14:00,Dodge,Challenger SRT Hellcat,2021,70,329995,https://www.cars.com/vehicledetail/fb435e6d-2174-4c52-a76e-da3edf1be575/
+1369,2023-10-02 14:00,Rolls-Royce,Cullinan Cullinan,2021,12613,329994,https://www.cars.com/vehicledetail/ace50dd2-5ed2-4f6b-90e7-ae9d6f993f6b/
+1370,2023-10-02 14:00,Lamborghini,Huracan EVO Base,2023,814,329990,https://www.cars.com/vehicledetail/9ea98e48-2a94-4e9d-a357-13a14095389f/
+1371,2023-10-02 14:00,Lamborghini,Urus,2023,2755,329990,https://www.cars.com/vehicledetail/4faaaf5b-823e-4eb6-a0a6-734860f83617/
+1372,2023-10-02 14:00,Rolls-Royce,Cullinan,2020,17470,329990,https://www.cars.com/vehicledetail/b1c62bdb-79fc-4ceb-92f8-c3c28b440d4b/
+1373,2023-10-02 14:00,Ferrari,Portofino M Base,2023,374,329990,https://www.cars.com/vehicledetail/fa560e63-e2c6-4f32-8256-4fa4e64a9e76/
+1374,2023-10-02 14:00,Lamborghini,Huracan EVO Base,2023,871,329990,https://www.cars.com/vehicledetail/47d93b63-3b92-4f75-8842-bd9d51c97799/
+1375,2023-10-02 14:00,Ferrari,Portofino M Base,2023,333,329988,https://www.cars.com/vehicledetail/c80e6163-8ceb-4ff6-8574-38bfa621341e/
+1376,2023-10-02 14:00,McLaren,720S Performance,2022,975,329981,https://www.cars.com/vehicledetail/3e2260e2-67e3-43fb-a42f-dbd93f38bfc1/
+1377,2023-10-02 14:00,Ferrari,488 GTB Base,2018,5921,329977,https://www.cars.com/vehicledetail/b43d2fc8-75ae-4bf8-8671-1a8c5620f01f/
+1378,2023-10-02 14:00,Lamborghini,Huracan Tecnica,2023,1010,329951,https://www.cars.com/vehicledetail/be124409-c3cb-4fab-8780-3ee5e77e7d2f/
+1379,2023-10-02 14:00,Mercedes-Benz,AMG G 63 Base,2021,7289,329950,https://www.cars.com/vehicledetail/b07e2f1b-ff01-4482-91c8-9527bd24f9b3/
+1380,2023-10-02 14:00,Lamborghini,Huracan Performante,2018,8291,329950,https://www.cars.com/vehicledetail/7b44cfd9-0b73-4024-bdf5-c2663405d7ca/
+1381,2023-10-02 14:00,Bentley,Continental GT GT,2023,1119,329950,https://www.cars.com/vehicledetail/d768990c-05ad-49a8-89c1-25aa2af276c5/
+1382,2023-10-02 14:00,Bentley,Continental GT GT,2023,2945,329950,https://www.cars.com/vehicledetail/884af33f-d26a-4b4a-8a5f-486a726fc5f0/
+1383,2023-10-02 14:00,Lamborghini,Huracan Tecnica Base,2023,30,329950,https://www.cars.com/vehicledetail/29dbe5d4-de7e-4edb-bce9-3eb71ababfdf/
+1384,2023-10-02 14:00,Bentley,Continental GT GT,2023,3632,329950,https://www.cars.com/vehicledetail/e86d40b5-ef1a-4c2c-bbaa-1cd96169564c/
+1385,2023-10-02 14:00,Porsche,911 Turbo S,2021,7422,329911,https://www.cars.com/vehicledetail/12f0639f-643f-479e-ad92-f372110baf4f/
+1386,2023-10-02 14:00,Lamborghini,Huracan Performante,2018,5872,329900,https://www.cars.com/vehicledetail/c490e79b-ca50-4d51-b453-b6c0fe23eac6/
+1387,2023-10-02 14:00,McLaren,720S Performance,2022,2850,329900,https://www.cars.com/vehicledetail/b77be635-25bc-44e1-9036-47d89e2857ef/
+1388,2023-10-02 14:00,Rolls-Royce,Ghost Base,2022,1570,329900,https://www.cars.com/vehicledetail/a25e1be4-590c-4dbe-9313-d0b14e67180d/
+1389,2023-10-02 14:00,Rolls-Royce,Wraith Base,2020,2118,329900,https://www.cars.com/vehicledetail/f34c99df-b2ca-44ca-9b42-a48f81d3ed08/
+1390,2023-10-02 14:00,Ferrari,Portofino M Base,2022,2107,329900,https://www.cars.com/vehicledetail/73cd8fa3-71c6-4f09-8b51-689e7f003a9b/
+1391,2023-10-02 14:00,McLaren,720S Performance,2022,5328,329900,https://www.cars.com/vehicledetail/3f6d53f4-d5b8-4e5e-b8a8-b32ff8474c5f/
+1392,2023-10-02 14:00,Ferrari,Portofino M Base,2022,247,329900,https://www.cars.com/vehicledetail/4c6c40c9-d2e5-468e-ae8c-fdcfe02e0a4d/
+1393,2023-10-02 14:00,Mercedes-Benz,AMG G 63 4MATIC,2023,2100,329900,https://www.cars.com/vehicledetail/aed0fe34-7a69-43ca-839e-1f9a1ea29512/
+1394,2023-10-02 14:00,Aston Martin,DBS Superleggera Volante,2021,3581,329900,https://www.cars.com/vehicledetail/49999554-2723-4bf5-b22b-41c3cb5cf710/
+1395,2023-10-02 14:00,Ferrari,488 Spider Base,2018,12007,329900,https://www.cars.com/vehicledetail/454d5828-5e5d-4172-ae86-61e9ff2c49c4/
+1396,2023-10-02 14:00,Porsche,911 Turbo,2009,17162,329900,https://www.cars.com/vehicledetail/1c9f5cd8-b49f-498f-8b42-0f723370bdd6/
+1397,2023-10-02 14:00,Lamborghini,Huracan Performante,2018,6061,329900,https://www.cars.com/vehicledetail/f6f3008a-bbfe-49c1-b006-8c43ddac745d/
+1398,2023-10-02 14:00,Lamborghini,Huracan EVO,2022,623,329900,https://www.cars.com/vehicledetail/f3a0eeb7-e081-4ad3-ba82-71aebf09c2d8/
+1399,2023-10-02 14:00,Porsche,911 GT3 Cup,2022,1518,329900,https://www.cars.com/vehicledetail/cc30c870-b416-4b40-b571-c3cf86924eaf/
+1400,2023-10-02 14:00,Ferrari,488 Spider Base,2018,4811,329900,https://www.cars.com/vehicledetail/212ff86f-1583-43e4-b3a3-c118bb784eed/
+1401,2023-10-02 14:00,Rolls-Royce,Dawn,2019,5568,329895,https://www.cars.com/vehicledetail/6969410b-20e4-426b-b7df-7906ac9acb20/
+1402,2023-10-02 14:00,Rolls-Royce,Dawn,2018,4918,329889,https://www.cars.com/vehicledetail/d2eeeab4-9580-48e1-8105-47914e355296/
+1403,2023-10-02 14:00,Bentley,Continental GT,2020,6386,329888,https://www.cars.com/vehicledetail/3ea2b82f-8c4f-4544-9b10-bc658c266233/
+1404,2023-10-02 14:00,Mercedes-Benz,G 550 4x4 Squared Base,2017,231,329756,https://www.cars.com/vehicledetail/ff3182f0-66a1-4d6e-9917-4ec19e74ec31/
+1405,2023-10-02 14:00,Rolls-Royce,Dawn Dawn,2021,16671,329580,https://www.cars.com/vehicledetail/d0d49cf2-33a1-441b-a95b-3ab1dffe0bc6/
+1406,2023-10-02 14:00,Porsche,356 Speedster,1957,96259,329500,https://www.cars.com/vehicledetail/b75a354c-dcde-4312-8014-245a1089595b/
+1407,2023-10-02 14:00,Rolls-Royce,Wraith Wraith,2021,9142,329488,https://www.cars.com/vehicledetail/76ad16b6-a350-451a-972d-30868d538ec9/
+1408,2023-10-02 14:00,Lamborghini,Aventador LP700-4,2015,38243,329163,https://www.cars.com/vehicledetail/3ec40c2a-09ea-4463-9d8e-0df95cbe5146/
+1409,2023-10-02 14:00,Bentley,Flying Spur Mulliner W12,2023,1164,329102,https://www.cars.com/vehicledetail/33f8de6b-2c13-41e3-a212-55e29446e6d7/
+1410,2023-10-02 14:00,Mercedes-Benz,AMG G 63 Base,2021,6017,329000,https://www.cars.com/vehicledetail/14d46c78-8817-4060-86eb-9ec2ec005be6/
+1411,2023-10-02 14:00,Lamborghini,Urus S,2023,1098,329000,https://www.cars.com/vehicledetail/45884b1f-40e9-4325-b11f-7a0c5d0b25a1/
+1412,2023-10-02 14:00,Ferrari,F430 Scuderia,2009,4928,329000,https://www.cars.com/vehicledetail/7ed722d0-8cc9-4188-be87-1a402860920f/
+1413,2023-10-02 14:00,Rolls-Royce,Dawn Base,2019,10527,329000,https://www.cars.com/vehicledetail/7e9f71f0-c5ec-4327-b1c2-e451fcb9ea7d/
+1414,2023-10-02 14:00,Lamborghini,Urus S,2023,182,329000,https://www.cars.com/vehicledetail/cecfdc64-4dcc-49c4-a92b-d69a0ce755bd/
+1415,2023-10-02 14:00,Porsche,911 GT3,2022,408,329000,https://www.cars.com/vehicledetail/c092cba7-0fcc-4058-96cf-e6bf504412ea/
+1416,2023-10-02 14:00,Lamborghini,Murcielago LP640,2008,4523,328995,https://www.cars.com/vehicledetail/031b7346-3a6d-41a6-8c8e-c08b96248046/
+1417,2023-10-02 14:00,Ferrari,Portofino M Base,2022,351,328000,https://www.cars.com/vehicledetail/030fd1a1-4022-4c19-9d9c-4b87fb89372d/
+1418,2023-10-02 14:00,Lamborghini,Urus,2023,4497,326998,https://www.cars.com/vehicledetail/06164f98-6a76-4284-80cb-fa0ea918dc8b/
+1419,2023-10-02 14:00,Rolls-Royce,Cullinan Base,2021,23113,326990,https://www.cars.com/vehicledetail/45b82230-a425-48c0-bdfc-a65cf7cc865a/
+1420,2023-10-02 14:00,Porsche,911 GT3,2022,1623,326900,https://www.cars.com/vehicledetail/b942d091-0878-40ed-8c35-d309b0c464e8/
+1421,2023-10-02 14:00,Bentley,Flying Spur Speed,2023,4563,325999,https://www.cars.com/vehicledetail/00c46081-1d0b-46ab-ac7c-df8faca4968e/
+1422,2023-10-02 14:00,Porsche,911 GT3 RS,2004,18343,325996,https://www.cars.com/vehicledetail/6ba79539-1f11-429d-8f6d-4187c32607b6/
+1423,2023-10-02 15:00,Ferrari,F430 Scuderia,2009,11516,325990,https://www.cars.com/vehicledetail/cba9a7e1-9071-40f7-9376-95b491ec217a/
+1424,2023-10-02 15:00,Mercedes-Benz,Sprinter 3500 170 WB High Roof Extended Cargo,2021,2500,325950,https://www.cars.com/vehicledetail/f3842e0d-408c-44d8-afbd-949f23afd8bb/
+1425,2023-10-02 15:00,McLaren,675LT Base,2016,1121,325900,https://www.cars.com/vehicledetail/73760dce-4f6f-46ff-a741-5ad79d9ee1ed/
+1426,2023-10-02 15:00,Rolls-Royce,Ghost Base,2022,5570,325900,https://www.cars.com/vehicledetail/cfbeae0e-d859-45d2-bc8d-eb6e29b51903/
+1427,2023-10-02 15:00,Porsche,911 GT3,2023,18,325900,https://www.cars.com/vehicledetail/a518bc2e-f2c3-41a2-b377-386d51f07fa3/
+1428,2023-10-02 15:00,Rolls-Royce,Ghost EWB,2022,15447,325895,https://www.cars.com/vehicledetail/4109ed25-f8f6-4105-9129-de296bb7eb35/
+1429,2023-10-02 15:00,Porsche,911 Turbo S,2024,670,325798,https://www.cars.com/vehicledetail/0e4cbd0e-f568-4bab-8c3e-33616e3634fa/
+1430,2023-10-02 15:00,Rolls-Royce,Wraith,2020,5548,325500,https://www.cars.com/vehicledetail/e666682f-21a8-45c7-8c1e-9e3f100f99ce/
+1431,2023-10-02 15:00,McLaren,720S Base,2022,5500,325000,https://www.cars.com/vehicledetail/885b130f-6173-41a4-9961-0bfee23f6702/
+1432,2023-10-02 15:00,Rolls-Royce,Cullinan Cullinan,2020,14172,325000,https://www.cars.com/vehicledetail/27d3db10-4f09-495d-a59c-877ca3fbcdc6/
+1433,2023-10-02 15:00,Rolls-Royce,Cullinan Cullinan,2020,8500,325000,https://www.cars.com/vehicledetail/efb3a3fc-d35a-4433-9f05-ac1f6b852314/
+1434,2023-10-02 15:00,Rolls-Royce,Cullinan Base,2020,10121,325000,https://www.cars.com/vehicledetail/224352da-9e9f-4de9-8bfa-1019af750c46/
+1435,2023-10-02 15:00,Ferrari,F8 Tributo Base,2020,14787,325000,https://www.cars.com/vehicledetail/d08ed735-d0b1-4045-8a0f-abc6cb0de8fd/
+1436,2023-10-02 15:00,Ferrari,Portofino M Base,2022,4500,325000,https://www.cars.com/vehicledetail/5d97686b-4926-4bce-bc7c-84a75ce617c9/
+1437,2023-10-02 15:00,Ferrari,488 Spider Base,2019,7164,325000,https://www.cars.com/vehicledetail/2bdaedbe-209b-44eb-a955-3b47de6ffa46/
+1438,2023-10-02 15:00,Lamborghini,Urus S,2023,800,324999,https://www.cars.com/vehicledetail/7b705851-b205-49a6-90b1-6b5c048045f0/
+1439,2023-10-02 15:00,Lamborghini,Huracan EVO Spyder RWD,2022,2926,324991,https://www.cars.com/vehicledetail/3e9f4512-d0d4-49ae-80d5-0307816c1183/
+1440,2023-10-02 15:00,Lamborghini,Huracan EVO Coupe RWD,2023,204,324988,https://www.cars.com/vehicledetail/c4584d9f-d7f7-4b1d-b5c6-89bff75c2971/
+1441,2023-10-02 15:00,Ferrari,488 Spider Base,2018,2485,324900,https://www.cars.com/vehicledetail/fff60b2d-c2db-413a-bacf-c92fa9a7b5de/
+1442,2023-10-02 15:00,Ford,Bronco Custom,1970,2412,324900,https://www.cars.com/vehicledetail/e1bfcb89-5a94-48d7-8ff5-e1553b64dacd/
+1443,2023-10-02 15:00,Porsche,911 Turbo,1997,19168,324900,https://www.cars.com/vehicledetail/14e7d464-ef0c-4b3a-a573-b9035018b6a5/
+1444,2023-10-02 15:00,Ferrari,488 Spider Base,2019,3986,324900,https://www.cars.com/vehicledetail/e53f0977-89b2-48ce-8dd4-c4a7072fe185/
+1445,2023-10-02 15:00,Porsche,911 Turbo S,2019,771,324900,https://www.cars.com/vehicledetail/2885b950-7968-4409-b8e8-06fd37b62c6f/
+1446,2023-10-02 15:00,Ferrari,550 Maranello,2001,2465,324788,https://www.cars.com/vehicledetail/001e130b-e529-4e6b-8bba-ca9d476cc329/
+1447,2023-10-02 15:00,McLaren,720S Performance,2022,663,324576,https://www.cars.com/vehicledetail/853977e7-8cda-4252-9723-f775f215c1d4/
+1448,2023-10-02 15:00,Porsche,911 Turbo S,2024,350,323999,https://www.cars.com/vehicledetail/69272385-6f85-4d62-ae8b-5ecf0ee11914/
+1449,2023-10-02 15:00,Lamborghini,Huracan EVO Base,2022,2160,323900,https://www.cars.com/vehicledetail/aa908aec-5110-478e-a35c-4c6c0daac2d8/
+1450,2023-10-02 15:00,Ferrari,488 Spider Base,2018,4941,323780,https://www.cars.com/vehicledetail/482a1a2a-2127-40a7-9de4-e4a522140095/
+1451,2023-10-02 15:00,Ferrari,488 Spider Rosso Corsa,2018,6809,323500,https://www.cars.com/vehicledetail/68c02479-cee6-45a5-8b65-3a3d23edbb56/
+1452,2023-10-02 15:00,Lamborghini,Huracan Performante,2018,17524,322900,https://www.cars.com/vehicledetail/78454789-0d7c-48a1-9dc7-d1115b912fd1/
+1453,2023-10-02 15:00,Ferrari,488 Spider Base,2017,2842,322575,https://www.cars.com/vehicledetail/7ee6d277-2c10-4f0d-b373-988ce3ae88d0/
+1454,2023-10-02 15:00,Ferrari,488 Spider Base,2017,3093,321995,https://www.cars.com/vehicledetail/4447ca84-bc87-4109-81f6-5b9f767c0cda/
+1455,2023-10-02 15:00,Lamborghini,Huracan Performante,2018,9668,321950,https://www.cars.com/vehicledetail/035fcb71-1771-4ba4-ad1a-20b6e4ecabc3/
+1456,2023-10-02 15:00,Rolls-Royce,Cullinan Sport Utility,2019,10817,321950,https://www.cars.com/vehicledetail/336f6a1a-bd58-417f-8f8c-5c462afc246e/
+1457,2023-10-02 15:00,Ferrari,Portofino M Base,2022,4870,320984,https://www.cars.com/vehicledetail/36730a23-1845-4741-a386-30c652b378a0/
+1458,2023-10-02 15:00,Lamborghini,Huracan EVO Base,2022,2700,320000,https://www.cars.com/vehicledetail/9c2ee55f-08fb-46f9-ab32-cc8440a6422b/
+1459,2023-10-02 15:00,Rolls-Royce,Ghost Ghost,2022,161,320000,https://www.cars.com/vehicledetail/ae41901f-38f7-4a68-82cc-7cbc52c79459/
+1460,2023-10-02 15:00,Lamborghini,Huracan Tecnica Base,2023,350,320000,https://www.cars.com/vehicledetail/4de1eab4-65da-49c5-ba37-224e52d9bd5e/
+1461,2023-10-02 15:00,Ferrari,488 Spider Base,2018,4390,319999,https://www.cars.com/vehicledetail/b9f41c2a-780a-40d1-8293-3d430bcceb57/
+1462,2023-10-02 15:00,Mercedes-Benz,AMG G 63 Base,2021,18843,319999,https://www.cars.com/vehicledetail/678f4d18-b397-408f-b040-a4d9d5be4bdb/
+1463,2023-10-02 15:00,McLaren,720S Luxury,2022,2497,319996,https://www.cars.com/vehicledetail/be8dedb4-da0a-455f-8b46-72906e27f7b3/
+1464,2023-10-02 15:00,Porsche,911 GT3 w/Touring Package,2022,1200,319995,https://www.cars.com/vehicledetail/9959f103-5f0e-4cdb-9803-e60c2aeb74c9/
+1465,2023-10-02 15:00,Rolls-Royce,Cullinan,2020,26333,319995,https://www.cars.com/vehicledetail/e0757ff9-e7bb-4f1d-8fe1-19f02f4ef284/
+1466,2023-10-02 15:00,Lamborghini,Huracan EVO Coupe RWD,2023,771,319991,https://www.cars.com/vehicledetail/ed68ae68-cd71-4864-b3d3-846de2369639/
+1467,2023-10-02 15:00,Lamborghini,Huracan Performante,2018,13632,319991,https://www.cars.com/vehicledetail/6175b386-1d95-40da-a5d6-32b07b7973df/
+1468,2023-10-02 15:00,Ferrari,488 Spider Base,2017,4145,319991,https://www.cars.com/vehicledetail/d6e796fb-c2d2-41ff-9214-7da74ca36e32/
+1469,2023-10-02 15:00,Porsche,911 GT3,2023,500,319990,https://www.cars.com/vehicledetail/bd5c87c2-88cc-4334-a579-0841e1a77896/
+1470,2023-10-02 15:00,Rolls-Royce,Ghost Ghost,2022,537,319988,https://www.cars.com/vehicledetail/9ce1660d-1e7c-4b73-bb2f-05b93e342057/
+1471,2023-10-02 15:00,McLaren,720S Performance,2022,6053,319950,https://www.cars.com/vehicledetail/0bd00a47-76de-4520-9117-9d86f8adb426/
+1472,2023-10-02 15:00,Lamborghini,Huracan EVO Base,2021,1716,319950,https://www.cars.com/vehicledetail/9fe436f2-d8c2-44f7-b8b2-2f2dee2f9336/
+1473,2023-10-02 15:00,Rolls-Royce,Dawn,2019,16836,319950,https://www.cars.com/vehicledetail/31923153-33ea-49be-81a3-e723ad580bc4/
+1474,2023-10-02 15:00,Rolls-Royce,Cullinan,2020,9175,319950,https://www.cars.com/vehicledetail/9a4649fb-9d46-4e2c-820f-5b78e56337ac/
+1475,2023-10-02 15:00,Lamborghini,Urus S,2023,25,319950,https://www.cars.com/vehicledetail/7d632d1e-d54e-448e-be6b-1747c705773c/
+1476,2023-10-02 15:00,Rolls-Royce,Cullinan,2020,14806,319950,https://www.cars.com/vehicledetail/d48a30b4-6e89-45dc-bd55-e7431d4d3d43/
+1477,2023-10-02 15:00,Lamborghini,Huracan EVO,2020,6625,319900,https://www.cars.com/vehicledetail/47f29e71-0c05-4b9f-866d-4c985168dff6/
+1478,2023-10-02 15:00,Rolls-Royce,Ghost,2022,4266,319900,https://www.cars.com/vehicledetail/41ed0756-0f4c-4916-a7fe-615ebf3b3a7c/
+1479,2023-10-02 15:00,Bentley,Continental GT S,2023,1152,319900,https://www.cars.com/vehicledetail/0a08e93b-ac04-4009-afb1-02b268227303/
+1480,2023-10-02 15:00,Ferrari,488 Spider,2018,10915,319900,https://www.cars.com/vehicledetail/c21b380a-46f9-4b31-820a-61bd7df883bb/
+1481,2023-10-02 15:00,Porsche,718 Cayman GT4 RS Clubsport,2023,1658,319900,https://www.cars.com/vehicledetail/7ddc422a-7a6b-4aed-972c-5cd76164b568/
+1482,2023-10-02 15:00,Ferrari,488 Spider Base,2018,7842,319900,https://www.cars.com/vehicledetail/4f16976a-a99e-494b-911a-b89f52c121e1/
+1483,2023-10-02 15:00,Lamborghini,Huracan Performante,2018,12613,319900,https://www.cars.com/vehicledetail/ee275d32-ea81-44da-bc6c-813d2de8612c/
+1484,2023-10-02 15:00,Ferrari,488 Spider Base,2019,9800,319900,https://www.cars.com/vehicledetail/220eab77-b715-4468-afc8-df1b8396bf6d/
+1485,2023-10-02 15:00,Ferrari,Portofino M Base,2022,3246,319900,https://www.cars.com/vehicledetail/ae23a1ff-9699-4825-b653-7392907fb9d6/
+1486,2023-10-02 15:00,Bentley,Continental GT Speed,2022,1356,319900,https://www.cars.com/vehicledetail/054e3317-f9a8-4230-889f-ccb03a8a7d24/
+1487,2023-10-02 15:00,Ferrari,812 Superfast Base,2020,3490,319900,https://www.cars.com/vehicledetail/0f3e3b85-91fc-499a-b719-92f1c74827d4/
+1488,2023-10-02 15:00,Ferrari,Roma Base,2023,76,319900,https://www.cars.com/vehicledetail/e908fc9f-5b5c-4b35-9461-557813755ab2/
+1489,2023-10-02 15:00,Lamborghini,Huracan EVO Base,2020,1859,319899,https://www.cars.com/vehicledetail/821d8dbf-e5a2-41d4-870a-b103574afa6d/
+1490,2023-10-02 15:00,Porsche,911 GT3,2023,140,319895,https://www.cars.com/vehicledetail/8e615758-ba49-44ae-b6d8-4e265fba1076/
+1491,2023-10-02 15:00,Lamborghini,Huracan EVO Base,2020,1611,319895,https://www.cars.com/vehicledetail/6809fdde-2c4b-41fb-a7f6-dbe054b41082/
+1492,2023-10-02 15:00,Ferrari,458 Spider Base,2013,12596,319895,https://www.cars.com/vehicledetail/9b15ceb9-e95d-4e54-99d8-c0e3226a6767/
+1493,2023-10-02 15:00,Bentley,Continental GT V8 S,2023,535,319888,https://www.cars.com/vehicledetail/ecf9cbac-a128-459c-82a2-cf44b989995a/
+1494,2023-10-02 15:00,Ferrari,Portofino M Base,2022,3419,319888,https://www.cars.com/vehicledetail/580b1d9e-f570-4883-b937-fdba476e875d/
+1495,2023-10-02 15:00,Aston Martin,Vantage Base,2023,3815,319888,https://www.cars.com/vehicledetail/3396fa4b-ebef-4b26-b764-ab04f1713368/
+1496,2023-10-02 16:00,Lamborghini,Aventador LP700-4,2013,10133,319811,https://www.cars.com/vehicledetail/65c38e7c-a67f-4c70-9eed-ec8d902573cd/
+1497,2023-10-02 16:00,Ferrari,488 Spider Base,2018,4854,319588,https://www.cars.com/vehicledetail/fc02a74e-c412-4da6-8014-3973875bd861/
+1498,2023-10-02 16:00,Lamborghini,Urus Pearl Capsule,2022,4016,319500,https://www.cars.com/vehicledetail/81d3e760-8727-40b0-8afd-36c851b8e2bd/
+1499,2023-10-02 16:00,Rolls-Royce,Dawn,2019,4974,319499,https://www.cars.com/vehicledetail/fd24953d-39a8-443f-a96e-5d27b069cc7a/
+1500,2023-10-02 16:00,Ferrari,F8 Tributo Base,2020,33826,319123,https://www.cars.com/vehicledetail/f6f90a72-2436-4f98-959c-98b2aab1f170/
+1501,2023-10-02 16:00,Bentley,Flying Spur S,2023,2166,319000,https://www.cars.com/vehicledetail/de1c82dd-c1ec-4328-9939-5fff8decd5d1/
+1502,2023-10-02 16:00,Lamborghini,Aventador LP700-4,2013,7655,319000,https://www.cars.com/vehicledetail/93a14711-6e8a-457c-88c8-908f36d49fde/
+1503,2023-10-02 16:00,Porsche,911 Turbo,1991,50398,319000,https://www.cars.com/vehicledetail/c955cd5a-4767-4b76-a160-d187f53a04b3/
+1504,2023-10-02 16:00,Aston Martin,DBS Superleggera Volante,2021,5680,319000,https://www.cars.com/vehicledetail/781d0c37-1ec1-410b-87a0-fa604c6d770d/
+1505,2023-10-02 16:00,Ferrari,812 Superfast Base,2019,4995,319000,https://www.cars.com/vehicledetail/d6cb4f5b-9339-4395-a5c4-5348943a1cd7/
+1506,2023-10-02 16:00,Ferrari,Portofino M Base,2022,1825,318990,https://www.cars.com/vehicledetail/9ef0cc45-016f-41a9-a2a6-10be4f878a8c/
+1507,2023-10-02 16:00,Bentley,Continental GT Speed,2022,2637,318798,https://www.cars.com/vehicledetail/1f20e1b2-2bab-4bf3-94cf-3365c444b4c4/
+1508,2023-10-02 16:00,Ferrari,488 Spider Base,2018,8146,318488,https://www.cars.com/vehicledetail/2793af51-fbdd-465e-b06d-069d86bcf07d/
+1509,2023-10-02 16:00,Lamborghini,Huracan EVO Base,2022,1430,318444,https://www.cars.com/vehicledetail/a066f928-b5d2-4b09-be93-548e5dbcca07/
+1510,2023-10-02 16:00,Ferrari,488 Spider Base,2018,3549,318344,https://www.cars.com/vehicledetail/93868c31-5169-4a41-a288-c4703761a32a/
+1511,2023-10-02 16:00,Bentley,Flying Spur Speed,2023,5570,318292,https://www.cars.com/vehicledetail/72e3b780-dc24-4208-b188-3c4727884828/
+1512,2023-10-02 16:00,Bentley,Continental GT Speed,2022,7144,318195,https://www.cars.com/vehicledetail/aceb1b43-dc11-49cc-95ed-9272edd00b03/
+1513,2023-10-02 16:00,Rolls-Royce,Dawn,2018,14479,317950,https://www.cars.com/vehicledetail/41d1fac0-2240-42ea-9278-37e2b20e8562/
+1514,2023-10-02 16:00,Ferrari,488 Spider Base,2018,8112,317900,https://www.cars.com/vehicledetail/9002c25f-fe90-4796-af94-24de3ffa710e/
+1515,2023-10-02 16:00,Rolls-Royce,Dawn,2019,8046,316900,https://www.cars.com/vehicledetail/c37af11c-9711-459d-90a1-5a02d2d750e0/
+1516,2023-10-02 16:00,Ferrari,488 Spider Base,2019,9005,316900,https://www.cars.com/vehicledetail/27e84fd9-b151-46d2-8d37-c2f439727b92/
+1517,2023-10-02 16:00,Rolls-Royce,Dawn Dawn,2020,8621,316390,https://www.cars.com/vehicledetail/ac40fe62-4aa3-41de-a458-f6315fffa7e1/
+1518,2023-10-02 16:00,Rolls-Royce,Ghost,2021,6099,315995,https://www.cars.com/vehicledetail/dc057782-225c-43a9-ac82-3934728b3653/
+1519,2023-10-02 16:00,Ferrari,488 Spider Base,2018,3033,315990,https://www.cars.com/vehicledetail/c65b3469-efd2-4523-95b7-e5239f0cd591/
+1520,2023-10-02 16:00,Lamborghini,Huracan Performante,2018,20789,315981,https://www.cars.com/vehicledetail/b18f4afd-4700-40be-ba32-365b6784bfbb/
+1521,2023-10-02 16:00,Lamborghini,Urus S,2023,1006,315951,https://www.cars.com/vehicledetail/e0bbd157-e066-4999-b9f1-e6e3310f8863/
+1522,2023-10-02 16:00,Rolls-Royce,Ghost,2022,1982,315750,https://www.cars.com/vehicledetail/6ceb4d06-c050-4fe7-bf6a-110516468c38/
+1523,2023-10-02 16:00,Rolls-Royce,Ghost Ghost,2022,17058,315591,https://www.cars.com/vehicledetail/0fcd1fef-d9f5-4981-b863-d9982680336d/
+1524,2023-10-02 16:00,Ferrari,488 Spider Base,2017,9900,315000,https://www.cars.com/vehicledetail/8a374cba-6b67-4ac7-a259-f8b8915c254a/
+1525,2023-10-02 16:00,Rolls-Royce,Ghost,2021,1371,315000,https://www.cars.com/vehicledetail/a94965e1-64bd-4601-b169-bfef655fffb7/
+1526,2023-10-02 16:00,Rolls-Royce,Cullinan Cullinan,2020,8800,315000,https://www.cars.com/vehicledetail/18b7602c-7207-42ba-b197-32d06e7587d8/
+1527,2023-10-02 16:00,Lamborghini,Murcielago LP640,2007,21090,315000,https://www.cars.com/vehicledetail/5b602102-70f4-4394-807c-213ea2a6ff67/
+1528,2023-10-02 16:00,McLaren,720S Base,2022,1900,314999,https://www.cars.com/vehicledetail/e87b3ec7-5558-4ca9-a89c-c2b46b431a55/
+1529,2023-10-02 16:00,Lamborghini,Huracan EVO Base,2020,7832,314998,https://www.cars.com/vehicledetail/1c02b8e1-80a5-498c-9e23-05dfd96b818a/
+1530,2023-10-02 16:00,McLaren,720S Performance,2021,4286,314995,https://www.cars.com/vehicledetail/7c4d8747-705b-4c9e-bf04-5c474c78ade0/
+1531,2023-10-02 16:00,Porsche,911 GT3,2023,1899,314995,https://www.cars.com/vehicledetail/0cb029aa-8989-4925-9f39-6480fd06f778/
+1532,2023-10-02 16:00,Bentley,Continental GT Azure,2023,506,314990,https://www.cars.com/vehicledetail/7337dc43-5fe9-4279-ae09-a3227a62898f/
+1533,2023-10-02 16:00,Ferrari,488 GTB Coupe,2017,6230,314990,https://www.cars.com/vehicledetail/c7f6ea44-b372-4364-a015-fe5b68cfe7a7/
+1534,2023-10-02 16:00,Bentley,Flying Spur Mulliner W12,2023,40,314990,https://www.cars.com/vehicledetail/12c25ca5-6dcc-4b7f-a3dc-82e86bb4e1dc/
+1535,2023-10-02 16:00,Spyker,C8 Spyder,2006,27765,314900,https://www.cars.com/vehicledetail/b6787b81-54e5-4776-b09f-7fd73754d030/
+1536,2023-10-02 16:00,Rolls-Royce,Cullinan Cullinan,2020,21421,314900,https://www.cars.com/vehicledetail/8a2accae-d362-46cb-84dc-15f8dcd02d77/
+1537,2023-10-02 16:00,Rolls-Royce,Cullinan,2019,8050,314900,https://www.cars.com/vehicledetail/a40d043d-aa0f-43ce-8adf-bd0ad05b81e0/
+1538,2023-10-02 16:00,Rolls-Royce,Ghost Base,2021,850,314900,https://www.cars.com/vehicledetail/c0624ee3-1611-4653-9766-0952f36d59ba/
+1539,2023-10-02 16:00,Ferrari,488 Spider Base,2018,7375,314139,https://www.cars.com/vehicledetail/6e8bc1a8-6b9f-4ddd-aed9-cd526235cbe1/
+1540,2023-10-02 16:00,Aston Martin,DBS Superleggera Volante,2021,8791,314026,https://www.cars.com/vehicledetail/1c42e2e4-6e1c-44b3-a96a-e3ab3013fd43/
+1541,2023-10-02 16:00,Ferrari,Portofino M Base,2022,364,313400,https://www.cars.com/vehicledetail/5aaf8ef3-9fd2-430d-b387-f5c269043158/
+1542,2023-10-02 16:00,Rolls-Royce,Wraith Base,2020,6632,312950,https://www.cars.com/vehicledetail/ab66b631-d2c4-47d0-ace0-563480928a03/
+1543,2023-10-02 16:00,Bentley,Continental GT Speed,2022,1954,311900,https://www.cars.com/vehicledetail/980048f4-fe19-4279-9a42-f2910b324963/
+1544,2023-10-02 16:00,Bentley,Continental GT Speed,2023,659,311890,https://www.cars.com/vehicledetail/20cfb0bc-8e15-4c01-ad1c-145e97806829/
+1545,2023-10-02 16:00,Lamborghini,Huracan EVO Spyder,2021,1981,310900,https://www.cars.com/vehicledetail/3e520a0b-64aa-421b-b59b-159685615919/
+1546,2023-10-02 16:00,Rolls-Royce,Ghost Base,2022,703,310599,https://www.cars.com/vehicledetail/a3e6a0f7-b1b4-40fb-beba-d4a0984a2abb/
+1547,2023-10-02 16:00,Porsche,911 GT3 w/Touring Package,2023,938,310000,https://www.cars.com/vehicledetail/b2cf61a3-9825-44f8-b2be-29f3b2b3204d/
+1548,2023-10-02 16:00,Jeep,Gladiator Sport S,2022,3965,310000,https://www.cars.com/vehicledetail/051c5e28-50f8-417e-a982-e5f282426821/
+1549,2023-10-02 16:00,Ferrari,488 Spider Base,2017,7570,310000,https://www.cars.com/vehicledetail/8e724ab0-4fea-4666-8250-7f886aee0786/
+1550,2023-10-02 16:00,Bentley,Continental GT Speed,2022,205,309999,https://www.cars.com/vehicledetail/a9b67237-7b92-4e0e-8daf-487c2e9057fd/
+1551,2023-10-02 16:00,Ferrari,488 Spider Base,2018,5915,309999,https://www.cars.com/vehicledetail/0d22880c-a9f7-4c68-b4e3-c2e7b8683282/
+1552,2023-10-02 16:00,Lamborghini,Urus S,2023,400,309998,https://www.cars.com/vehicledetail/0a28b9b1-7cb5-4dab-8d9a-36afcdda7424/
+1553,2023-10-02 16:00,Bentley,Continental GT Speed,2022,1064,309998,https://www.cars.com/vehicledetail/462dc310-50e7-46ea-a75e-5d8f62ae1840/
+1554,2023-10-02 16:00,Bentley,Continental GT Speed,2022,1531,309998,https://www.cars.com/vehicledetail/aafb4ea0-a197-420a-8c63-e8e7dab3fac5/
+1555,2023-10-02 16:00,Rolls-Royce,Ghost,2021,9198,309998,https://www.cars.com/vehicledetail/5193fcfb-1363-4dac-bb57-38ca03d11e01/
+1556,2023-10-02 16:00,Lamborghini,Huracan EVO,2021,1604,309998,https://www.cars.com/vehicledetail/17a33a23-307b-49c8-86b8-aab318ab3da1/
+1557,2023-10-02 16:00,Lamborghini,Urus Graphite Capsule,2022,1880,309996,https://www.cars.com/vehicledetail/934549e8-c963-4287-a3c5-4998d787fd8f/
+1558,2023-10-02 16:00,Aston Martin,DBS Superleggera Volante,2021,7553,309996,https://www.cars.com/vehicledetail/79520938-f8eb-4619-9115-92d95125db1d/
+1559,2023-10-02 16:00,Porsche,911 Carrera S,1989,12645,309995,https://www.cars.com/vehicledetail/0d95fbfa-2051-4e32-9295-7ae6889ac2c3/
+1560,2023-10-02 16:00,Porsche,911 Carrera,1996,64675,309995,https://www.cars.com/vehicledetail/d086670f-1269-481a-b86b-98192c4ea056/
+1561,2023-10-02 16:00,Rolls-Royce,Dawn Base,2019,22703,309995,https://www.cars.com/vehicledetail/f61f7446-fd64-4b17-a49d-b7a2a030ccaf/
+1562,2023-10-02 16:00,Lamborghini,Huracan EVO Base,2020,9838,309995,https://www.cars.com/vehicledetail/525f009f-4fd0-42da-86cf-8371f593b664/
+1563,2023-10-02 16:00,Porsche,911 Turbo S,2018,4908,309995,https://www.cars.com/vehicledetail/f5f1098d-26a9-4578-aeaf-b89b0640e070/
+1564,2023-10-02 16:00,Porsche,911 GT3,2023,1467,309995,https://www.cars.com/vehicledetail/b7088907-0949-4037-b07a-c21019b38045/
+1565,2023-10-02 16:00,Ferrari,Portofino M Base,2022,2056,309995,https://www.cars.com/vehicledetail/3985c08a-922c-4120-b3c3-3fffa2f0f6d5/
+1566,2023-10-02 17:00,Ferrari,Testarossa,1990,694,309995,https://www.cars.com/vehicledetail/a1d38669-2cc4-4eb7-8113-d7a37fad7529/
+1567,2023-10-02 17:00,McLaren,720S Performance,2020,9155,309995,https://www.cars.com/vehicledetail/bab3a90c-c39f-4952-942c-aabd9c11b851/
+1568,2023-10-02 17:00,Bentley,Flying Spur Speed,2023,468,309990,https://www.cars.com/vehicledetail/009d11fb-0ddb-41a9-b929-05b8f97dbbed/
+1569,2023-10-02 17:00,Mercedes-Benz,AMG G 63 4MATIC,2021,8196,309990,https://www.cars.com/vehicledetail/d807776b-0570-4e88-a9c8-4283a097ed75/
+1570,2023-10-02 17:00,Bentley,Continental GT S,2023,1956,309990,https://www.cars.com/vehicledetail/a3b64318-80d3-44d1-b3d2-2aafb478a1fc/
+1571,2023-10-02 17:00,Porsche,718 Cayman GT4 RS,2023,36,309990,https://www.cars.com/vehicledetail/604b89ce-cf53-41cb-a3b3-420d7e841f51/
+1572,2023-10-02 17:00,Rolls-Royce,Cullinan Base,2019,19034,309989,https://www.cars.com/vehicledetail/0adf03ad-3f65-4707-9449-ad5cf402de48/
+1573,2023-10-02 17:00,Ferrari,488 Spider Base,2017,5050,309985,https://www.cars.com/vehicledetail/d3331ebb-b985-4683-b367-6d42a9c94b8a/
+1574,2023-10-02 17:00,Ferrari,488 Spider Base,2018,11083,309979,https://www.cars.com/vehicledetail/9c6130f6-6a8a-4c29-91e3-d7e27065e726/
+1575,2023-10-02 17:00,Lamborghini,Huracan EVO,2022,4109,309951,https://www.cars.com/vehicledetail/511797b0-1fb2-4d7a-b376-1928ec94592b/
+1576,2023-10-02 17:00,Lamborghini,Huracan Performante,2018,14011,309950,https://www.cars.com/vehicledetail/3f2ec376-9984-4f09-8ebf-8026d779b8eb/
+1577,2023-10-02 17:00,Rolls-Royce,Ghost Ghost,2021,3946,309950,https://www.cars.com/vehicledetail/e5f2cd9f-cd09-453a-b242-5c6aa5c1016b/
+1578,2023-10-02 17:00,Lamborghini,Huracan EVO Base,2020,2538,309950,https://www.cars.com/vehicledetail/9886ec11-2f69-4f0b-b012-29220e6495ee/
+1579,2023-10-02 17:00,Lamborghini,Urus S,2023,28,309950,https://www.cars.com/vehicledetail/6924cbd8-28a2-40de-b9cb-2ab8b6721ecc/
+1580,2023-10-02 17:00,Bentley,Continental GT GT Speed,2022,7572,309950,https://www.cars.com/vehicledetail/d14e236a-8a14-4030-b288-246ed5aa0e2c/
+1581,2023-10-02 17:00,Ferrari,488 Spider Base,2017,8364,309900,https://www.cars.com/vehicledetail/17881866-2193-4c9e-8dd2-9ff9409850f1/
+1582,2023-10-02 17:00,Bentley,Continental GT Speed,2022,479,309900,https://www.cars.com/vehicledetail/0eabaf80-a9a9-4db5-be7a-b13908f324bc/
+1583,2023-10-02 17:00,McLaren,720S Performance,2022,16090,309900,https://www.cars.com/vehicledetail/6fb85ba0-a3ec-4d33-afa6-7cb3e3075b50/
+1584,2023-10-02 17:00,Lamborghini,Aventador LP700-4,2012,9159,309900,https://www.cars.com/vehicledetail/8f7531e1-1c74-4585-b2e3-1e8889f113d4/
+1585,2023-10-02 17:00,Porsche,911 GT3,2023,2057,309900,https://www.cars.com/vehicledetail/2475db90-5bf7-4b10-ba24-14652ccf14de/
+1586,2023-10-02 17:00,Ferrari,512 BERLINETTA,1983,32252,309900,https://www.cars.com/vehicledetail/97f6b4ad-675e-46d6-9ae5-a347dcdf9533/
+1587,2023-10-02 17:00,Lamborghini,Urus,2021,8805,309900,https://www.cars.com/vehicledetail/ac9553c1-7835-47c5-87ad-df795ea98137/
+1588,2023-10-02 17:00,Ferrari,458 Spider Base,2014,12156,309900,https://www.cars.com/vehicledetail/7e0cf33e-37ee-493c-83cd-2fb8aa626556/
+1589,2023-10-02 17:00,Porsche,911 GT3,2024,64,309900,https://www.cars.com/vehicledetail/a3ae5174-2e06-4751-90e9-6628712465a2/
+1590,2023-10-02 17:00,Ferrari,Portofino M Base,2022,1314,309900,https://www.cars.com/vehicledetail/7f36f3eb-2d6d-4876-a861-9d0bdf5d24b6/
+1591,2023-10-02 17:00,Ferrari,488 Spider Base,2018,4725,309898,https://www.cars.com/vehicledetail/b09fcc07-6fd5-4d81-9915-fe656e072fc7/
+1592,2023-10-02 17:00,Bentley,Continental GT Speed,2022,1641,309888,https://www.cars.com/vehicledetail/29e2d67c-f25e-4c56-b191-4e3c972f70d0/
+1593,2023-10-02 17:00,Lamborghini,Huracan Performante,2018,11335,309888,https://www.cars.com/vehicledetail/6447efc3-6162-4de0-816c-594958e07e7a/
+1594,2023-10-02 17:00,Aston Martin,DBS Volante,2022,750,309800,https://www.cars.com/vehicledetail/27c3ff0c-cfcc-47ef-a2cd-ed81020d7413/
+1595,2023-10-02 17:00,Ferrari,488 Spider,2017,8941,309800,https://www.cars.com/vehicledetail/7d6b6c1c-44f8-4d23-8a7d-c5d72d027bca/
+1596,2023-10-02 17:00,Porsche,911 Turbo S,2023,967,309800,https://www.cars.com/vehicledetail/0699fe9f-162c-40d1-9f1e-0bf502adc574/
+1597,2023-10-02 17:00,Aston Martin,DBS Superleggera Volante,2021,4452,309500,https://www.cars.com/vehicledetail/4acff698-e288-4a95-b365-36e642c0e45d/
+1598,2023-10-02 17:00,Aston Martin,DBS Superleggera Volante,2021,2759,309500,https://www.cars.com/vehicledetail/0412a0f4-b0f0-4329-92c8-d4408c0e7538/
+1599,2023-10-02 17:00,Bentley,Flying Spur Hybrid Base,2022,303,309495,https://www.cars.com/vehicledetail/9f0d243a-4e27-4643-b2bc-acaf5b19525d/
+1600,2023-10-02 17:00,Rolls-Royce,Ghost,2021,7373,309043,https://www.cars.com/vehicledetail/9d1f047c-7404-4c35-9d0b-ceb17e6ba2ff/
+1601,2023-10-02 17:00,Lamborghini,Huracan EVO Base,2023,500,309000,https://www.cars.com/vehicledetail/f3a23e02-6e07-4e4f-a46c-62c0961c58cd/
+1602,2023-10-02 17:00,Rolls-Royce,Phantom Drophead Coupe Drophead,2013,8217,309000,https://www.cars.com/vehicledetail/78c57c2b-6a63-4197-a393-ce375c38fb0d/
+1603,2023-10-02 17:00,Land Rover,Range Rover SV LWB,2023,181,309000,https://www.cars.com/vehicledetail/5bfba0e7-219c-44e5-9711-6766cde4483f/
+1604,2023-10-02 17:00,Lamborghini,Urus,2022,476,309000,https://www.cars.com/vehicledetail/4f057d53-c3f7-493b-b4b4-cfe0ad5143db/
+1605,2023-10-02 17:00,Ferrari,488 Spider Base,2018,3295,309000,https://www.cars.com/vehicledetail/d1bbff72-532e-47c1-b628-8c518c4f583c/
+1606,2023-10-02 17:00,Porsche,911 Turbo S,2023,267,309000,https://www.cars.com/vehicledetail/c6068b17-bc0f-4c8f-b2e7-2d1be23617c8/
+1607,2023-10-02 17:00,Porsche,911 Turbo S,2023,1135,309000,https://www.cars.com/vehicledetail/fd7bbad4-e630-4ebc-9832-2ffe8bd96766/
+1608,2023-10-02 17:00,Rolls-Royce,Wraith Base,2020,7684,308949,https://www.cars.com/vehicledetail/a316e0be-7a8e-48ed-a421-fd99dc9e0b72/
+1609,2023-10-02 17:00,Porsche,911 Turbo,2022,710,308495,https://www.cars.com/vehicledetail/9145f663-7bb4-41ae-922d-6acb75ef99bd/
+1610,2023-10-02 17:00,McLaren,720S Luxury,2019,9228,308000,https://www.cars.com/vehicledetail/fe3caad4-cf25-40b6-992e-ccb6afb6dd31/
+1611,2023-10-02 17:00,Ferrari,488 Spider Base,2018,6296,308000,https://www.cars.com/vehicledetail/6b9a2444-ccac-47e2-ba0a-ee683484d4e9/
+1612,2023-10-02 17:00,Bentley,Bentayga,2023,53,307745,https://www.cars.com/vehicledetail/f4eaa0aa-2912-4efd-b76e-66ea2f2c1e1b/
+1613,2023-10-02 17:00,Bentley,Flying Spur Hybrid S,2023,1665,307120,https://www.cars.com/vehicledetail/e087f871-c834-4f01-84b6-5cb742c3a874/
+1614,2023-10-02 17:00,Rolls-Royce,Cullinan Base,2019,13146,307000,https://www.cars.com/vehicledetail/b37f1436-2e2b-41b7-9bde-d5fa1849ca75/
+1615,2023-10-02 17:00,Rolls-Royce,Ghost,2021,1675,306999,https://www.cars.com/vehicledetail/d09e2aaa-6abd-4f84-8d8f-9e209b06eeb3/
+1616,2023-10-02 17:00,Bentley,Continental GT Speed,2022,2631,306632,https://www.cars.com/vehicledetail/526a3e29-a8ad-455f-81ec-e515ed2eb759/
+1617,2023-10-02 17:00,Rolls-Royce,Dawn,2018,9831,305995,https://www.cars.com/vehicledetail/1368e7af-08d6-4c25-bcba-88ecc9629728/
+1618,2023-10-02 17:00,Porsche,911 GT3,2022,1036,305995,https://www.cars.com/vehicledetail/8ce381cd-187e-428f-a3c7-ea53f893db59/
+1619,2023-10-02 17:00,McLaren,720S Base,2020,1900,305995,https://www.cars.com/vehicledetail/88a47ece-d45e-4321-a939-465b8659c193/
+1620,2023-10-02 17:00,Lamborghini,Urus,2023,2917,305995,https://www.cars.com/vehicledetail/6d19881f-654a-4ec1-bb96-487d4812bfcd/
+1621,2023-10-02 17:00,McLaren,720S Performance,2020,9989,305995,https://www.cars.com/vehicledetail/ec1131ff-9d9b-49a0-bb1a-fb4c42710ce5/
+1622,2023-10-02 17:00,Ferrari,Roma Base,2023,1573,305990,https://www.cars.com/vehicledetail/aa0d2602-f7ca-4349-863b-5a8bd90edea5/
+1623,2023-10-02 17:00,Ferrari,488 Spider Base,2017,4859,305977,https://www.cars.com/vehicledetail/b643ddf7-fc06-4f76-987d-559fb086e3b3/
+1624,2023-10-02 17:00,Lamborghini,Huracan EVO Spyder RWD,2022,4330,305961,https://www.cars.com/vehicledetail/41ce6bb4-b99b-4a81-924e-71331ba70353/
+1625,2023-10-02 17:00,Bentley,Flying Spur Speed,2023,169,305900,https://www.cars.com/vehicledetail/67ff7441-1553-4e68-8557-4c8113062e97/
+1626,2023-10-02 17:00,Bentley,Continental GT Speed,2022,2483,305900,https://www.cars.com/vehicledetail/99d08263-108a-4e65-b4d2-06378a30d135/
+1627,2023-10-02 17:00,Ferrari,488 Spider Base,2017,7802,305900,https://www.cars.com/vehicledetail/228770e6-8355-4558-9c15-265143a38c12/
+1628,2023-10-02 17:00,Rolls-Royce,Cullinan Base,2020,19638,305895,https://www.cars.com/vehicledetail/2e28f4a8-119b-44fc-ac3a-1045c44288fc/
+1629,2023-10-02 17:00,Ferrari,F12berlinetta Base,2015,4160,305895,https://www.cars.com/vehicledetail/a1bee502-fe81-45fc-880b-1b9206cd7f8d/
+1630,2023-10-02 17:00,Rolls-Royce,Dawn Convertible,2019,9951,305488,https://www.cars.com/vehicledetail/cfc6639f-b6a3-4f3e-a746-0e73db1cda54/
+1631,2023-10-02 17:00,Porsche,911 Turbo S,2022,221,305000,https://www.cars.com/vehicledetail/3cfdc517-2f1e-4795-93b1-8b6c55e8769f/
+1632,2023-10-02 17:00,Rolls-Royce,Cullinan,2020,18881,305000,https://www.cars.com/vehicledetail/23bcad7d-bfc1-4953-a4bf-8677a770d157/
+1633,2023-10-02 17:00,Ferrari,Roma Base,2022,793,305000,https://www.cars.com/vehicledetail/22a58aec-7324-4268-9756-44d7f55cc234/
+1634,2023-10-02 17:00,Lamborghini,Urus Graphite Capsule,2021,5600,305000,https://www.cars.com/vehicledetail/d292c93d-d1a9-4453-a061-450570114a89/
+1635,2023-10-02 17:00,Porsche,911 GT3,2023,32,305000,https://www.cars.com/vehicledetail/a6dae828-5b1e-4511-b1cc-e8dd21cf9708/
+1636,2023-10-02 17:00,Porsche,911 GT3,2023,25,305000,https://www.cars.com/vehicledetail/9018beca-cc76-47f6-a05a-5d8150127fec/
+1637,2023-10-02 17:00,Lamborghini,Urus Graphite Capsule,2022,2836,304998,https://www.cars.com/vehicledetail/31236b1a-0750-46f7-b7ea-085785b41852/
+1638,2023-10-02 17:00,Lamborghini,Urus Pearl Capsule,2022,611,304996,https://www.cars.com/vehicledetail/650ad730-9f41-4436-a4e8-bd57dce573b1/
+1639,2023-10-02 18:00,Lamborghini,Aventador LP700-4,2012,19905,304995,https://www.cars.com/vehicledetail/b4516ca7-c983-41ba-8392-ee033ef39a7e/
+1640,2023-10-02 18:00,Ferrari,488 GTB Base,2018,9500,304995,https://www.cars.com/vehicledetail/4bc0b1f1-c79c-46b0-b431-db3962c5c11d/
+1641,2023-10-02 18:00,Rolls-Royce,Dawn Base,2019,17669,304994,https://www.cars.com/vehicledetail/82bebb3e-a07a-4dda-8b63-d04227a7f98f/
+1642,2023-10-02 18:00,Bentley,Continental GT Speed,2023,2394,304993,https://www.cars.com/vehicledetail/ca1f3a8f-70aa-45d7-8b6e-f2543f7ba2cf/
+1643,2023-10-02 18:00,Lamborghini,Huracan EVO,2021,6614,304991,https://www.cars.com/vehicledetail/4f76c052-2945-4e7d-9a07-aa716d2dd369/
+1644,2023-10-02 18:00,Bentley,Continental GT Azure,2023,1086,304990,https://www.cars.com/vehicledetail/18e10605-a721-4811-992c-70379d05e3ed/
+1645,2023-10-02 18:00,Lamborghini,Huracan EVO Base,2023,1044,304950,https://www.cars.com/vehicledetail/e105994d-7a00-462f-a5a0-eb2e453a71d4/
+1646,2023-10-02 18:00,Porsche,911 GT3 w/Touring Package,2022,2043,304910,https://www.cars.com/vehicledetail/4d7f3a74-5c62-46e9-8b81-47368a7f1497/
+1647,2023-10-02 18:00,Ferrari,488 Spider Base,2017,6450,304900,https://www.cars.com/vehicledetail/0437d38f-cae8-4988-8339-eeca5ae1afeb/
+1648,2023-10-02 18:00,Rolls-Royce,Ghost Ghost,2022,8375,304900,https://www.cars.com/vehicledetail/c88e6cb9-df6b-49e7-aee9-9c1507b7423e/
+1649,2023-10-02 18:00,Aston Martin,DBS Superleggera Volante,2021,2908,304900,https://www.cars.com/vehicledetail/9bc6a743-19d2-4da6-937f-20df922bfd1c/
+1650,2023-10-02 18:00,Bentley,Continental GT Speed,2022,2658,304900,https://www.cars.com/vehicledetail/f378fdaf-d248-4ac2-869a-781c878f18a5/
+1651,2023-10-02 18:00,Bentley,Continental GT Speed,2022,3773,304900,https://www.cars.com/vehicledetail/97086f82-c6bd-49f6-a9b4-3463bdc3cf28/
+1652,2023-10-02 18:00,Ferrari,488 Spider Base,2017,7842,304895,https://www.cars.com/vehicledetail/807d0252-b006-4f57-8c4d-70894bb49e42/
+1653,2023-10-02 18:00,Ferrari,488 Spider Base,2018,5594,304888,https://www.cars.com/vehicledetail/da3db3c5-4df8-4722-b73d-13f2facfe374/
+1654,2023-10-02 18:00,Aston Martin,DBX 707,2023,1801,304576,https://www.cars.com/vehicledetail/0cef5ca4-13dd-44bc-ab65-85d114859de7/
+1655,2023-10-02 18:00,Chevrolet,Camaro Base,1969,753,304000,https://www.cars.com/vehicledetail/6090a5d6-23cf-4259-b5bb-16e27e6b7441/
+1656,2023-10-02 18:00,Aston Martin,DBS Superleggera Volante,2022,4830,303989,https://www.cars.com/vehicledetail/a99febb8-9db8-4930-9332-47127c0f9040/
+1657,2023-10-02 18:00,Porsche,911 GT3,2023,204,303900,https://www.cars.com/vehicledetail/e8a6dd1e-ab1c-4668-b76a-3415abf8465b/
+1658,2023-10-02 18:00,Lamborghini,Urus,2023,1532,302995,https://www.cars.com/vehicledetail/51c79a14-eee3-48ae-9ffa-150dcb4a073e/
+1659,2023-10-02 18:00,Bentley,Bentayga Azure,2023,78,302245,https://www.cars.com/vehicledetail/d668c3e7-5ba5-4649-8284-854db27022ca/
+1660,2023-10-02 18:00,Lamborghini,Urus S,2023,2155,301995,https://www.cars.com/vehicledetail/de49e52e-4018-45b2-8ea4-c0413b9f5bec/
+1661,2023-10-02 18:00,Bentley,Continental GT Speed,2022,1858,301990,https://www.cars.com/vehicledetail/05aa470b-438b-492c-9e38-96d1857124dc/
+1662,2023-10-02 18:00,Rolls-Royce,Dawn Convertible,2019,19019,301488,https://www.cars.com/vehicledetail/d1d5d6c8-6c37-479c-b439-4b6b98da4484/
+1663,2023-10-02 18:00,Bentley,Flying Spur Speed,2023,505,300750,https://www.cars.com/vehicledetail/a497ad05-c696-49c9-91a8-169bde728582/
+1664,2023-10-02 18:00,Dodge,Viper GTC,2017,5340,300000,https://www.cars.com/vehicledetail/c9e78324-9157-47df-ace3-50370743767f/
+1665,2023-10-02 18:00,Ferrari,Portofino M Base,2022,7410,300000,https://www.cars.com/vehicledetail/0b2205ca-510e-4a31-8b34-468e7f455ffa/
+1666,2023-10-02 18:00,Mercedes-Benz,Metris Standard Roof,2022,95,300000,https://www.cars.com/vehicledetail/444d33c1-8b0c-4315-ad87-33d9f3d9b81f/
+1667,2023-10-02 18:00,Lamborghini,Huracan EVO Base,2021,1120,299999,https://www.cars.com/vehicledetail/619cdc04-770e-420e-9daf-93e549537737/
+1668,2023-10-02 18:00,Porsche,911 GT3,2023,423,299999,https://www.cars.com/vehicledetail/91499b0c-bede-4b60-92fa-b7dd6d9c89c7/
+1669,2023-10-02 18:00,Ferrari,488 GTB Base,2018,7564,299999,https://www.cars.com/vehicledetail/3bf53570-c2be-44b6-9770-a1e3dfec1eae/
+1670,2023-10-02 18:00,Lamborghini,Urus Base,2019,26902,299999,https://www.cars.com/vehicledetail/c11d5649-4ac1-48e8-bfdf-bbe1af07ebcf/
+1671,2023-10-02 18:00,Ferrari,Roma 2DR CPE,2023,47,299999,https://www.cars.com/vehicledetail/234eacfb-55c5-489d-94cd-2784c83e9025/
+1672,2023-10-02 18:00,Ferrari,Portofino M Base,2022,701,299998,https://www.cars.com/vehicledetail/858f39e4-3ad9-458a-b172-47407357a486/
+1673,2023-10-02 18:00,Rolls-Royce,Ghost,2021,7541,299998,https://www.cars.com/vehicledetail/447e6445-ef2c-48e4-b481-dccaf5857d2e/
+1674,2023-10-02 18:00,McLaren,720S Luxury,2021,2136,299998,https://www.cars.com/vehicledetail/f229d639-991d-4164-9fa7-b903ad76d5e4/
+1675,2023-10-02 18:00,Lamborghini,Huracan EVO Base,2021,2867,299996,https://www.cars.com/vehicledetail/46f0c3a6-56ca-4fe4-9de7-6451d7b9ca30/
+1676,2023-10-02 18:00,Lamborghini,Urus Graphite Capsule,2022,5304,299996,https://www.cars.com/vehicledetail/5541e99c-38a2-47fb-97ad-b959b8246c5d/
+1677,2023-10-02 18:00,Lamborghini,Urus,2022,3899,299996,https://www.cars.com/vehicledetail/1723352a-620e-42d4-9f94-e91554db0e47/
+1678,2023-10-02 18:00,Rolls-Royce,Cullinan,2020,20227,299996,https://www.cars.com/vehicledetail/39eb47e7-547a-4344-b7b7-c2ce4ed88199/
+1679,2023-10-02 18:00,Ferrari,F355 GTS,1997,22293,299995,https://www.cars.com/vehicledetail/59efa3c0-fd50-4a24-a2da-0a802b369139/
+1680,2023-10-02 18:00,Audi,R8 5.2 V10 GT,2023,462,299995,https://www.cars.com/vehicledetail/83be2fa3-ce89-444a-b2ee-eb011c988621/
+1681,2023-10-02 18:00,Rolls-Royce,Cullinan Base,2020,25229,299995,https://www.cars.com/vehicledetail/3bc54136-e498-4ee5-8d6d-c724b9671ef9/
+1682,2023-10-02 18:00,Lamborghini,Urus Base,2021,14201,299995,https://www.cars.com/vehicledetail/895ca773-de19-4b99-8b3b-8626cfb8e142/
+1683,2023-10-02 18:00,Rolls-Royce,Cullinan,2020,15718,299995,https://www.cars.com/vehicledetail/7b120af0-693b-445b-a70e-8a1485fdcbd7/
+1684,2023-10-02 18:00,Ferrari,512 TR,1992,30846,299995,https://www.cars.com/vehicledetail/19f4e510-7843-4bd8-9999-3c80257fec38/
+1685,2023-10-02 18:00,Maserati,MC20 Cielo,2023,105,299995,https://www.cars.com/vehicledetail/dbc0b55a-262f-4916-8040-4c315e21a7d8/
+1686,2023-10-02 18:00,Lamborghini,Huracan EVO Base,2022,771,299995,https://www.cars.com/vehicledetail/218dbf3b-33b4-424c-a802-22aa35335c6c/
+1687,2023-10-02 18:00,Porsche,911 GT3,2022,3321,299995,https://www.cars.com/vehicledetail/bd30a504-0872-4d54-b2c2-936d9ecebf21/
+1688,2023-10-02 18:00,Porsche,911 GT3,2022,2331,299995,https://www.cars.com/vehicledetail/082059ca-c1ea-463b-a314-3f56b0f3e164/
+1689,2023-10-02 18:00,Ferrari,F355,1996,28129,299995,https://www.cars.com/vehicledetail/25f1e20c-c90f-48f9-aa2b-c12872f6a528/
+1690,2023-10-02 18:00,Ferrari,F430 Spider,2005,19629,299995,https://www.cars.com/vehicledetail/752885bf-571c-4baf-b2c9-6c58c3f89607/
+1691,2023-10-02 18:00,Mercedes-Benz,G-Class BRABUS,2018,18485,299995,https://www.cars.com/vehicledetail/fa53e031-1558-4f1c-a2f0-81b786e164f5/
+1692,2023-10-02 18:00,Porsche,911 Turbo S,2023,299,299995,https://www.cars.com/vehicledetail/ac067536-e0de-4d33-b772-13cd0079f445/
+1693,2023-10-02 18:00,Ferrari,488 Spider Base,2017,6900,299995,https://www.cars.com/vehicledetail/6e1b0e9c-e57a-4b1a-ae1a-f99c4672491a/
+1694,2023-10-02 18:00,McLaren,675LT Spider,2016,2495,299995,https://www.cars.com/vehicledetail/3e353d4c-7682-4b54-95c2-f9958ec027b8/
+1695,2023-10-02 18:00,Ferrari,458 Spider Base,2014,8236,299995,https://www.cars.com/vehicledetail/8e42a75d-3a01-4723-974a-02d57eebd7ca/
+1696,2023-10-02 18:00,Porsche,911 GT3 RS,2007,13349,299995,https://www.cars.com/vehicledetail/81819bbf-9ee1-4ce5-8f29-74f8f3da713d/
+1697,2023-10-02 18:00,Mercedes-Benz,190SL,1960,22022,299995,https://www.cars.com/vehicledetail/3805a2a3-bd49-4c74-99ce-4e729e6b1856/
+1698,2023-10-02 18:00,Porsche,911,2023,1432,299992,https://www.cars.com/vehicledetail/4fdc01c6-9fc9-4973-ad63-c83d2c69d6c3/
+1699,2023-10-02 18:00,Porsche,911 Turbo S,2023,510,299992,https://www.cars.com/vehicledetail/5c480e14-11f2-4a85-a953-6aefb21805a2/
+1700,2023-10-02 18:00,Porsche,911 GT3,2022,1475,299991,https://www.cars.com/vehicledetail/7de7d10a-88fa-4a5a-a6c4-a82c21a4edf3/
+1701,2023-10-02 18:00,Ferrari,488 Spider Base,2017,9117,299991,https://www.cars.com/vehicledetail/2b5dfed9-6fba-4379-95da-9891f69b9176/
+1702,2023-10-02 18:00,Lamborghini,Huracan EVO Base,2022,6154,299991,https://www.cars.com/vehicledetail/eb784078-8f84-46fb-9af6-a508d74c0c44/
+1703,2023-10-02 18:00,Ferrari,Roma Base,2022,142,299990,https://www.cars.com/vehicledetail/68079d60-6be5-49fb-a0fb-260703d664fb/
+1704,2023-10-02 18:00,Rolls-Royce,Cullinan Base,2019,19559,299990,https://www.cars.com/vehicledetail/68e51d71-0a58-421d-b59e-351f16a12415/
+1705,2023-10-02 18:00,Porsche,911 GT3,2023,215,299990,https://www.cars.com/vehicledetail/6642588c-9f31-4846-ad9a-2f2f56baa1a6/
+1706,2023-10-02 18:00,Lamborghini,Urus,2021,6742,299990,https://www.cars.com/vehicledetail/70c37eb9-f85d-452e-8ca4-1104cf5e9a5c/
+1707,2023-10-02 18:00,Rolls-Royce,Dawn,2019,10549,299990,https://www.cars.com/vehicledetail/ee763204-22d5-4903-947e-09be0bbedbe4/
+1708,2023-10-02 19:00,Lamborghini,Huracan EVO,2020,8907,299990,https://www.cars.com/vehicledetail/037a5746-9e4f-4a04-9635-a208c7ffd16e/
+1709,2023-10-02 19:00,Aston Martin,DBS Superleggera Volante,2020,4522,269990,https://www.cars.com/vehicledetail/311bfbac-a091-4757-ad18-ea5e293dbbaf/
+1710,2023-10-02 19:00,Ferrari,F355 GTS,1997,20114,299990,https://www.cars.com/vehicledetail/4451bb97-0cfa-4449-882b-e0c11a0bdd91/
+1711,2023-10-02 19:00,Ferrari,575 M Maranello,2002,12500,299990,https://www.cars.com/vehicledetail/f1229abe-8e01-4069-90b7-ec7d22494d5a/
+1712,2023-10-02 19:00,Rolls-Royce,Ghost Ghost,2022,7732,299990,https://www.cars.com/vehicledetail/35ca6a4b-4784-4231-94d4-2e44f8d5648c/
+1713,2023-10-02 19:00,McLaren,675LT Spider,2016,15482,299990,https://www.cars.com/vehicledetail/c69cedca-4fb5-47fb-b028-74fc1c800959/
+1714,2023-10-02 19:00,Bentley,Continental GT Azure,2023,646,299990,https://www.cars.com/vehicledetail/dd05a554-19c6-44d8-be9c-8af24fd67a43/
+1715,2023-10-02 19:00,Rolls-Royce,Wraith Wraith,2020,11075,299989,https://www.cars.com/vehicledetail/244a1bea-875e-455c-b8ca-a7e5345d7e41/
+1716,2023-10-02 19:00,Land Rover,Range Rover Autobiography,2020,148,299989,https://www.cars.com/vehicledetail/17c7544f-3bc7-4309-b825-d8b458428287/
+1717,2023-10-02 19:00,Ferrari,Roma Base,2022,399,299988,https://www.cars.com/vehicledetail/513c9a42-c897-48dc-a2f8-bb7c126cb2df/
+1718,2023-10-02 19:00,Ferrari,Roma Base,2022,1167,299988,https://www.cars.com/vehicledetail/6a244467-9e30-43bb-b15e-dbe3e135ebd3/
+1719,2023-10-02 19:00,Ferrari,488 Spider Base,2018,13956,299986,https://www.cars.com/vehicledetail/4e85b652-23c3-4d74-a38f-e417fd7d2e47/
+1720,2023-10-02 19:00,Lamborghini,Huracan EVO Base,2020,5793,299981,https://www.cars.com/vehicledetail/29994344-bc58-4bde-8626-51cfb90141e3/
+1721,2023-10-02 19:00,McLaren,720S Performance,2020,11976,299981,https://www.cars.com/vehicledetail/e7a25d50-254a-4a6a-a67b-555fd1cc5c54/
+1722,2023-10-02 19:00,Porsche,911 Turbo S,2023,1734,299980,https://www.cars.com/vehicledetail/8b31a936-d5b1-47fe-b123-86a81577b25e/
+1723,2023-10-02 19:00,Lamborghini,Huracan EVO,2023,3270,299951,https://www.cars.com/vehicledetail/5ee78f2c-b605-426c-b57c-2e15bc762fc3/
+1724,2023-10-02 19:00,Lamborghini,Huracan EVO,2021,4797,299951,https://www.cars.com/vehicledetail/2a1048a1-8de4-4a7c-9157-abcee872e8c0/
+1725,2023-10-02 19:00,Lamborghini,Urus,2022,13795,299950,https://www.cars.com/vehicledetail/61528124-3d28-41d8-be1b-c85178a2da40/
+1726,2023-10-02 19:00,Lamborghini,Urus Base,2021,13795,299950,https://www.cars.com/vehicledetail/c22a1b02-bacb-4029-8b7e-4f65f78bca83/
+1727,2023-10-02 19:00,Rolls-Royce,Wraith Wraith,2020,12143,299950,https://www.cars.com/vehicledetail/a1be830f-becc-4150-aad0-85860a38ea83/
+1728,2023-10-02 19:00,Lamborghini,Huracan EVO Base,2021,9082,299950,https://www.cars.com/vehicledetail/36d694c9-faf4-4f7a-8267-d64aa87190b8/
+1729,2023-10-02 19:00,Bentley,Continental GT GT,2023,2143,299950,https://www.cars.com/vehicledetail/2fb84b42-4c29-40f0-b4b0-8797f7d52e4b/
+1730,2023-10-02 19:00,Aston Martin,DBS Superleggera,2022,1708,299900,https://www.cars.com/vehicledetail/988027f5-2789-400f-90d0-80ad62b7d1f9/
+1731,2023-10-02 19:00,Ferrari,Roma,2023,151,299900,https://www.cars.com/vehicledetail/1ee75775-37ee-41d6-9b4f-90b18c00f603/
+1732,2023-10-02 19:00,Rolls-Royce,Cullinan Cullinan,2020,22800,299900,https://www.cars.com/vehicledetail/77d4c4cb-fb5a-48e4-bb71-2b9b4552d9d0/
+1733,2023-10-02 19:00,Bentley,Continental GT S,2023,1407,299900,https://www.cars.com/vehicledetail/7a3b6b3f-f178-439f-aa0c-afe2e0c8abac/
+1734,2023-10-02 19:00,Alfa Romeo,8c Competizione Spider,2009,4321,299900,https://www.cars.com/vehicledetail/68c98038-4a1f-4c1b-a312-cfbab980134d/
+1735,2023-10-02 19:00,Aston Martin,Vantage Base,1984,18000,299900,https://www.cars.com/vehicledetail/448a5070-4bd9-41b3-9026-0d60ed98fc9c/
+1736,2023-10-02 19:00,Rolls-Royce,Wraith,2019,9120,299900,https://www.cars.com/vehicledetail/748f1209-98d1-4b91-b3eb-bde4442dff86/
+1737,2023-10-02 19:00,Rolls-Royce,Dawn,2018,9666,299900,https://www.cars.com/vehicledetail/27673964-5a74-4a49-a0af-dc407ef3027e/
+1738,2023-10-02 19:00,Rolls-Royce,Dawn Black Badge,2019,19835,299900,https://www.cars.com/vehicledetail/d6be4927-db6d-4e52-9cc0-33911a210774/
+1739,2023-10-02 19:00,Ferrari,488 Spider Base,2017,5504,299900,https://www.cars.com/vehicledetail/9c44419f-8dba-4829-b049-44c562087405/
+1740,2023-10-02 19:00,Ferrari,F12berlinetta Base,2014,3309,299900,https://www.cars.com/vehicledetail/9346e615-a5ea-427b-a21c-6d9743cbc6b4/
+1741,2023-10-02 19:00,Ferrari,488 Spider Base,2018,9944,299900,https://www.cars.com/vehicledetail/22630a52-fe7b-4601-b440-4ebd5165d717/
+1742,2023-10-02 19:00,Ferrari,488 Spider Base,2017,8363,299900,https://www.cars.com/vehicledetail/2909a150-e119-4e01-a908-8f8e980c54df/
+1743,2023-10-02 19:00,Maserati,MC20 Base,2023,855,299900,https://www.cars.com/vehicledetail/20b6a604-125f-4660-9400-46f8bdd0e1ca/
+1744,2023-10-02 19:00,McLaren,720S Performance,2021,988,299900,https://www.cars.com/vehicledetail/166825e0-a757-404f-9a17-7da5e870c73c/
+1745,2023-10-02 19:00,McLaren,720S Performance,2020,10055,299900,https://www.cars.com/vehicledetail/04e685d8-0964-412e-9b14-5ddcdd20ae2d/
+1746,2023-10-02 19:00,Ferrari,550 Maranello,2000,7012,299900,https://www.cars.com/vehicledetail/ac9a241e-7a74-4fb4-90d8-00a63b76b8c2/
+1747,2023-10-02 19:00,Lamborghini,Huracan EVO Coupe RWD,2022,4423,299900,https://www.cars.com/vehicledetail/7c651894-bccd-4ea1-b053-e7559b336a76/
+1748,2023-10-02 19:00,Porsche,718 Cayman GT4 RS Clubsport,2022,5303,299900,https://www.cars.com/vehicledetail/d3d82429-8425-4136-bf36-c31bad0ff900/
+1749,2023-10-02 19:00,Rolls-Royce,Cullinan,2020,29212,299900,https://www.cars.com/vehicledetail/6d5a84f4-f092-405e-ba36-e90c8755f2f0/
+1750,2023-10-02 19:00,Porsche,911 GT3 RS,2011,28059,299900,https://www.cars.com/vehicledetail/a1354351-8fbf-414a-92d5-be572c7c6421/
+1751,2023-10-02 19:00,Ferrari,F430 Berlinetta,2005,22023,299900,https://www.cars.com/vehicledetail/95b35e79-725c-4405-a145-cf0c22db6735/
+1752,2023-10-02 19:00,Ferrari,512 BBi,1982,16722,299900,https://www.cars.com/vehicledetail/3dbfe4c3-1f3f-486f-9b1b-e31e458bc4d3/
+1753,2023-10-02 19:00,Ferrari,F430 Spider,2006,14504,299900,https://www.cars.com/vehicledetail/1550dd20-8a4c-40f0-88f6-e7c4ee674b12/
+1754,2023-10-02 19:00,Ferrari,328 GTS,1989,2973,299900,https://www.cars.com/vehicledetail/f50176ac-dd7c-483d-ae93-b2c69311b583/
+1755,2023-10-02 19:00,Ferrari,Roma Base,2023,574,299900,https://www.cars.com/vehicledetail/9c069ccf-d85a-4e22-91c4-e6fb540cf29e/
+1756,2023-10-02 19:00,Rolls-Royce,Ghost,2021,1448,299895,https://www.cars.com/vehicledetail/4a393712-ea40-44b9-ba4f-c61dec6dd5c9/
+1757,2023-10-02 19:00,Ferrari,488 Spider Base,2018,9790,299895,https://www.cars.com/vehicledetail/3a8da04c-ec9d-4425-a626-6adc70a1553c/
+1758,2023-10-02 19:00,Bentley,Continental GT Speed,2022,5993,299888,https://www.cars.com/vehicledetail/cb917c06-ba35-4c8c-9878-6fa3016c0644/
+1759,2023-10-02 19:00,Bentley,Continental GT V8 S,2023,618,299888,https://www.cars.com/vehicledetail/f1729edd-6dcd-444a-b607-5933033dba5f/
+1760,2023-10-02 19:00,Bentley,Continental GT Speed,2022,8932,299888,https://www.cars.com/vehicledetail/d7b4cd1f-f78a-4370-b7d1-3e0510b1f271/
+1761,2023-10-02 19:00,Rolls-Royce,Cullinan,2020,19100,299888,https://www.cars.com/vehicledetail/52a99b21-6070-4aca-b0ae-f926796a2824/
+1762,2023-10-02 19:00,Rolls-Royce,Dawn,2018,8338,299880,https://www.cars.com/vehicledetail/31d597e1-b304-4fa7-aadb-e7e95661e389/
+1763,2023-10-02 19:00,Lamborghini,Urus,2022,4134,299800,https://www.cars.com/vehicledetail/580aae0b-5aca-47e0-9789-3caee30d3fa3/
+1764,2023-10-02 19:00,Rolls-Royce,Dawn,2019,13916,299800,https://www.cars.com/vehicledetail/92612d2c-8db9-4c09-9706-0f160321b9a9/
+1765,2023-10-02 19:00,Ferrari,458 Spider Base,2015,3498,299500,https://www.cars.com/vehicledetail/6d1c007f-075b-4e90-b191-c800d308dd4e/
+1766,2023-10-02 19:00,Porsche,911 GT3,2022,18,299500,https://www.cars.com/vehicledetail/13ea0a56-bc0a-4a52-bc80-13b108a2e8a5/
+1767,2023-10-02 19:00,Rolls-Royce,Cullinan Base,2019,10480,299397,https://www.cars.com/vehicledetail/77bb896e-07fa-4672-a5c1-575acfa5cfd4/
+1768,2023-10-02 19:00,Lamborghini,Urus Graphite Capsule,2022,1901,299000,https://www.cars.com/vehicledetail/dd288355-71f1-4a29-bd48-005b8a29bd94/
+1769,2023-10-02 19:00,Mercedes-Benz,Maybach GLS 600 4MATIC,2021,8000,299000,https://www.cars.com/vehicledetail/81c9ebfd-68ed-43f2-8866-54f3d41b1dae/
+1770,2023-10-02 19:00,Rolls-Royce,Ghost,2021,16761,299000,https://www.cars.com/vehicledetail/c89bfd09-db76-4869-9297-554b9a411dc4/
+1771,2023-10-02 19:00,Ferrari,Roma Base,2022,5298,299000,https://www.cars.com/vehicledetail/720b1f76-53a5-4eb2-aca4-2997f5ef7565/
+1772,2023-10-02 19:00,RAM,1500 TRX,2022,5700,299000,https://www.cars.com/vehicledetail/21f673d5-a3b5-43c9-8bf4-c1a1bad41785/
+1773,2023-10-02 19:00,Lamborghini,Huracan EVO EVO,2020,5250,299000,https://www.cars.com/vehicledetail/5e1ed860-7633-4e10-b2a7-63613010b055/
+1774,2023-10-02 19:00,Rolls-Royce,Dawn,2019,20279,299000,https://www.cars.com/vehicledetail/6a4a111c-86ee-417b-9111-54a9877bb59e/
+1775,2023-10-02 19:00,Mercedes-Benz,Metris Base,2020,1025,299000,https://www.cars.com/vehicledetail/595213bc-5243-4aa1-99ab-e3ae00237489/
+1776,2023-10-02 19:00,McLaren,570S Coupe,2018,2497,299000,https://www.cars.com/vehicledetail/6e71a55a-b840-42de-94c2-262da6abf664/
+1777,2023-10-02 19:00,Ferrari,488 GTB Coupe,2018,3850,299000,https://www.cars.com/vehicledetail/c639de04-a90f-4b4c-a5a8-320494bad742/
+1778,2023-10-02 19:00,Porsche,911 GT3 w/Touring Package,2022,1863,299000,https://www.cars.com/vehicledetail/663d3581-99fa-4f3c-a5cb-66ac58d3c46e/
+1779,2023-10-02 19:00,Lamborghini,Huracan EVO Coupe,2021,7650,299000,https://www.cars.com/vehicledetail/c964d574-41ad-4aa3-80d7-08ec727f4d66/
+1780,2023-10-02 19:00,Porsche,911 Turbo S,2022,4368,299000,https://www.cars.com/vehicledetail/c67f7ba7-5b90-4ed3-87bc-19c486474835/
+1781,2023-10-02 19:00,McLaren,720S SPIDER,2020,3020,299000,https://www.cars.com/vehicledetail/38fdcda5-927a-4722-a69d-2c1eee5769b1/
+1782,2023-10-02 20:00,Maserati,MC20 Base,2022,993,298999,https://www.cars.com/vehicledetail/d40d9916-4c79-4596-bf59-4bd8da9e0c7d/
+1783,2023-10-02 20:00,Rolls-Royce,Cullinan Base,2019,15869,298995,https://www.cars.com/vehicledetail/6e21eee9-8668-436b-b1d1-d7d5a50a06f7/
+1784,2023-10-02 20:00,Porsche,911 Turbo 3.6,1997,26734,298993,https://www.cars.com/vehicledetail/70d39776-60a8-4bbb-8419-e62c693f4c96/
+1785,2023-10-02 20:00,Ferrari,F12berlinetta Base,2016,10103,298991,https://www.cars.com/vehicledetail/ec8d726a-2213-4385-8c3c-db3f519e0f20/
+1786,2023-10-02 20:00,Bentley,Continental GT Base,2023,428,298988,https://www.cars.com/vehicledetail/e60eef11-c8ab-49b5-a5c0-cdff15043eef/
+1787,2023-10-02 20:00,McLaren,675LT Spider,2016,1451,298888,https://www.cars.com/vehicledetail/f94614b2-22b1-467d-9be2-75a1e4f9df20/
+1788,2023-10-02 20:00,McLaren,600LT Carbon Fiber Roof/ Factory Roof Scoop/ Carbon fiber bucket seats,2019,7559,298881,https://www.cars.com/vehicledetail/29708ca8-eba4-445b-ac4e-f3e25b160245/
+1789,2023-10-02 20:00,McLaren,720S Luxury,2020,2509,298788,https://www.cars.com/vehicledetail/25002e4b-bfe5-44e6-96cf-f42fdfe65db0/
+1790,2023-10-02 20:00,Bentley,Continental GT Speed,2022,2968,298765,https://www.cars.com/vehicledetail/32912d98-f506-40e4-a212-a6674fc1682e/
+1791,2023-10-02 20:00,Bentley,Continental GT,2023,70,298590,https://www.cars.com/vehicledetail/e1f0fad9-f615-459c-a120-3d95dc9f52ac/
+1792,2023-10-02 20:00,Rolls-Royce,Ghost Ghost,2021,4476,298000,https://www.cars.com/vehicledetail/6652aa0f-78c0-4eae-84b1-4bebbcacdeeb/
+1793,2023-10-02 20:00,Ferrari,Portofino M,2022,2489,298000,https://www.cars.com/vehicledetail/cb70afe5-c12f-43b9-86d3-b6d2e82493a2/
+1794,2023-10-02 20:00,Lamborghini,Urus Graphite Capsule,2022,3356,298000,https://www.cars.com/vehicledetail/2b4cf93c-d61b-47b8-82ac-821347bd041e/
+1795,2023-10-02 20:00,Ferrari,F12berlinetta Base,2016,7390,298000,https://www.cars.com/vehicledetail/d9e463ca-f8a8-4a93-af45-deaa1725ffa0/
+1796,2023-10-02 20:00,Rolls-Royce,Cullinan Base,2020,31327,297996,https://www.cars.com/vehicledetail/487f4034-a13d-4f44-b3c0-02834390fc87/
+1797,2023-10-02 20:00,Rolls-Royce,Wraith,2018,12376,297996,https://www.cars.com/vehicledetail/757c9f05-573b-4723-a13d-b59856bc10cd/
+1798,2023-10-02 20:00,Land Rover,Range Rover SV,2023,55,297996,https://www.cars.com/vehicledetail/7c8be8d6-e594-4d48-bac2-96620a6f2bc8/
+1799,2023-10-02 20:00,Lamborghini,Aventador LP700-4,2012,18660,297995,https://www.cars.com/vehicledetail/e6fe58fd-2ef1-418e-b349-5bdeaab71074/
+1800,2023-10-02 20:00,Rolls-Royce,Cullinan,2019,20299,297990,https://www.cars.com/vehicledetail/fc24d546-66e3-4e51-b0ee-2adb2633d33a/
+1801,2023-10-02 20:00,Porsche,911 Turbo S,2023,1430,297950,https://www.cars.com/vehicledetail/333f3ec3-9c1d-44e7-9570-4f7e3e94ea35/
+1802,2023-10-02 20:00,Lamborghini,Huracan EVO Base,2020,5896,297895,https://www.cars.com/vehicledetail/70e38c23-fe57-401e-9e48-8b1615b29414/
+1803,2023-10-02 20:00,Lamborghini,Murcielago 2dr Cpe,2005,13594,297777,https://www.cars.com/vehicledetail/816b1d34-2d3d-4e53-897e-7ac8871b7104/
+1804,2023-10-02 20:00,Lamborghini,Urus Pearl Capsule,2022,2859,297777,https://www.cars.com/vehicledetail/47762718-5b8e-4b37-94d7-2d62fbc30f2b/
+1805,2023-10-02 20:00,Ferrari,Roma 2DR CPE,2023,1827,297500,https://www.cars.com/vehicledetail/e9e901f8-723f-4e2a-a1c0-29947196a706/
+1806,2023-10-02 20:00,Porsche,911 Turbo S,2023,3087,297500,https://www.cars.com/vehicledetail/e45dce75-8dff-49aa-ae97-42b7feea7885/
+1807,2023-10-02 20:00,Rolls-Royce,Cullinan Sport Utility,2019,20938,297488,https://www.cars.com/vehicledetail/fcc2ce47-9bcc-4777-ac4d-7d9eb4eca09f/
+1808,2023-10-02 20:00,McLaren,720S Performance,2021,4396,296991,https://www.cars.com/vehicledetail/e5d8108a-2493-413c-bc1e-15c221a8d928/
+1809,2023-10-02 20:00,Porsche,911 Turbo S,2023,2802,296990,https://www.cars.com/vehicledetail/ca3ae9a8-1974-4dbe-9ba8-c98ed6a75dd3/
+1810,2023-10-02 20:00,Aston Martin,DBX 707,2023,282,296786,https://www.cars.com/vehicledetail/0a258a8c-6d9a-47b8-989a-bc683eeb43d5/
+1811,2023-10-02 20:00,Mercedes-Benz,AMG G 63 4MATIC,2021,8146,296000,https://www.cars.com/vehicledetail/1e8229f1-f2b2-4a29-b197-763193aea4d6/
+1812,2023-10-02 20:00,McLaren,720S Performance,2020,4254,295995,https://www.cars.com/vehicledetail/4848cbe1-b92e-4e2c-a133-802cd6e01764/
+1813,2023-10-02 20:00,Lamborghini,Huracan EVO Base,2022,2987,295995,https://www.cars.com/vehicledetail/8f323992-8c38-4680-8e41-7ce282512356/
+1814,2023-10-02 20:00,Porsche,911 Turbo S,2023,440,295994,https://www.cars.com/vehicledetail/ec144799-f359-4559-b7da-3439ebd038c4/
+1815,2023-10-02 20:00,Porsche,911 GT3,2023,3117,295991,https://www.cars.com/vehicledetail/92e170f8-4ea9-4853-a6cf-50aa020ac0a3/
+1816,2023-10-02 20:00,Aston Martin,DBS Superleggera,2022,9544,295988,https://www.cars.com/vehicledetail/bc2edfdb-9cb7-4d9d-a787-6ac109003400/
+1817,2023-10-02 20:00,Porsche,911,1992,62400,295964,https://www.cars.com/vehicledetail/9831c65f-f6d4-4277-936c-b7861a77466d/
+1818,2023-10-02 20:00,Ferrari,488 Spider Base,2018,8978,295900,https://www.cars.com/vehicledetail/92b1dd34-807a-4a3a-abb6-7a7d7dd09230/
+1819,2023-10-02 20:00,McLaren,720S Performance,2022,4393,295900,https://www.cars.com/vehicledetail/744d7bed-dd9d-4b82-8b07-e5703b7a4ab7/
+1820,2023-10-02 20:00,Lamborghini,Urus,2022,1306,295900,https://www.cars.com/vehicledetail/2262e5f2-7d87-4786-b42a-00872d0fba5d/
+1821,2023-10-02 20:00,Land Rover,Range Rover First Edition,2023,124,295000,https://www.cars.com/vehicledetail/f3cdc66e-bf54-4c97-9304-00eeec48ff11/
+1822,2023-10-02 20:00,Bentley,Flying Spur Speed,2023,3628,295000,https://www.cars.com/vehicledetail/e88c473e-6b3d-4bf7-ad35-4524af7b843c/
+1823,2023-10-02 20:00,Porsche,911 GT3,2022,1233,295000,https://www.cars.com/vehicledetail/6bb3e683-fbe3-4b49-931a-bcd83a95d93d/
+1824,2023-10-02 20:00,Land Rover,Defender,1992,4312,295000,https://www.cars.com/vehicledetail/38373e08-416c-4dd2-aa7a-639a4627320e/
+1825,2023-10-02 20:00,Lamborghini,Urus Base,2021,2720,295000,https://www.cars.com/vehicledetail/1058b3fe-6e37-46a7-81e8-5efc6f6d016e/
+1826,2023-10-02 20:00,Lamborghini,Huracan EVO Base,2022,9961,295000,https://www.cars.com/vehicledetail/94346eea-c98b-4b26-bbd1-329054cac714/
+1827,2023-10-02 20:00,Ferrari,F12berlinetta Base,2017,3865,295000,https://www.cars.com/vehicledetail/6f351e31-900b-4393-84a4-f28dacd12ea0/
+1828,2023-10-02 20:00,Maserati,MC20 MC20,2022,167,295000,https://www.cars.com/vehicledetail/b3d01a3d-b76b-4cef-8245-f288acc2b074/
+1829,2023-10-02 20:00,Bentley,Continental GT GT Mulliner,2022,3751,295000,https://www.cars.com/vehicledetail/3f375098-6644-4046-862a-4c7862287968/
+1830,2023-10-02 20:00,Porsche,911 GT3 w/Touring Package,2022,2919,295000,https://www.cars.com/vehicledetail/7c536fb1-f975-454f-b2da-4e404171fa97/
+1831,2023-10-02 20:00,Chevrolet,Bel Air,1957,470,295000,https://www.cars.com/vehicledetail/6c3fa884-f9ac-406a-8d9e-da5d1500e1b7/
+1832,2023-10-02 20:00,Rolls-Royce,Cullinan Cullinan,2020,24737,294999,https://www.cars.com/vehicledetail/ae4fa40e-c7a7-47d7-aaa4-59733980074b/
+1833,2023-10-02 20:00,Lamborghini,Huracan EVO Base,2021,8182,294999,https://www.cars.com/vehicledetail/e93dff46-d8ec-4f2b-8cb7-92914fd5e3a9/
+1834,2023-10-02 20:00,Rolls-Royce,Dawn,2018,11141,294998,https://www.cars.com/vehicledetail/a92c2c1c-9158-4c1c-afb0-7c9f9565e950/
+1835,2023-10-02 20:00,Land Rover,Defender,1993,5208,294996,https://www.cars.com/vehicledetail/f5cd8fef-5741-424d-bc80-412d957e50d0/
+1836,2023-10-02 20:00,Audi,R8 5.2 V10 GT,2023,227,294995,https://www.cars.com/vehicledetail/c1897db5-0824-4045-9d49-c2bbd8d7656d/
+1837,2023-10-02 20:00,Porsche,911 Turbo S,2021,8700,294995,https://www.cars.com/vehicledetail/90e251d5-4a17-42cf-bb0c-41e1fbd61b84/
+1838,2023-10-02 20:00,Ferrari,Roma Base,2022,353,294995,https://www.cars.com/vehicledetail/d62b02b0-7337-4c4f-aef7-8f897daca8ff/
+1839,2023-10-02 20:00,Ferrari,488 GTB Base,2019,3925,294995,https://www.cars.com/vehicledetail/6830f429-5c46-4e53-8371-cb9cdf7e3e00/
+1840,2023-10-02 20:00,Ferrari,F12berlinetta Base,2017,9245,294990,https://www.cars.com/vehicledetail/6454cf7f-cedb-490f-91ba-e8cefb1f5eeb/
+1841,2023-10-02 20:00,Lamborghini,Huracan EVO Base,2020,6419,294950,https://www.cars.com/vehicledetail/1902c75f-8892-4575-a7ae-53d6df864c0f/
+1842,2023-10-02 20:00,Ferrari,Roma Base,2022,596,294900,https://www.cars.com/vehicledetail/5377f264-43f6-4d92-9e73-7241f210c922/
+1843,2023-10-02 20:00,Rolls-Royce,Cullinan Sport Utility,2019,35387,294900,https://www.cars.com/vehicledetail/556257b0-54da-4cec-990f-f36c1999dc78/
+1844,2023-10-02 20:00,Ferrari,Roma Base,2022,1524,294900,https://www.cars.com/vehicledetail/44c6e3ed-fcea-47f3-8931-6a0b1afdb893/
+1845,2023-10-02 20:00,Rolls-Royce,Dawn Convertible,2019,14505,294900,https://www.cars.com/vehicledetail/6274ba8b-9237-4d61-b30a-323961a73400/
+1846,2023-10-02 20:00,Ferrari,488 Spider Base,2017,9165,294900,https://www.cars.com/vehicledetail/5dd45caf-f81b-402d-aa3f-3f79c4c1f7d1/
+1847,2023-10-02 20:00,Rolls-Royce,Cullinan,2019,23890,294899,https://www.cars.com/vehicledetail/58940043-27b1-4623-a87e-191a2aef5aca/
+1848,2023-10-02 20:00,Porsche,911 Turbo S,2023,909,294500,https://www.cars.com/vehicledetail/9054e58e-7b0e-4414-8585-49e364b22995/
+1849,2023-10-02 20:00,Bentley,Continental GT Speed,2022,2459,294014,https://www.cars.com/vehicledetail/b03ab6df-7b48-4b5a-90bd-18a871f869af/
+1850,2023-10-02 20:00,Porsche,911 GT3,2023,4885,293182,https://www.cars.com/vehicledetail/dfee3f41-a8c2-4be6-9534-99e75a9dc1d8/
+1851,2023-10-02 20:00,Mercedes-Benz,AMG G 63 Base,2019,19620,293000,https://www.cars.com/vehicledetail/081f90b4-7cf8-4149-bcec-b22136cc1e3c/
+1852,2023-10-02 21:00,Bentley,Continental GT V8,2022,5425,293000,https://www.cars.com/vehicledetail/3d52fc0e-b938-499e-81d6-de7b7fbb7162/
+1853,2023-10-02 21:00,McLaren,720S Performance,2020,9481,292998,https://www.cars.com/vehicledetail/1d05cdf9-2bd6-4010-bc8b-6710930da14e/
+1854,2023-10-02 21:00,Lamborghini,Urus Pearl Capsule,2022,2275,292995,https://www.cars.com/vehicledetail/9baa8646-2b3d-49fb-ae73-f47e5cf64bca/
+1855,2023-10-02 21:00,Lamborghini,Aventador LP700-4,2012,15015,292990,https://www.cars.com/vehicledetail/fcb1432f-26ba-4b7e-b9cf-07b9ba4682d6/
+1856,2023-10-02 21:00,Ferrari,Portofino M Base,2022,2822,292990,https://www.cars.com/vehicledetail/0d59726e-59b6-495d-b880-1c2755d7e205/
+1857,2023-10-02 21:00,Lamborghini,Huracan EVO Base,2020,8792,292990,https://www.cars.com/vehicledetail/3059e535-1a5c-4932-a5cf-3d355a4ee0db/
+1858,2023-10-02 21:00,Porsche,911 GT3,2023,2360,292980,https://www.cars.com/vehicledetail/259fcc8f-8612-4371-8608-7aed83767f38/
+1859,2023-10-02 21:00,Porsche,911 Turbo S,2022,698,292900,https://www.cars.com/vehicledetail/d5f2d098-4f15-465a-b2fa-0e60e6c27ee9/
+1860,2023-10-02 21:00,McLaren,720S Luxury,2020,1875,292889,https://www.cars.com/vehicledetail/056509bd-60dd-4394-8bcf-bd45fb00b7df/
+1861,2023-10-02 21:00,Aston Martin,DBS Superleggera Volante,2022,3065,292862,https://www.cars.com/vehicledetail/f341e965-4218-4ea2-9a73-4b980e8b20f8/
+1862,2023-10-02 21:00,Aston Martin,DBS Superleggera,2022,1395,292550,https://www.cars.com/vehicledetail/8dc4ecb4-60b1-44f4-8361-08aa7ebfdd8f/
+1863,2023-10-02 21:00,Lamborghini,Huracan EVO Base,2022,5312,291950,https://www.cars.com/vehicledetail/b03ddf16-64cf-4408-aa8a-18d8b5af3a99/
+1864,2023-10-02 21:00,Lamborghini,Huracan EVO Base,2020,6836,291900,https://www.cars.com/vehicledetail/bd355336-a6c6-4cda-82c9-c56483246078/
+1865,2023-10-02 21:00,Porsche,911 Turbo S,2022,1164,290992,https://www.cars.com/vehicledetail/677092cd-c5b2-40fb-a72a-fbb6279c4748/
+1866,2023-10-02 21:00,Porsche,911 GT3,2022,483,290690,https://www.cars.com/vehicledetail/1da870c4-15d4-4841-a15e-a1ea0f4dd9a6/
+1867,2023-10-02 21:00,Lamborghini,Urus,2022,5125,290495,https://www.cars.com/vehicledetail/1b69f2d7-32fb-4053-91c5-0c33307a7b6b/
+1868,2023-10-02 21:00,Aston Martin,DBX 707,2023,30,290176,https://www.cars.com/vehicledetail/f0ff744e-ea67-40b6-8492-3e7d62e11795/
+1869,2023-10-02 21:00,Aston Martin,DBX 707,2023,2013,290176,https://www.cars.com/vehicledetail/0700d713-7202-46fb-8f25-708b7b2dfea6/
+1870,2023-10-02 21:00,Ferrari,488 GTB Coupe 2D,2017,13338,290000,https://www.cars.com/vehicledetail/39ec173c-9d1d-4ac9-a6fa-e81049772d23/
+1871,2023-10-02 21:00,Porsche,911 GT3,2022,700,290000,https://www.cars.com/vehicledetail/02afbeda-47b8-4fbf-9dfd-48076ca6aae0/
+1872,2023-10-02 21:00,Porsche,911 GT3 w/Touring Package,2022,3349,290000,https://www.cars.com/vehicledetail/fc2549c0-88df-4569-93d4-2f24ec5c2219/
+1873,2023-10-02 21:00,Porsche,911 Turbo S,2023,1300,290000,https://www.cars.com/vehicledetail/e93be814-52b0-4083-90e2-8c39db6c16da/
+1874,2023-10-02 21:00,Ferrari,F12berlinetta 2DR CPE,2015,9327,289999,https://www.cars.com/vehicledetail/0c23643c-06a4-4d10-b8f9-c26dbf30133f/
+1875,2023-10-02 21:00,Rolls-Royce,Cullinan Base,2019,8387,289999,https://www.cars.com/vehicledetail/cf97cf0c-c51d-420a-9ad4-e55d141dcf9d/
+1876,2023-10-02 21:00,Bentley,Bentayga V8,2023,4470,289999,https://www.cars.com/vehicledetail/f57871b3-f481-4151-8b78-b80065909cbe/
+1877,2023-10-02 21:00,Ferrari,Roma Base,2022,1757,289999,https://www.cars.com/vehicledetail/53aa58e6-4482-475d-b61a-72ef21bae57c/
+1878,2023-10-02 21:00,Ferrari,488 Spider Base,2018,7200,289999,https://www.cars.com/vehicledetail/4d26d9fa-9d69-49aa-a230-9eea021db746/
+1879,2023-10-02 21:00,Ferrari,F12berlinetta Base,2014,6262,289999,https://www.cars.com/vehicledetail/e55aa4ed-04ad-43d7-ba13-cb61049a143e/
+1880,2023-10-02 21:00,Acura,NSX Type S,2022,22,289999,https://www.cars.com/vehicledetail/18abe022-8910-4caf-b0c1-670b0a555f46/
+1881,2023-10-02 21:00,Lamborghini,Urus Graphite Capsule,2022,4487,289998,https://www.cars.com/vehicledetail/3744e7ed-10a1-471f-b77e-ec29470ab3d7/
+1882,2023-10-02 21:00,Bentley,Continental GT Speed,2022,4004,289998,https://www.cars.com/vehicledetail/ea039262-0cbd-486d-95b4-079f262fc809/
+1883,2023-10-02 21:00,Ferrari,488 Spider Base,2017,11011,289998,https://www.cars.com/vehicledetail/171f4871-e4e6-452d-ac12-fb1186bc47d7/
+1884,2023-10-02 21:00,Lamborghini,Huracan EVO Base,2020,12459,289998,https://www.cars.com/vehicledetail/d0529cee-af4a-48ba-b9be-c0e18c5967fb/
+1885,2023-10-02 21:00,Aston Martin,DBS Superleggera,2021,7701,289997,https://www.cars.com/vehicledetail/499a0708-1cc1-434b-b423-4b9d21d56aa0/
+1886,2023-10-02 21:00,Rolls-Royce,Cullinan,2020,41788,289996,https://www.cars.com/vehicledetail/c6ec456e-7cf2-4888-b040-6ea9d75b6996/
+1887,2023-10-02 21:00,Rolls-Royce,Dawn,2018,20222,289996,https://www.cars.com/vehicledetail/8fa6ac10-a585-48f9-9858-7482fdfc0457/
+1888,2023-10-02 21:00,Ferrari,Roma Base,2022,1222,289995,https://www.cars.com/vehicledetail/3e550775-7e11-4077-b131-1a68e9fb6381/
+1889,2023-10-02 21:00,Maserati,MC20 Base,2022,275,289995,https://www.cars.com/vehicledetail/84927981-8149-4f4e-bffe-ae28db172659/
+1890,2023-10-02 21:00,Ferrari,458 Spider Base,2014,10225,289995,https://www.cars.com/vehicledetail/72da3b8e-0e71-45af-a136-cd8c52f2752c/
+1891,2023-10-02 21:00,Porsche,911 GT3,2022,2546,289995,https://www.cars.com/vehicledetail/0525eb5d-c9a7-4ea6-983f-c97a0efce5d8/
+1892,2023-10-02 21:00,Ferrari,F355 GTS,1998,20025,289995,https://www.cars.com/vehicledetail/72cae7b1-2d64-4bdc-acc3-6c6179dbfab3/
+1893,2023-10-02 21:00,Ferrari,488 Spider Base,2018,12725,289995,https://www.cars.com/vehicledetail/973220bb-64bd-45f1-be20-2680039188be/
+1894,2023-10-02 21:00,Rolls-Royce,Wraith Base,2019,4475,289995,https://www.cars.com/vehicledetail/186345e2-661d-4113-b64e-1624d176d2fa/
+1895,2023-10-02 21:00,Rolls-Royce,Cullinan Base,2020,17219,289995,https://www.cars.com/vehicledetail/febc2983-02a0-4144-8386-d25092535299/
+1896,2023-10-02 21:00,McLaren,720S Performance,2020,8917,289995,https://www.cars.com/vehicledetail/22c40aae-d474-4920-9b67-0ad1a6d03139/
+1897,2023-10-02 21:00,Porsche,911 Turbo S,2023,978,289995,https://www.cars.com/vehicledetail/9c2ebaf8-79d1-4fc0-967f-515a95bcfe3c/
+1898,2023-10-02 21:00,Porsche,718 Cayman GT4 RS,2023,18,289995,https://www.cars.com/vehicledetail/e8955380-0cb6-42d0-b225-9f467569cf25/
+1899,2023-10-02 21:00,Porsche,911 Carrera,1989,2200,289995,https://www.cars.com/vehicledetail/2e141b52-750f-4026-8913-60391ae51584/
+1900,2023-10-02 21:00,Rolls-Royce,Cullinan Base,2019,17791,289993,https://www.cars.com/vehicledetail/33443c2c-7bdc-4b16-b1f8-d6db45ee1326/
+1901,2023-10-02 21:00,McLaren,720S Performance,2020,7433,289991,https://www.cars.com/vehicledetail/fda3a686-3afd-42c3-a175-cab54ac4ca43/
+1902,2023-10-02 21:00,Porsche,911 Turbo S,2023,3519,289991,https://www.cars.com/vehicledetail/242a8855-60fc-4ab3-8bc3-58a4225554a4/
+1903,2023-10-02 21:00,McLaren,720S,2022,8800,289990,https://www.cars.com/vehicledetail/5334fc90-0d58-4a55-bd8f-df7d778db092/
+1904,2023-10-02 21:00,Porsche,911 S,1973,2849,289990,https://www.cars.com/vehicledetail/fccd5363-6397-4b59-be43-16d2776c848b/
+1905,2023-10-02 21:00,Porsche,911 GT2,2008,13348,289990,https://www.cars.com/vehicledetail/9a90013d-5d5e-44aa-b82e-0e4782574a75/
+1906,2023-10-02 21:00,Porsche,911 Turbo S,2023,3589,289990,https://www.cars.com/vehicledetail/783d4dcf-73ee-4006-a70c-58df373a9401/
+1907,2023-10-02 21:00,McLaren,720S Luxury,2020,13478,289990,https://www.cars.com/vehicledetail/97039276-ae09-47b0-b9fe-b162fb275e79/
+1908,2023-10-02 21:00,McLaren,620R,2020,2861,289990,https://www.cars.com/vehicledetail/2a8fafec-2f31-4c72-a875-f953ee4f9c06/
+1909,2023-10-02 21:00,Ferrari,Roma Base,2021,4794,289988,https://www.cars.com/vehicledetail/652ae312-9802-4f55-ad49-729fa13c442b/
+1910,2023-10-02 21:00,Ferrari,Roma Base,2022,548,289988,https://www.cars.com/vehicledetail/586332cb-6cc7-4928-8ae8-8aa3aab78f09/
+1911,2023-10-02 21:00,Ferrari,488 Spider Base,2018,12976,289988,https://www.cars.com/vehicledetail/c51fd5cd-9f0e-441a-b060-ac0a497b4ab4/
+1912,2023-10-02 21:00,Porsche,911 Turbo S,2023,125,289987,https://www.cars.com/vehicledetail/bc444ca8-e766-4cf1-9681-e5ae2b212111/
+1913,2023-10-02 21:00,Porsche,911 GT3,2023,637,289987,https://www.cars.com/vehicledetail/dcf3e29c-d62a-4fa7-a37a-2e62d9c015be/
+1914,2023-10-02 21:00,McLaren,720S Performance,2020,5559,289981,https://www.cars.com/vehicledetail/d277cb7d-61cf-4360-aaaf-4be6a3bea68c/
+1915,2023-10-02 21:00,Lamborghini,Huracan EVO,2020,3131,289951,https://www.cars.com/vehicledetail/72cfb40f-562a-4254-8522-9a4668d75de6/
+1916,2023-10-02 21:00,McLaren,720S Performance,2021,2569,289950,https://www.cars.com/vehicledetail/e6df1e08-4a8e-4608-a276-d843be07dcfe/
+1917,2023-10-02 21:00,Porsche,911 GT3,2022,932,289950,https://www.cars.com/vehicledetail/dea30e2d-329a-4781-924f-6c85283993a4/
+1918,2023-10-02 21:00,Ford,F-150 Raptor,2017,18927,289950,https://www.cars.com/vehicledetail/ea492ab7-4757-47e8-b36d-d267965e5696/
+1919,2023-10-02 21:00,Lamborghini,Urus Pearl Capsule,2021,13968,289950,https://www.cars.com/vehicledetail/364b357c-d9cb-468a-be35-d0b85a07e9fa/
+1920,2023-10-02 21:00,Lamborghini,Huracan EVO Base,2022,22407,289950,https://www.cars.com/vehicledetail/5a361ce5-09a9-4d15-b32b-b0d50d6c85a1/
+1921,2023-10-02 22:00,Porsche,718 Cayman GT4 RS,2023,36,289950,https://www.cars.com/vehicledetail/cea71cfc-f64c-4f34-bbb9-65540330609d/
+1922,2023-10-02 22:00,Chevrolet,150,1957,264,289950,https://www.cars.com/vehicledetail/0e94aa4f-2a5b-4626-ad6b-a683fa90b59e/
+1923,2023-10-02 22:00,Rolls-Royce,Dawn,2019,17661,289944,https://www.cars.com/vehicledetail/5c384a9b-64d2-4a28-ba32-fdb752fb0ed5/
+1924,2023-10-02 22:00,Porsche,911 Turbo,1987,6783,289930,https://www.cars.com/vehicledetail/3afdfdc7-0d6d-4a6e-a130-a78f88e45c1c/
+1925,2023-10-02 22:00,Ferrari,488 Spider Base,2017,10891,289900,https://www.cars.com/vehicledetail/5383b9c1-73fe-4e85-ad33-922f068805f1/
+1926,2023-10-02 22:00,Ferrari,488 Spider Base,2017,5078,289900,https://www.cars.com/vehicledetail/fea28ef7-4e15-400c-9b9d-a56b01c6424f/
+1927,2023-10-02 22:00,Ferrari,Roma Base,2022,650,289900,https://www.cars.com/vehicledetail/378c80d1-57bd-4956-8938-1eb6ba75f0e6/
+1928,2023-10-02 22:00,McLaren,720S Performance,2020,15399,289900,https://www.cars.com/vehicledetail/3da667d1-bd41-4de8-9d9a-73f17f4ddaaf/
+1929,2023-10-02 22:00,Dodge,SRT Viper GTS,2013,13610,289900,https://www.cars.com/vehicledetail/04e9a72f-158d-4969-9d57-bddfce514a83/
+1930,2023-10-02 22:00,Lamborghini,Huracan EVO Coupe RWD,2022,4523,289900,https://www.cars.com/vehicledetail/3691f431-072e-4e03-913c-de9b5f30d1c2/
+1931,2023-10-02 22:00,Rolls-Royce,Ghost,2021,2601,289900,https://www.cars.com/vehicledetail/e789cd5c-a1db-4297-8e9c-6a6c3bd92259/
+1932,2023-10-02 22:00,Bentley,Continental GT Speed,2022,9047,289900,https://www.cars.com/vehicledetail/76974a85-a84c-4dcd-9f0a-442521d22ec6/
+1933,2023-10-02 22:00,Ferrari,Roma Base,2022,106,289900,https://www.cars.com/vehicledetail/c9e248a3-7724-4032-8af0-fe59afff1f94/
+1934,2023-10-02 22:00,Ferrari,488 Spider Base,2017,6137,289900,https://www.cars.com/vehicledetail/a07f0d89-3ef7-4d71-ad0b-805f6138d73d/
+1935,2023-10-02 22:00,Ferrari,488 Spider Base,2018,13593,289900,https://www.cars.com/vehicledetail/3f33c9b4-fc16-48e4-8669-083ca39400be/
+1936,2023-10-02 22:00,Porsche,911 Turbo S,2023,100,289900,https://www.cars.com/vehicledetail/97d1333f-00f4-4347-9dc0-fb1b829f390c/
+1937,2023-10-02 22:00,Ferrari,458 Spider,2015,7806,289900,https://www.cars.com/vehicledetail/d10fbbe1-880a-4dff-b245-072a06357926/
+1938,2023-10-02 22:00,Ferrari,GTC4Lusso V12,2018,2618,289900,https://www.cars.com/vehicledetail/82fac9cd-a71d-43b7-9fe7-9a1195067fab/
+1939,2023-10-02 22:00,Porsche,911 Turbo S,2019,2627,289900,https://www.cars.com/vehicledetail/563adf92-2364-4b4f-8f2c-1eb413d4683e/
+1940,2023-10-02 22:00,Ferrari,488 Spider Base,2017,17680,289900,https://www.cars.com/vehicledetail/65f1b742-18d1-47ac-b2e0-6beada74a269/
+1941,2023-10-02 22:00,Porsche,911 Turbo S,2023,122,289900,https://www.cars.com/vehicledetail/41f09d7e-9f91-4360-889a-5810f810b5b7/
+1942,2023-10-02 22:00,Ferrari,Roma Base,2021,3924,289900,https://www.cars.com/vehicledetail/0bf8cf3e-31f1-4f34-ab0a-ad5026aa583d/
+1943,2023-10-02 22:00,Porsche,911 GT3 w/Touring Package,2022,25,289900,https://www.cars.com/vehicledetail/3fa9bfc7-567b-4584-ad2f-443ceab2cc6f/
+1944,2023-10-02 22:00,Porsche,911 Turbo S,2019,2127,289900,https://www.cars.com/vehicledetail/d90b8e86-fd54-46e9-a1cd-08b1f1113b8c/
+1945,2023-10-02 22:00,Ferrari,488 Spider Base,2018,14981,289899,https://www.cars.com/vehicledetail/59c6e5d1-0554-4330-b5d7-2b1257cbd57b/
+1946,2023-10-02 22:00,Rolls-Royce,Dawn Base,2018,24424,289895,https://www.cars.com/vehicledetail/0da8384b-bf82-4724-87ec-298b43c5d031/
+1947,2023-10-02 22:00,Bentley,Continental GT V8,2021,6744,289895,https://www.cars.com/vehicledetail/5f56a538-3452-4c17-9fe4-6776f4c35fda/
+1948,2023-10-02 22:00,McLaren,720S Luxury,2019,6204,289888,https://www.cars.com/vehicledetail/430443fb-d688-4e57-8434-fecfe6885bba/
+1949,2023-10-02 22:00,Lamborghini,Urus - 14K ELIOS PAINT-307 955 MSRP-CARBON FIBER EXTERI,2022,5863,289888,https://www.cars.com/vehicledetail/bb307e28-7c1f-411b-9b12-0b881dcfe64a/
+1950,2023-10-02 22:00,Lamborghini,Huracan EVO Base,2021,10366,289800,https://www.cars.com/vehicledetail/4fd33edb-7375-4f1b-b1f9-5c30e7468279/
+1951,2023-10-02 22:00,Rolls-Royce,Cullinan Base,2019,18418,289777,https://www.cars.com/vehicledetail/7229c586-5a22-41f7-8940-7529dd42b630/
+1952,2023-10-02 22:00,Aston Martin,DBS Superleggera,2021,1825,289647,https://www.cars.com/vehicledetail/0f4cf270-dbcf-4046-9a57-f746182aded5/
+1953,2023-10-02 22:00,McLaren,720S Performance,2020,8687,289550,https://www.cars.com/vehicledetail/edfda6c6-37ca-4852-9d17-65964704406a/
+1954,2023-10-02 22:00,Hummer,H1 Alpha Open Top,2006,57866,289000,https://www.cars.com/vehicledetail/6587b726-10a9-49c6-8ad0-d2e56d780505/
+1955,2023-10-02 22:00,Ferrari,Roma,2022,2290,289000,https://www.cars.com/vehicledetail/51ddcdd8-1062-4c9b-9fb7-54eefdfd85d5/
+1956,2023-10-02 22:00,Ferrari,Roma Base,2023,939,289000,https://www.cars.com/vehicledetail/3ab3e96b-54b5-4e98-b14b-c01e513bda3f/
+1957,2023-10-02 22:00,Lamborghini,Urus Graphite Capsule,2022,5300,289000,https://www.cars.com/vehicledetail/ee899170-c3b7-4cdc-aab1-a45df6135fe5/
+1958,2023-10-02 22:00,McLaren,720S Luxury,2020,4227,289000,https://www.cars.com/vehicledetail/d1d01c09-2a8f-4ed1-841a-aa7e3e07c1d0/
+1959,2023-10-02 22:00,Lamborghini,Urus Graphite Capsule,2021,12600,289000,https://www.cars.com/vehicledetail/71d6fb09-a5a1-4006-b3ef-40b721f1b988/
+1960,2023-10-02 22:00,Porsche,911 GT3,2022,465,289000,https://www.cars.com/vehicledetail/43b549e4-f66c-49e5-95b2-d3b3c3d62986/
+1961,2023-10-02 22:00,Ferrari,488 GTB Base,2018,4913,289000,https://www.cars.com/vehicledetail/fea946ec-f6a2-4aa3-bdf4-13d98926bfd7/
+1962,2023-10-02 22:00,Porsche,911 GT3,2022,3528,289000,https://www.cars.com/vehicledetail/1c03958d-df2b-48f1-bb0c-be409bdd6354/
+1963,2023-10-02 22:00,Ferrari,488 GTB,2017,3319,289000,https://www.cars.com/vehicledetail/ace82869-f71d-48fc-97d1-a37fdcd7ad19/
+1964,2023-10-02 22:00,Lamborghini,Huracan EVO Base,2022,2523,288900,https://www.cars.com/vehicledetail/d93d708b-6846-471b-ab17-b545b37ec972/
+1965,2023-10-02 22:00,Aston Martin,DB7 Vantage Volante,2003,4353,288900,https://www.cars.com/vehicledetail/8fc8b41b-874d-4c84-bb53-d89fe80eaf95/
+1966,2023-10-02 22:00,Ferrari,488 Spider Base,2018,6276,288888,https://www.cars.com/vehicledetail/21f46f8c-c71e-498f-ad75-2f76bae53d5e/
+1967,2023-10-02 22:00,Mercedes-Benz,AMG G 63 4MATIC,2023,49,288800,https://www.cars.com/vehicledetail/f90b79bf-349d-416a-a24f-18ef7c02620c/
+1968,2023-10-02 22:00,Ferrari,F12berlinetta Base,2016,9804,288795,https://www.cars.com/vehicledetail/abe581fd-f6c2-4f01-af1f-e0e6b7fb8859/
+1969,2023-10-02 22:00,Bentley,Continental GT Speed,2022,3668,288400,https://www.cars.com/vehicledetail/6e6af711-446b-448f-be9a-df2621855145/
+1970,2023-10-02 22:00,Ferrari,F430 Scuderia,2009,4951,287998,https://www.cars.com/vehicledetail/d426bbd0-275c-463c-863b-96d28b48eb08/
+1971,2023-10-02 22:00,Rolls-Royce,Dawn,2019,20923,287996,https://www.cars.com/vehicledetail/87eb6e1b-e2db-4756-b5a4-d03cd93ba8ab/
+1972,2023-10-02 22:00,Lamborghini,Huracan EVO Base,2020,13305,287990,https://www.cars.com/vehicledetail/b93d808c-fb99-4b83-863c-c6620a3a94f3/
+1973,2023-10-02 22:00,Porsche,911 GT3 RS,2010,28200,287990,https://www.cars.com/vehicledetail/8228aa7e-ee71-4953-9e83-fa2ae9df7dd3/
+1974,2023-10-02 22:00,Lamborghini,Huracan EVO Base,2021,4963,287950,https://www.cars.com/vehicledetail/60f63a3f-496b-40ad-8470-759f15485b8c/
+1975,2023-10-02 22:00,McLaren,720S,2020,3549,287950,https://www.cars.com/vehicledetail/91fd11e4-59bc-4fb0-8214-ffe5e92df28d/
+1976,2023-10-02 22:00,Porsche,911 Turbo S,2023,1970,287900,https://www.cars.com/vehicledetail/23db9540-81d9-4ec3-a60b-223f3301e3b0/
+1977,2023-10-02 22:00,Ferrari,Roma Base,2023,3872,287900,https://www.cars.com/vehicledetail/ad5da82b-786e-4b8c-a5bf-83d8e4e47cc6/
+1978,2023-10-02 22:00,Bentley,Continental GT V8,2022,721,287777,https://www.cars.com/vehicledetail/df24c9a3-1812-44e4-ad9d-447e2efa62cb/
+1979,2023-10-02 22:00,Lamborghini,Huracan EVO,2020,4484,286998,https://www.cars.com/vehicledetail/8f35f2eb-dc42-4a60-b1e5-dafdf69bb962/
+1980,2023-10-02 22:00,Aston Martin,DB11 Volante,2023,12,286776,https://www.cars.com/vehicledetail/1c7b4d81-856c-4a04-a02f-3e30ec078a02/
+1981,2023-10-02 22:00,Lamborghini,Huracan EVO,2021,12735,285951,https://www.cars.com/vehicledetail/71070e60-58d3-4dae-b1e5-ea377af40980/
+1982,2023-10-02 22:00,Ferrari,488 GTB Base,2018,2655,285950,https://www.cars.com/vehicledetail/1cc3e6a5-1358-4c8d-85a9-3f08b1bf1e2c/
+1983,2023-10-02 22:00,Ferrari,F12berlinetta Base,2014,12980,285900,https://www.cars.com/vehicledetail/d6734e28-7397-4aec-afb9-fb8ac5861a91/
+1984,2023-10-02 22:00,McLaren,720S SPIDER,2020,2625,285900,https://www.cars.com/vehicledetail/e72bdbd4-d3aa-4428-88af-c2c9a2e5f824/
+1985,2023-10-02 22:00,Bentley,Continental GT Speed,2022,2953,285900,https://www.cars.com/vehicledetail/1e258e67-f249-4425-a925-974c4304f2dd/
+1986,2023-10-02 22:00,Porsche,718 Cayman GT4 RS,2023,820,285900,https://www.cars.com/vehicledetail/1f49460b-9f30-4e10-91fc-59cd8e4593cf/
+1987,2023-10-02 22:00,Rolls-Royce,Dawn,2019,26607,285900,https://www.cars.com/vehicledetail/ff13f308-899c-48da-b33c-b930d8cbd661/
+1988,2023-10-02 22:00,Rolls-Royce,Wraith,2019,6539,285900,https://www.cars.com/vehicledetail/cc7974df-1eac-4dab-be9e-0f85f10562ce/
+1989,2023-10-02 22:00,Rolls-Royce,Wraith Base,2019,4265,285895,https://www.cars.com/vehicledetail/16df87f6-37ce-4dd8-bbb7-2bf2f610b5ae/
+1990,2023-10-02 22:00,Rolls-Royce,Wraith Coupe,2019,8381,285488,https://www.cars.com/vehicledetail/498b6544-71e6-4f7c-b35a-43da534515c2/
+1991,2023-10-02 23:00,McLaren,720S Performance,2020,6250,285154,https://www.cars.com/vehicledetail/0a5d9f70-3580-47c2-84af-a21da43f6fe0/
+1992,2023-10-02 23:00,Porsche,911 Carrera 4,1994,16921,285000,https://www.cars.com/vehicledetail/55bce8d7-1e76-4c5b-b5f8-1185c5f6430a/
+1993,2023-10-02 23:00,Rolls-Royce,Cullinan Base,2019,25947,285000,https://www.cars.com/vehicledetail/cac27af3-74ea-4d84-a810-d42887742cb7/
+1994,2023-10-02 23:00,Ferrari,488 GTB Base,2019,2497,285000,https://www.cars.com/vehicledetail/554ab589-f963-4238-a7a7-8a4fd3d4df32/
+1995,2023-10-02 23:00,Chevrolet,Corvette ZR1,2019,6795,285000,https://www.cars.com/vehicledetail/267e0a3e-2da0-4f29-9721-59990c032be5/
+1996,2023-10-02 23:00,Lamborghini,Huracan EVO Base,2020,24699,285000,https://www.cars.com/vehicledetail/78721aaf-c4ab-47d6-8094-1c4b5e8b487c/
+1997,2023-10-02 23:00,Lamborghini,Urus,2022,3987,285000,https://www.cars.com/vehicledetail/01aae120-bcf4-4239-ae34-4baea0108c26/
+1998,2023-10-02 23:00,Lamborghini,Urus SUV,2022,5847,285000,https://www.cars.com/vehicledetail/8fc32e0e-f30d-4fca-9092-218106dfffd9/
+1999,2023-10-02 23:00,Porsche,718 Cayman GT4 RS,2023,107,285000,https://www.cars.com/vehicledetail/e68796ef-fdbf-4260-bb4a-9188c29643a0/
+2000,2023-10-02 23:00,Porsche,911 GT3,2023,2077,285000,https://www.cars.com/vehicledetail/17996d6d-e107-44a5-b0fb-a8d85bbcefc9/
+2001,2023-10-02 23:00,Ferrari,328 GTB,1989,11229,285000,https://www.cars.com/vehicledetail/59cd2414-e6d6-4712-94f4-139f2c4e9dbe/
+2002,2023-10-02 23:00,Porsche,911 GT3,2022,1905,285000,https://www.cars.com/vehicledetail/1fdf4ad4-e095-4ae0-b998-9a695e7e58a8/
+2003,2023-10-02 23:00,Mercedes-Benz,Maybach S 580 4MATIC,2022,200,285000,https://www.cars.com/vehicledetail/b20a7cd6-1640-440b-8e41-d8c1cd67f39a/
+2004,2023-10-02 23:00,McLaren,720S Spider,2021,10370,285000,https://www.cars.com/vehicledetail/9c00a9f8-8151-4def-ab0e-7455d37e9960/
+2005,2023-10-02 23:00,Mercedes-Benz,280SE,1969,46102,285000,https://www.cars.com/vehicledetail/d35a06ea-f1ad-48d7-bbae-5b715a448245/
+2006,2023-10-02 23:00,Lamborghini,Urus Graphite Capsule,2022,1954,284999,https://www.cars.com/vehicledetail/095adec8-a7b5-4274-98e7-a9ce0345252a/
+2007,2023-10-02 23:00,McLaren,720S,2020,10070,284998,https://www.cars.com/vehicledetail/98be08c0-89e6-474c-a1f1-bcff2503469a/
+2008,2023-10-02 23:00,McLaren,Artura,2023,1511,284998,https://www.cars.com/vehicledetail/ec758d47-fb33-4509-a26f-990320d086ed/
+2009,2023-10-02 23:00,Lamborghini,Huracan EVO Base,2021,4481,284996,https://www.cars.com/vehicledetail/07f1c8b8-1100-4ed3-b001-b0a384d2f13c/
+2010,2023-10-02 23:00,Rolls-Royce,Cullinan Base,2019,45965,284996,https://www.cars.com/vehicledetail/5dba9078-3e81-4dd2-8038-9461a494c772/
+2011,2023-10-02 23:00,Ferrari,Roma Base,2021,2523,284995,https://www.cars.com/vehicledetail/232903d9-7b0f-482f-84d9-f0b568d64436/
+2012,2023-10-02 23:00,McLaren,720S Performance,2020,20030,284995,https://www.cars.com/vehicledetail/5825ee77-7c82-44ca-ade0-a9abe7b13f24/
+2013,2023-10-02 23:00,Bentley,Continental GT GT Speed,2022,1919,284991,https://www.cars.com/vehicledetail/3a8b85f1-1de0-4fb1-b702-1ac4357b4116/
+2014,2023-10-02 23:00,Lamborghini,Huracan Performante,2018,25686,284991,https://www.cars.com/vehicledetail/1946f1d8-71ab-4173-bfe1-6399b7be0298/
+2015,2023-10-02 23:00,Ferrari,Roma Base,2022,396,284990,https://www.cars.com/vehicledetail/735f5708-1235-453d-8f27-2ec1f3c06a0a/
+2016,2023-10-02 23:00,Mercedes-Benz,AMG G 63 4MATIC,2021,11083,284980,https://www.cars.com/vehicledetail/829e609a-76db-4af1-8103-ac69520e5b5f/
+2017,2023-10-02 23:00,Porsche,911 GT3,2022,2911,284980,https://www.cars.com/vehicledetail/817f68be-2f84-4e2a-a839-92c7e78a058a/
+2018,2023-10-02 23:00,Ferrari,Portofino M Base,2022,10947,284950,https://www.cars.com/vehicledetail/f4c05db5-2529-4aef-8943-d2504cd7ea0f/
+2019,2023-10-02 23:00,Porsche,911 GT3,2023,16,284950,https://www.cars.com/vehicledetail/59d9f466-16ee-4ee0-b8d6-a6197a4f203a/
+2020,2023-10-02 23:00,Ferrari,Roma Base,2022,2137,284917,https://www.cars.com/vehicledetail/3e031cb1-6488-4c11-9302-d943891b61b3/
+2021,2023-10-02 23:00,Porsche,911 GT3,2023,2741,284911,https://www.cars.com/vehicledetail/a1c193d1-286b-416f-8bd2-02795611aa30/
+2022,2023-10-02 23:00,Lamborghini,Urus 23Â TAIGETE WHEELS B&O ADVANCED SOUND 295K MSRP,2022,5303,284900,https://www.cars.com/vehicledetail/34574d85-306d-40c8-9066-a22caaadfe0f/
+2023,2023-10-02 23:00,Porsche,911 Turbo S,2023,232,284900,https://www.cars.com/vehicledetail/1caf7873-bedd-4350-aea8-4f0276d0243f/
+2024,2023-10-02 23:00,Lamborghini,Huracan LP610-4S,2019,10307,284900,https://www.cars.com/vehicledetail/a1e8799c-bcff-4e05-9b84-5dc3a14a7227/
+2025,2023-10-02 23:00,Ferrari,Roma Base,2023,1012,284900,https://www.cars.com/vehicledetail/2ba627e6-861b-44aa-85eb-cf4dcdc1dec9/
+2026,2023-10-02 23:00,Ferrari,488 Spider Base,2017,10185,284900,https://www.cars.com/vehicledetail/6b49e891-10e5-4062-857f-c36a98866779/
+2027,2023-10-02 23:00,Porsche,911 Turbo S,2023,616,284900,https://www.cars.com/vehicledetail/9c472999-b10d-4022-8287-661036ba2883/
+2028,2023-10-02 23:00,Rolls-Royce,Ghost Ghost,2021,5223,284899,https://www.cars.com/vehicledetail/5ed7b6f4-53b2-4a21-aa77-35e4b5ad1f18/
+2029,2023-10-02 23:00,Ferrari,Roma Base,2023,481,284895,https://www.cars.com/vehicledetail/c93b9098-21e2-4226-95fa-b5d33d55ef5f/
+2030,2023-10-02 23:00,Rolls-Royce,Cullinan,2019,23900,284895,https://www.cars.com/vehicledetail/16c12ac3-e6ca-4d22-8b16-5afd0f44128d/
+2031,2023-10-02 23:00,Porsche,911 Speedster,1989,22527,284889,https://www.cars.com/vehicledetail/6d7f7e7c-7770-4f7b-aedf-b8c007663bf1/
+2032,2023-10-02 23:00,Porsche,911 GT3,2022,3944,284698,https://www.cars.com/vehicledetail/679fba5b-0e5f-47b6-b9a0-08ca7866ca04/
+2033,2023-10-02 23:00,Lamborghini,Huracan EVO Base,2021,5281,284500,https://www.cars.com/vehicledetail/c3964991-a22b-4ae1-8c54-f2f99287b9e1/
+2034,2023-10-02 23:00,Lamborghini,Urus Graphite Capsule,2022,488,284495,https://www.cars.com/vehicledetail/d7695a01-9ed8-4886-b47e-11347aace761/
+2035,2023-10-02 23:00,Bentley,Continental GT V8,2023,39,284430,https://www.cars.com/vehicledetail/10161eec-9d29-414f-afdd-ede756e8abc8/
+2036,2023-10-02 23:00,Porsche,911 Targa,2022,24,284020,https://www.cars.com/vehicledetail/9b9ce83f-4e8e-455b-8591-c9af4818e7d5/
+2037,2023-10-02 23:00,Maserati,MC20 MC20,2022,2400,284000,https://www.cars.com/vehicledetail/cdea7fde-1e3b-4fe7-8ed3-70fda25db198/
+2038,2023-10-02 23:00,McLaren,Artura TechLux,2023,2316,284000,https://www.cars.com/vehicledetail/1161a7ae-8cc2-4be3-a4bb-ef6e717870b3/
+2039,2023-10-02 23:00,Ferrari,Portofino Bianco Avus,2021,4180,284000,https://www.cars.com/vehicledetail/4b8e104b-de6f-417c-9774-7c43fd131b76/
+2040,2023-10-02 23:00,Lamborghini,Urus,2022,3574,283995,https://www.cars.com/vehicledetail/6060e77a-647d-4c48-aa7c-f6386be4ba43/
+2041,2023-10-02 23:00,Porsche,911 Turbo S,2023,890,283992,https://www.cars.com/vehicledetail/a05b8f26-a1bb-4055-a517-1fc9775a19a3/
+2042,2023-10-02 23:00,Porsche,911 Turbo S,2023,1079,283992,https://www.cars.com/vehicledetail/bfe6c9b3-ff22-4f40-9efd-ebc1f829d4fc/
+2043,2023-10-02 23:00,Aston Martin,DBX 707,2023,2824,283976,https://www.cars.com/vehicledetail/c3534f9f-9a6a-42b9-adfe-81bd4e573d9e/
+2044,2023-10-02 23:00,Lamborghini,Urus,2022,706,283951,https://www.cars.com/vehicledetail/e0ff3c92-7545-4286-b641-f7c576c61655/
+2045,2023-10-02 23:00,Lamborghini,Urus,2022,4230,283950,https://www.cars.com/vehicledetail/4a9812d7-b51c-4e70-a3f2-908ac84700c2/
+2046,2023-10-02 23:00,Bentley,Flying Spur Hybrid Azure,2023,30,283685,https://www.cars.com/vehicledetail/96b370a1-d300-4e08-8d7a-0fe3d13f916f/
+2047,2023-10-02 23:00,Porsche,911 Turbo S,2023,733,283216,https://www.cars.com/vehicledetail/8099944c-33fe-41d2-baac-0078d4071a94/
+2048,2023-10-02 23:00,Porsche,911 Turbo S,2023,570,282995,https://www.cars.com/vehicledetail/bb45551b-8245-459f-b695-331f144932c6/
+2049,2023-10-02 23:00,McLaren,Artura Base,2023,1207,282775,https://www.cars.com/vehicledetail/cdc807eb-0108-4550-b046-3fe0ae7dc07b/
+2050,2023-10-02 23:00,Ferrari,Roma 2DR CPE,2022,2395,282500,https://www.cars.com/vehicledetail/fdb76abe-5f79-4ec6-b3d6-43ae2ab8f044/
+2051,2023-10-02 23:00,Rolls-Royce,Ghost,2021,6935,282500,https://www.cars.com/vehicledetail/62a38303-c69a-40a2-a5bf-45502308c38a/
+2052,2023-10-02 23:00,Rolls-Royce,Cullinan Sport Utility,2019,12609,282488,https://www.cars.com/vehicledetail/7490eba4-b94f-451a-94a4-457d39540ab5/
+2053,2023-10-02 23:00,Bentley,Continental GT V8,2022,30,281515,https://www.cars.com/vehicledetail/abb6896f-106e-4fde-b0ec-f1c94b4f2dcf/
+2054,2023-10-02 23:00,Porsche,911 Turbo S,2023,1012,281000,https://www.cars.com/vehicledetail/68465ceb-592e-4937-970a-70ae419a6ca5/
+2055,2023-10-02 23:00,Mercedes-Benz,AMG G 63 Base,2021,16260,280850,https://www.cars.com/vehicledetail/a2f02949-3039-47b9-b516-a197613da45b/
+2056,2023-10-02 23:00,Lamborghini,Urus Pearl Capsule,2022,4325,280313,https://www.cars.com/vehicledetail/64ed2593-3bf1-44a9-936c-1122fdea3ff5/
+2057,2023-10-02 23:00,Lamborghini,Aventador LP700-4,2012,15933,280000,https://www.cars.com/vehicledetail/4ce93b02-f52f-451b-8948-cb60ccbc2f73/
+2058,2023-10-02 23:00,Ferrari,Roma Coupe,2022,625,280000,https://www.cars.com/vehicledetail/3b1b5691-6211-4834-923a-bde34ad6cd3b/
+2059,2023-10-02 23:00,Porsche,911 Turbo,1979,9199,280000,https://www.cars.com/vehicledetail/fd70023f-a07f-4c7d-abbb-21eb838dbb35/
+2060,2023-10-02 23:00,Ferrari,GTC4Lusso V12,2018,2721,280000,https://www.cars.com/vehicledetail/cde6893e-6cf9-4dbc-9ad8-2c38d6774d48/
+2061,2023-10-03 00:00,Rolls-Royce,Dawn,2018,49931,280000,https://www.cars.com/vehicledetail/79498033-33db-4e06-8b19-158090945ba5/
+2062,2023-10-03 00:00,Rolls-Royce,Dawn,2017,6411,279999,https://www.cars.com/vehicledetail/e179a343-cf81-43eb-9716-2719f67f0f9b/
+2063,2023-10-03 00:00,Ferrari,Roma Base,2023,251,279999,https://www.cars.com/vehicledetail/bd2e7015-8317-4066-9da6-354265bf8a8b/
+2064,2023-10-03 00:00,Ferrari,GTC4Lusso V12,2018,5846,279999,https://www.cars.com/vehicledetail/6e6f08a1-4989-48c1-b2f2-30288221e703/
+2065,2023-10-03 00:00,McLaren,720S Base,2020,19751,279999,https://www.cars.com/vehicledetail/0890580d-a6c2-46e9-be78-64a322eb1695/
