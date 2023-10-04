@@ -2,9 +2,11 @@ import tensorflow as tf
 from transformers import AutoFeatureExtractor, AutoModelForImageClassification
 from datasets import load_dataset
 import numpy as np
+import pytorch
+
 
 # Load your data
-data_dir = 'path/to/your/images'
+data_dir = 'C:\\Users\\franc\\Documents\\GitHub\\Car_Detection_Chat\\images'
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
     data_dir,
     validation_split=0.2,
