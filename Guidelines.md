@@ -132,3 +132,114 @@ The current code uses a fixed set of hyperparameters, but it's likely that tunin
 
 10. Stronger optimizer:
 The current code uses Adam optimizer, which is a good choice for many tasks, but there are other optimizers that may work better for this specific task. For example, SGD with momentum, RMSprop, or Adagrad are all strong optimizers that have been shown to work well on various computer vision tasks. It's worth trying out different optimizers and comparing their performance on your specific task.
+
+
+
+
+
+
+
+
+1. **Saving the model**: You can save the model using the `tf.keras.models.save_model()` function. This will save the model architecture, weights, and any other relevant information to a file that can be loaded later. For example:
+```python
+import tensorflow as tf
+# Save the model
+tf.keras.models.save_model(model, 'my_model.h5')
+```
+This will save the model to a file called `my_model.h5`. You can then load the model later using the `tf.keras.models.load_model()` function:
+```python
+# Load the model
+model = tf.keras.models.load_model('my_model.h5')
+```
+2. **Using the model for classification**: Once you have saved the model, you can use it to classify new data by calling the `predict()` method on the model. For example:
+```python
+# Use the model to classify a new image
+image_data = ... # Load a new image into a numpy array
+prediction = model.predict(image_data)
+```
+The `predict()` method will return a tensor representing the predicted classes or probabilities. You can then convert this tensor to a numpy array if needed.
+
+
+-
+-
+-
+-
+
+-
+-
+-
+-
+-
+
+1. Import the necessary libraries:
+```python
+import tensorflow as tf
+from tensorflow.keras.layers import Input, Dense
+from tensorflow.keras.applications import VGG16
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.models import Model
+from tensorflow.keras.applications.vit import VitImageProcessor
+```
+1. Load the pre-trained ViT model:
+```python
+processor = VitImageProcessor.from_pretrained('google/vit-base-patch16-224')
+model = processor.model
+```
+The `VitImageProcessor` class loads the pre-trained ViT model and performs any necessary image processing steps. The `model` attribute of the processor contains the actual TensorFlow Keras model.
+1. Load your dataset:
+Assuming you have a dataset of images in a directory called `data/`, you can use the following code to load them:
+```python
+train_datagen = ImageDataGenerator(rescale=1./255, shear_range=0.2, zoom_range=0.2, horizontal_flip=True)
+val_datagen = ImageDataGenerator(rescale=1./255)
+train_generator = train_datagen.flow_from_directory(
+'data', target_size=(224, 224), batch_size=32, class_mode='categorical')
+validation_generator = val_datagen.flow_from_directory(
+'data', target_size=(224, 224), batch_size=32, class_mode='categorical')
+```
+This code uses the `ImageDataGenerator` class from Keras to generate data augmentation on the fly. It rescales the images, applies random zoom and shear transformations, and horizontally flips them for training. For validation, it only rescales the images.
+1. Create a custom dataset class:
+```python
+class VitDataset(tf.keras.preprocessing.sequence.SequenceDataset):
+def __init__(self, generator, num_classes, batch_size):
+self.generator = generator
+self.num_classes = num_classes
+self.batch_size = batch_size
+def __getitem__(self, index):
+x, y = self.generator[index]
+x = tf.convert_to_tensor(x)
+y = tf.convert_to_tensor(y)
+return x, y
+def __len__(self):
+return len(self.generator)
+```
+This custom dataset class wraps the generators created earlier and provides an interface compatible with TensorFlow's dataset API.
+1. Fine-tune the model:
+```python
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+model.fit(VitDataset(train_generator, num_classes=10, batch_size=32), epochs=5, validation_data=VitDataset(validation_generator, num_classes=10, batch_size=32))
+```
+In this example, we fine-tune the pre-trained ViT model for 5 epochs on our custom dataset. We pass the `VitDataset` object as the first argument to the `fit()` method and the validation data as the second argument. The `epochs` parameter specifies the number of training epochs.
+1. Evaluate the model:
+```python
+model.evaluate(VitDataset(validation_generator, num_classes=10, batch_size=32))
+```
+After fine-tuning, evaluate the model on the validation set using the `evaluate()` method. This will give you an idea of how well the model is performing.
+1. Use TensorBoard to visualize the training process:
+Create a TensorBoard writer and log the losses and accuracy during training:
+```python
+writer = tf.summary.create_file_writer('logs')
+def log_training_metrics(step, loss, accuracy):
+summary = tf.summary.Summary()
+summary.value.add(tf.summary.Value(tag='loss', simple_value=loss))
+summary.value.add(tf.summary.Value(tag='accuracy', simple_value=accuracy))
+writer.write(summary)
+model.fit(VitDataset(train_generator, num_classes=10, batch_size=32), epochs=5, validation_data=VitDataset(validation_generator, num_classes=10, batch_size=32), callbacks=[log_training_metrics])
+```
+This code creates a TensorBoard writer and logs the training loss and accuracy at each epoch. You can then visualize these metrics in TensorBoard by opening the `logs` file with TensorBoard.
+1. Save the fine-tuned model:
+```python
+model.save('vit_fine_tuned.h5')
+```
+Save the fine-tuned model to a file named `vit_fine_tuned.h5`. You can load this model later for inference or further fine-tuning.
+That's it! With these steps, you should be able to fine-tune a pre-trained Vision Transformer (ViT) model using TensorFlow and TensorBoard.
